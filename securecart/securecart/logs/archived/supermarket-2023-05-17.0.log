@@ -1,0 +1,1153 @@
+2023-05-17 11:02:07,829 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9180 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-05-17 11:02:07,828 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-05-17 11:02:07,834 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-05-17 11:02:07,950 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-17 11:02:07,951 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-17 11:02:09,938 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-17 11:02:10,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 152 ms. Found 10 JPA repository interfaces.
+2023-05-17 11:02:11,049 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-05-17 11:02:11,067 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-17 11:02:11,068 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-05-17 11:02:11,069 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-05-17 11:02:11,219 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-05-17 11:02:11,220 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3268 ms
+2023-05-17 11:02:11,467 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-17 11:02:11,557 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-05-17 11:02:11,813 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-17 11:02:11,978 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-05-17 11:02:11,988 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-05-17 11:02:12,471 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-05-17 11:02:12,526 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-17 11:02:14,105 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-17 11:02:14,121 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17 11:02:15,478 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-17 11:02:15,520 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-05-17 11:02:16,577 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d8244c8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71354a1b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1032e351, org.springframework.security.web.header.HeaderWriterFilter@59439029, org.springframework.web.filter.CorsFilter@13eadd8e, org.springframework.security.web.authentication.logout.LogoutFilter@19135ba6, com.wdm.security.jwt.AuthTokenFilter@6d9037a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@640501f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c091728, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@601b912c, org.springframework.security.web.session.SessionManagementFilter@5dd107f8, org.springframework.security.web.access.ExceptionTranslationFilter@540704f5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3112b89d]
+2023-05-17 11:02:17,019 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-05-17 11:02:17,055 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-05-17 11:02:17,096 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-17 11:02:17,116 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 10.026 seconds (JVM running for 11.376)
+2023-05-17 11:04:05,865 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-17 11:04:05,866 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-05-17 11:04:05,872 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 4 ms
+2023-05-17 11:04:06,372 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.socialLogin(com.wdm.model.RequestSocialLogin) throws java.lang.Exception with 5 errors: [Field error in object 'requestSocialLogin' on field 'email': rejected value [null]; codes [NotNull.requestSocialLogin.email,NotNull.email,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.email,email]; arguments []; default message [email]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'password': rejected value [null]; codes [NotNull.requestSocialLogin.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.password,password]; arguments []; default message [password]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'lastName': rejected value [null]; codes [NotNull.requestSocialLogin.lastName,NotNull.lastName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.lastName,lastName]; arguments []; default message [lastName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'firstName': rejected value [null]; codes [NotNull.requestSocialLogin.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'userName': rejected value [null]; codes [NotNull.requestSocialLogin.userName,NotNull.userName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.userName,userName]; arguments []; default message [userName]]; default message [must not be null]] ]
+2023-05-17 11:04:47,178 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-8] To get item data itemservice.deleteByid(id)
+2023-05-17 11:04:47,956 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] To get item data itemservice.deleteByid(id)
+2023-05-17 11:04:48,635 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] To get item data itemservice.deleteByid(id)
+2023-05-17 11:04:49,930 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 11:04:53,719 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-05-17 11:05:00,378 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 850
+2023-05-17 11:05:01,625 INFO com.wdm.controller.CartController [http-nio-8080-exec-6] save new product = TotalPrice=850, productId= {} 
+2023-05-17 11:05:01,626 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-6] CartServiceimpl | cart is called
+2023-05-17 11:05:04,514 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 829
+2023-05-17 11:05:05,210 INFO com.wdm.controller.CartController [http-nio-8080-exec-10] save new product = TotalPrice=829, productId= {} 
+2023-05-17 11:05:05,211 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-10] CartServiceimpl | cart is called
+2023-05-17 11:05:07,072 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 827
+2023-05-17 11:05:08,150 INFO com.wdm.controller.CartController [http-nio-8080-exec-2] save new product = TotalPrice=827, productId= {} 
+2023-05-17 11:05:08,151 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-2] CartServiceimpl | cart is called
+2023-05-17 11:05:11,288 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 819
+2023-05-17 11:05:12,110 INFO com.wdm.controller.CartController [http-nio-8080-exec-4] save new product = TotalPrice=819, productId= {} 
+2023-05-17 11:05:12,111 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-4] CartServiceimpl | cart is called
+2023-05-17 11:05:14,168 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 576
+2023-05-17 11:05:14,877 INFO com.wdm.controller.CartController [http-nio-8080-exec-5] save new product = TotalPrice=576, productId= {} 
+2023-05-17 11:05:14,878 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-5] CartServiceimpl | cart is called
+2023-05-17 11:05:16,901 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 817
+2023-05-17 11:05:17,526 INFO com.wdm.controller.CartController [http-nio-8080-exec-9] save new product = TotalPrice=817, productId= {} 
+2023-05-17 11:05:17,527 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-9] CartServiceimpl | cart is called
+2023-05-17 11:05:19,644 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 817
+2023-05-17 11:05:20,177 INFO com.wdm.controller.CartController [http-nio-8080-exec-8] save new product = TotalPrice=817, productId= {} 
+2023-05-17 11:05:20,178 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-8] CartServiceimpl | cart is called
+2023-05-17 11:05:20,206 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: Invalid   This product already added in your cart]
+2023-05-17 11:05:24,845 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 572
+2023-05-17 11:05:25,717 INFO com.wdm.controller.CartController [http-nio-8080-exec-2] save new product = TotalPrice=572, productId= {} 
+2023-05-17 11:05:25,718 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-2] CartServiceimpl | cart is called
+2023-05-17 11:05:29,850 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 452
+2023-05-17 11:05:30,879 INFO com.wdm.controller.CartController [http-nio-8080-exec-4] save new product = TotalPrice=452, productId= {} 
+2023-05-17 11:05:30,880 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-4] CartServiceimpl | cart is called
+2023-05-17 11:16:51,816 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 11:17:06,153 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] To get item data itemservice.deleteByid(id)
+2023-05-17 11:17:07,822 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-9] To get item data itemservice.deleteByid(id)
+2023-05-17 11:17:08,898 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] To get item data itemservice.deleteByid(id)
+2023-05-17 11:17:09,922 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-4] To get item data itemservice.deleteByid(id)
+2023-05-17 11:17:11,247 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-8] To get item data itemservice.deleteByid(id)
+2023-05-17 11:17:12,174 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] To get item data itemservice.deleteByid(id)
+2023-05-17 11:17:12,968 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-9] To get item data itemservice.deleteByid(id)
+2023-05-17 11:17:15,490 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 11:17:49,192 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 11:17:51,208 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 11:26:23,662 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 829
+2023-05-17 11:26:24,594 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=829, productId= {} 
+2023-05-17 11:26:24,595 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 11:26:30,205 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-1] To get item data itemservice.deleteByid(id)
+2023-05-17 11:26:32,440 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 11:26:54,659 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-05-17 11:27:03,213 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 11:28:17,175 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 11:28:51,735 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 11:29:34,149 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-05-17 11:29:40,581 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] To get item data itemservice.deleteByid(id)
+2023-05-17 11:31:43,609 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 829
+2023-05-17 11:31:44,349 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=829, productId= {} 
+2023-05-17 11:31:44,350 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 11:34:23,700 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 11:34:31,044 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 11:35:04,234 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-05-17 11:35:45,610 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 11:35:47,217 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 11:35:58,225 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-05-17 11:36:02,246 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 11:36:48,255 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 11:36:58,672 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-05-17 11:39:13,622 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-6] To get item data itemservice.deleteByid(id)
+2023-05-17 11:39:21,430 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 11:39:24,386 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 850
+2023-05-17 11:39:25,553 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=850, productId= {} 
+2023-05-17 11:39:25,553 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 11:39:29,042 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 829
+2023-05-17 11:39:29,881 INFO com.wdm.controller.CartController [http-nio-8080-exec-4] save new product = TotalPrice=829, productId= {} 
+2023-05-17 11:39:29,882 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-4] CartServiceimpl | cart is called
+2023-05-17 11:39:33,997 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] To get item data itemservice.deleteByid(id)
+2023-05-17 11:39:34,754 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-4] To get item data itemservice.deleteByid(id)
+2023-05-17 11:39:42,828 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 850
+2023-05-17 11:39:43,786 INFO com.wdm.controller.CartController [http-nio-8080-exec-6] save new product = TotalPrice=850, productId= {} 
+2023-05-17 11:39:43,786 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-6] CartServiceimpl | cart is called
+2023-05-17 11:39:47,621 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 11:39:50,219 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] To get item data itemservice.deleteByid(id)
+2023-05-17 11:39:52,635 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 850
+2023-05-17 11:39:54,500 INFO com.wdm.controller.CartController [http-nio-8080-exec-10] save new product = TotalPrice=850, productId= {} 
+2023-05-17 11:39:54,500 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-10] CartServiceimpl | cart is called
+2023-05-17 11:39:57,547 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 827
+2023-05-17 11:39:58,331 INFO com.wdm.controller.CartController [http-nio-8080-exec-1] save new product = TotalPrice=827, productId= {} 
+2023-05-17 11:39:58,332 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-1] CartServiceimpl | cart is called
+2023-05-17 11:40:02,236 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] To get item data itemservice.deleteByid(id)
+2023-05-17 11:40:03,241 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-1] To get item data itemservice.deleteByid(id)
+2023-05-17 11:40:13,559 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 821
+2023-05-17 11:40:14,553 INFO com.wdm.controller.CartController [http-nio-8080-exec-5] save new product = TotalPrice=821, productId= {} 
+2023-05-17 11:40:14,553 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-5] CartServiceimpl | cart is called
+2023-05-17 11:40:16,994 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 819
+2023-05-17 11:40:17,649 INFO com.wdm.controller.CartController [http-nio-8080-exec-8] save new product = TotalPrice=819, productId= {} 
+2023-05-17 11:40:17,650 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-8] CartServiceimpl | cart is called
+2023-05-17 11:44:54,654 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-9] update the item510
+2023-05-17 11:45:00,848 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] update the item509
+2023-05-17 11:45:03,471 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-6] update the item509
+2023-05-17 11:45:08,594 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-9] update the item510
+2023-05-17 11:45:10,276 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-1] update the item510
+2023-05-17 11:52:32,253 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 11:54:05,148 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 11:54:08,217 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 817
+2023-05-17 11:54:09,099 INFO com.wdm.controller.CartController [http-nio-8080-exec-7] save new product = TotalPrice=817, productId= {} 
+2023-05-17 11:54:09,099 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-7] CartServiceimpl | cart is called
+2023-05-17 11:54:22,001 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] To get item data itemservice.deleteByid(id)
+2023-05-17 11:54:22,674 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-7] To get item data itemservice.deleteByid(id)
+2023-05-17 11:54:24,417 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] To get item data itemservice.deleteByid(id)
+2023-05-17 11:56:39,050 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 829
+2023-05-17 11:56:40,635 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=829, productId= {} 
+2023-05-17 11:56:40,636 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 11:56:47,002 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 12:06:58,383 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 12:07:14,424 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 12:20:09,876 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-6] update the item512
+2023-05-17 12:20:12,929 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] update the item512
+2023-05-17 12:20:22,559 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-05-17 12:24:02,871 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 831
+2023-05-17 12:24:03,964 INFO com.wdm.controller.CartController [http-nio-8080-exec-7] save new product = TotalPrice=831, productId= {} 
+2023-05-17 12:24:03,964 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-7] CartServiceimpl | cart is called
+2023-05-17 12:24:14,361 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-6] To get item data itemservice.deleteByid(id)
+2023-05-17 12:24:46,880 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 12:47:57,508 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 12:50:01,881 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 12:54:36,264 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 12:54:40,172 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-05-17 12:54:50,438 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 12:54:59,194 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 12:55:02,198 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 12:59:35,298 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-05-17 13:02:52,996 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 850
+2023-05-17 13:02:54,075 INFO com.wdm.controller.CartController [http-nio-8080-exec-10] save new product = TotalPrice=850, productId= {} 
+2023-05-17 13:02:54,076 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-10] CartServiceimpl | cart is called
+2023-05-17 13:02:56,870 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 829
+2023-05-17 13:02:57,833 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=829, productId= {} 
+2023-05-17 13:02:57,833 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 13:03:00,277 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 827
+2023-05-17 13:03:01,604 INFO com.wdm.controller.CartController [http-nio-8080-exec-2] save new product = TotalPrice=827, productId= {} 
+2023-05-17 13:03:01,605 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-2] CartServiceimpl | cart is called
+2023-05-17 13:03:04,029 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 817
+2023-05-17 13:03:04,877 INFO com.wdm.controller.CartController [http-nio-8080-exec-4] save new product = TotalPrice=817, productId= {} 
+2023-05-17 13:03:04,878 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-4] CartServiceimpl | cart is called
+2023-05-17 13:03:06,999 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 819
+2023-05-17 13:03:08,741 INFO com.wdm.controller.CartController [http-nio-8080-exec-7] save new product = TotalPrice=819, productId= {} 
+2023-05-17 13:03:08,742 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-7] CartServiceimpl | cart is called
+2023-05-17 13:03:12,751 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY Remaining stocks 0]
+2023-05-17 13:03:24,224 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] update the item518
+2023-05-17 13:03:25,284 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY Remaining stocks 0]
+2023-05-17 13:04:12,404 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY Remaining stocks 0]
+2023-05-17 13:04:17,124 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-7] To get item data itemservice.deleteByid(id)
+2023-05-17 13:04:17,876 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] To get item data itemservice.deleteByid(id)
+2023-05-17 13:04:18,470 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] To get item data itemservice.deleteByid(id)
+2023-05-17 13:04:21,578 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 13:04:22,338 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 13:04:22,365 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 13:04:22,511 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 13:04:25,709 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 13:04:25,780 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 13:04:27,245 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 13:04:29,249 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 850
+2023-05-17 13:04:30,468 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=850, productId= {} 
+2023-05-17 13:04:30,469 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 13:07:13,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 829
+2023-05-17 13:07:14,004 INFO com.wdm.controller.CartController [http-nio-8080-exec-2] save new product = TotalPrice=829, productId= {} 
+2023-05-17 13:07:14,004 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-2] CartServiceimpl | cart is called
+2023-05-17 13:07:20,357 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 827
+2023-05-17 13:08:50,669 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 829
+2023-05-17 13:10:04,532 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 829
+2023-05-17 13:10:07,015 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 831
+2023-05-17 13:10:19,636 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 829
+2023-05-17 13:10:19,702 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 829
+2023-05-17 13:10:28,161 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 829
+2023-05-17 13:16:20,630 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 827
+2023-05-17 13:16:21,555 INFO com.wdm.controller.CartController [http-nio-8080-exec-6] save new product = TotalPrice=827, productId= {} 
+2023-05-17 13:16:21,556 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-6] CartServiceimpl | cart is called
+2023-05-17 13:16:42,012 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] update the item519
+2023-05-17 13:16:50,296 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-4] To get item data itemservice.deleteByid(id)
+2023-05-17 13:18:04,078 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 821
+2023-05-17 13:18:05,066 INFO com.wdm.controller.CartController [http-nio-8080-exec-6] save new product = TotalPrice=821, productId= {} 
+2023-05-17 13:18:05,066 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-6] CartServiceimpl | cart is called
+2023-05-17 13:18:07,599 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 817
+2023-05-17 13:18:08,578 INFO com.wdm.controller.CartController [http-nio-8080-exec-10] save new product = TotalPrice=817, productId= {} 
+2023-05-17 13:18:08,579 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-10] CartServiceimpl | cart is called
+2023-05-17 13:18:09,984 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 819
+2023-05-17 13:18:10,873 INFO com.wdm.controller.CartController [http-nio-8080-exec-2] save new product = TotalPrice=819, productId= {} 
+2023-05-17 13:18:10,874 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-2] CartServiceimpl | cart is called
+2023-05-17 13:20:34,902 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-7] To get item data itemservice.deleteByid(id)
+2023-05-17 13:20:37,595 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] To get item data itemservice.deleteByid(id)
+2023-05-17 13:20:40,027 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-8] To get item data itemservice.deleteByid(id)
+2023-05-17 13:21:37,203 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 829
+2023-05-17 13:21:37,889 INFO com.wdm.controller.CartController [http-nio-8080-exec-1] save new product = TotalPrice=829, productId= {} 
+2023-05-17 13:21:37,890 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-1] CartServiceimpl | cart is called
+2023-05-17 13:21:45,444 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 827
+2023-05-17 13:21:46,265 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=827, productId= {} 
+2023-05-17 13:21:46,266 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 13:22:00,597 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 13:22:06,643 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 13:22:28,863 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 13:22:49,100 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-1] To get item data itemservice.deleteByid(id)
+2023-05-17 13:22:50,116 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-9] To get item data itemservice.deleteByid(id)
+2023-05-17 13:22:51,283 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-6] To get item data itemservice.deleteByid(id)
+2023-05-17 13:22:52,779 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 14:23:09,049 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 829
+2023-05-17 14:23:10,693 INFO com.wdm.controller.CartController [http-nio-8080-exec-9] save new product = TotalPrice=829, productId= {} 
+2023-05-17 14:23:10,694 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-9] CartServiceimpl | cart is called
+2023-05-17 14:23:17,202 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 821
+2023-05-17 14:23:19,512 INFO com.wdm.controller.CartController [http-nio-8080-exec-9] save new product = TotalPrice=821, productId= {} 
+2023-05-17 14:23:19,513 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-9] CartServiceimpl | cart is called
+2023-05-17 14:23:22,123 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 572
+2023-05-17 14:23:24,257 INFO com.wdm.controller.CartController [http-nio-8080-exec-4] save new product = TotalPrice=572, productId= {} 
+2023-05-17 14:23:24,258 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-4] CartServiceimpl | cart is called
+2023-05-17 14:23:28,914 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 14:23:42,816 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-8] To get item data itemservice.deleteByid(id)
+2023-05-17 14:23:45,730 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-4] To get item data itemservice.deleteByid(id)
+2023-05-17 14:24:26,695 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-9] To get item data itemservice.deleteByid(id)
+2023-05-17 14:24:32,117 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 560
+2023-05-17 14:24:33,158 INFO com.wdm.controller.CartController [http-nio-8080-exec-6] save new product = TotalPrice=560, productId= {} 
+2023-05-17 14:24:33,159 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-6] CartServiceimpl | cart is called
+2023-05-17 14:24:45,457 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] To get item data itemservice.deleteByid(id)
+2023-05-17 14:24:47,665 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-6] To get item data itemservice.deleteByid(id)
+2023-05-17 14:25:54,429 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 829
+2023-05-17 14:25:56,245 INFO com.wdm.controller.CartController [http-nio-8080-exec-7] save new product = TotalPrice=829, productId= {} 
+2023-05-17 14:25:56,245 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-7] CartServiceimpl | cart is called
+2023-05-17 14:25:58,065 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 827
+2023-05-17 14:25:59,749 INFO com.wdm.controller.CartController [http-nio-8080-exec-2] save new product = TotalPrice=827, productId= {} 
+2023-05-17 14:25:59,750 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-2] CartServiceimpl | cart is called
+2023-05-17 14:26:58,812 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 14:28:45,813 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-05-17 14:29:59,520 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 14:30:30,904 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 14:33:17,205 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 14:33:45,750 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 14:34:31,404 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 14:43:19,306 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-05-17 15:08:00,825 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] update the item532
+2023-05-17 15:08:03,120 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-4] update the item532
+2023-05-17 15:08:06,214 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] update the item531
+2023-05-17 15:08:09,075 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-8] update the item532
+2023-05-17 15:08:17,533 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:08:19,663 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:08:19,686 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 15:08:19,854 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:08:22,350 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:08:22,376 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:08:23,323 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-05-17 15:08:23,363 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:08:23,506 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:09:45,975 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 15:09:48,831 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 850
+2023-05-17 15:10:06,366 INFO com.wdm.controller.CartController [http-nio-8080-exec-8] save new product = TotalPrice=850, productId= {} 
+2023-05-17 15:10:06,386 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-8] CartServiceimpl | cart is called
+2023-05-17 15:10:11,336 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 15:12:15,690 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-05-17 15:12:57,889 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-05-17 15:25:20,983 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-05-17 15:30:11,582 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 15:35:32,179 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 15:36:34,076 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 15:39:21,850 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-05-17 15:45:26,364 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 15:51:09,124 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 16:00:04,137 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 16:00:15,632 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-05-17 16:02:14,362 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 16:04:03,738 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 16:04:29,600 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-05-17 16:05:03,424 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-05-17 16:06:37,189 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-05-17 16:08:02,305 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 16:14:02,003 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-05-17 16:14:23,411 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-05-17 16:17:00,343 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] update the item533
+2023-05-17 16:17:03,916 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] update the item533
+2023-05-17 16:17:06,366 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-4] update the item533
+2023-05-17 16:17:08,304 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-1] update the item533
+2023-05-17 16:17:11,866 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-3] To get item data itemservice.deleteByid(id)
+2023-05-17 16:17:15,483 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-05-17 16:28:31,255 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-05-17 16:31:10,793 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 850
+2023-05-17 16:31:11,828 INFO com.wdm.controller.CartController [http-nio-8080-exec-9] save new product = TotalPrice=850, productId= {} 
+2023-05-17 16:31:11,829 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-9] CartServiceimpl | cart is called
+2023-05-17 16:31:15,396 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 827
+2023-05-17 16:31:16,227 INFO com.wdm.controller.CartController [http-nio-8080-exec-3] save new product = TotalPrice=827, productId= {} 
+2023-05-17 16:31:16,228 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-3] CartServiceimpl | cart is called
+2023-05-17 16:31:18,454 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 16:31:31,182 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-9] To get item data itemservice.deleteByid(id)
+2023-05-17 16:31:34,375 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] update the item534
+2023-05-17 16:31:36,193 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] update the item534
+2023-05-17 16:31:38,452 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-1] update the item534
+2023-05-17 16:31:42,129 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:31:43,010 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:31:43,024 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-05-17 16:31:43,209 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:31:51,308 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:31:52,980 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:31:52,997 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-05-17 16:31:53,192 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:32:26,132 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:32:26,216 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:32:26,783 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:32:45,853 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:32:45,924 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-05-17 16:32:46,125 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:34:21,560 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.socialLogin(com.wdm.model.RequestSocialLogin) throws java.lang.Exception with 5 errors: [Field error in object 'requestSocialLogin' on field 'password': rejected value [null]; codes [NotNull.requestSocialLogin.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.password,password]; arguments []; default message [password]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'userName': rejected value [null]; codes [NotNull.requestSocialLogin.userName,NotNull.userName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.userName,userName]; arguments []; default message [userName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'lastName': rejected value [null]; codes [NotNull.requestSocialLogin.lastName,NotNull.lastName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.lastName,lastName]; arguments []; default message [lastName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'email': rejected value [null]; codes [NotNull.requestSocialLogin.email,NotNull.email,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.email,email]; arguments []; default message [email]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'firstName': rejected value [null]; codes [NotNull.requestSocialLogin.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]] ]
+2023-05-17 16:34:25,416 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:34:28,120 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.socialLogin(com.wdm.model.RequestSocialLogin) throws java.lang.Exception with 5 errors: [Field error in object 'requestSocialLogin' on field 'email': rejected value [null]; codes [NotNull.requestSocialLogin.email,NotNull.email,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.email,email]; arguments []; default message [email]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'password': rejected value [null]; codes [NotNull.requestSocialLogin.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.password,password]; arguments []; default message [password]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'lastName': rejected value [null]; codes [NotNull.requestSocialLogin.lastName,NotNull.lastName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.lastName,lastName]; arguments []; default message [lastName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'userName': rejected value [null]; codes [NotNull.requestSocialLogin.userName,NotNull.userName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.userName,userName]; arguments []; default message [userName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'firstName': rejected value [null]; codes [NotNull.requestSocialLogin.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]] ]
+2023-05-17 16:34:34,635 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:34:41,743 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 831
+2023-05-17 16:34:48,186 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] updateProduct  product : {"productName":"Pine Apple","stock":"100","unit":"Kg","categoryId":800,"price":100,"imageId":832,"userId":"746"}
+2023-05-17 16:34:49,675 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 831
+2023-05-17 16:34:53,118 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 829
+2023-05-17 16:35:11,109 INFO com.wdm.controller.Categorycontroller [http-nio-8080-exec-10] get  categoryCategory [categoryId=567, categoryName=Coffee Powder, product=[]]
+2023-05-17 16:35:15,084 INFO com.wdm.controller.Categorycontroller [http-nio-8080-exec-2] delete the category567
+2023-05-17 16:35:17,132 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-05-17 16:35:23,666 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] deleteproduct  product : 827
+2023-05-17 16:35:23,783 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-7] SQL Error: 1451, SQLState: 23000
+2023-05-17 16:35:23,786 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-7] Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+2023-05-17 16:35:23,795 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-7] HHH000010: On release of batch it still contained JDBC statements
+2023-05-17 16:35:23,925 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3698)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3987)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy131.deleteById(Unknown Source)
+	at com.wdm.serviceimpl.ProductServiceimpl.deletebyId(ProductServiceimpl.java:121)
+	at com.wdm.serviceimpl.ProductServiceimpl$$FastClassBySpringCGLIB$$d46fe3a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.wdm.serviceimpl.ProductServiceimpl$$EnhancerBySpringCGLIB$$34b77e8b.deletebyId(<generated>)
+	at com.wdm.controller.ProductController.deleteproduct(ProductController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.wdm.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-17 16:35:29,861 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] deleteproduct  product : 576
+2023-05-17 16:35:29,871 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-10] SQL Error: 1451, SQLState: 23000
+2023-05-17 16:35:29,872 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-10] Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+2023-05-17 16:35:29,872 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-10] HHH000010: On release of batch it still contained JDBC statements
+2023-05-17 16:35:29,876 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3698)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3987)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy131.deleteById(Unknown Source)
+	at com.wdm.serviceimpl.ProductServiceimpl.deletebyId(ProductServiceimpl.java:121)
+	at com.wdm.serviceimpl.ProductServiceimpl$$FastClassBySpringCGLIB$$d46fe3a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.wdm.serviceimpl.ProductServiceimpl$$EnhancerBySpringCGLIB$$34b77e8b.deletebyId(<generated>)
+	at com.wdm.controller.ProductController.deleteproduct(ProductController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.wdm.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-17 16:35:34,725 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] deleteproduct  product : 831
+2023-05-17 16:35:34,738 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-2] SQL Error: 1451, SQLState: 23000
+2023-05-17 16:35:34,739 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-2] Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+2023-05-17 16:35:34,740 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-2] HHH000010: On release of batch it still contained JDBC statements
+2023-05-17 16:35:34,743 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3698)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3987)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy131.deleteById(Unknown Source)
+	at com.wdm.serviceimpl.ProductServiceimpl.deletebyId(ProductServiceimpl.java:121)
+	at com.wdm.serviceimpl.ProductServiceimpl$$FastClassBySpringCGLIB$$d46fe3a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.wdm.serviceimpl.ProductServiceimpl$$EnhancerBySpringCGLIB$$34b77e8b.deletebyId(<generated>)
+	at com.wdm.controller.ProductController.deleteproduct(ProductController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.wdm.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-17 16:35:38,230 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] deleteproduct  product : 850
+2023-05-17 16:35:38,256 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-3] SQL Error: 1451, SQLState: 23000
+2023-05-17 16:35:38,257 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-3] Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+2023-05-17 16:35:38,258 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-3] HHH000010: On release of batch it still contained JDBC statements
+2023-05-17 16:35:38,262 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3698)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3987)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy131.deleteById(Unknown Source)
+	at com.wdm.serviceimpl.ProductServiceimpl.deletebyId(ProductServiceimpl.java:121)
+	at com.wdm.serviceimpl.ProductServiceimpl$$FastClassBySpringCGLIB$$d46fe3a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.wdm.serviceimpl.ProductServiceimpl$$EnhancerBySpringCGLIB$$34b77e8b.deletebyId(<generated>)
+	at com.wdm.controller.ProductController.deleteproduct(ProductController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.wdm.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-17 16:35:42,237 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] deleteproduct  product : 452
+2023-05-17 16:35:43,557 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] deleteproduct  product : 556
+2023-05-17 16:35:43,565 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-8] SQL Error: 1451, SQLState: 23000
+2023-05-17 16:35:43,565 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8080-exec-8] Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+2023-05-17 16:35:43,566 INFO org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl [http-nio-8080-exec-8] HHH000010: On release of batch it still contained JDBC statements
+2023-05-17 16:35:43,570 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`testproject`.`items`, CONSTRAINT `FKquug7b9jtt5r0jywriyhoo8gm` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3698)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3987)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1407)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:489)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3303)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2438)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy3/jdk.proxy3.$Proxy131.deleteById(Unknown Source)
+	at com.wdm.serviceimpl.ProductServiceimpl.deletebyId(ProductServiceimpl.java:121)
+	at com.wdm.serviceimpl.ProductServiceimpl$$FastClassBySpringCGLIB$$d46fe3a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.wdm.serviceimpl.ProductServiceimpl$$EnhancerBySpringCGLIB$$34b77e8b.deletebyId(<generated>)
+	at com.wdm.controller.ProductController.deleteproduct(ProductController.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.wdm.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-17 16:35:46,221 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] deleteproduct  product : 550
+2023-05-17 16:36:33,364 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] save new product - resquestProduct= {"productName":"Alomonds","stock":"100","unit":"(100)grams","categoryId":199,"price":"100","userId":"746"}, file=almonds.jpg 
+2023-05-17 16:37:10,797 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] save new product - resquestProduct= {"productName":"Can sugar","stock":"100","unit":"Kg","categoryId":438,"price":"56","userId":"746"}, file=canSugar.webp 
+2023-05-17 16:37:10,808 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: Can sugar already exists.  Please add some other new product]
+2023-05-17 16:37:28,894 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.socialLogin(com.wdm.model.RequestSocialLogin) throws java.lang.Exception with 5 errors: [Field error in object 'requestSocialLogin' on field 'lastName': rejected value [null]; codes [NotNull.requestSocialLogin.lastName,NotNull.lastName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.lastName,lastName]; arguments []; default message [lastName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'userName': rejected value [null]; codes [NotNull.requestSocialLogin.userName,NotNull.userName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.userName,userName]; arguments []; default message [userName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'email': rejected value [null]; codes [NotNull.requestSocialLogin.email,NotNull.email,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.email,email]; arguments []; default message [email]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'firstName': rejected value [null]; codes [NotNull.requestSocialLogin.firstName,NotNull.firstName,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.firstName,firstName]; arguments []; default message [firstName]]; default message [must not be null]] [Field error in object 'requestSocialLogin' on field 'password': rejected value [null]; codes [NotNull.requestSocialLogin.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestSocialLogin.password,password]; arguments []; default message [password]]; default message [must not be null]] ]
+2023-05-17 16:37:58,638 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(339)-127.0.0.1] Application shutdown requested.
+2023-05-17 16:37:58,674 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(339)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-05-17 16:37:58,675 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(339)-127.0.0.1] Stopping service [Tomcat]
+2023-05-17 16:37:58,680 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(339)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-17 16:37:58,700 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(339)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-05-17 16:37:58,703 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(339)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-05-17 16:37:58,710 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(339)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-05-17 16:37:58,728 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(339)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-17 16:37:58,755 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(339)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-05-17 16:37:58,764 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(339)-127.0.0.1] HikariPool-1 - Shutdown completed.

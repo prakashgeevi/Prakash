@@ -1,0 +1,804 @@
+2023-03-16 09:09:43,298 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-16 09:09:43,312 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 12496 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-16 09:09:43,313 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-16 09:09:43,424 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-16 09:09:43,425 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-16 09:09:45,849 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-16 09:09:46,078 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 206 ms. Found 9 JPA repository interfaces.
+2023-03-16 09:09:47,246 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-16 09:09:47,265 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-16 09:09:47,266 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-16 09:09:47,267 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-16 09:09:47,413 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-16 09:09:47,414 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3988 ms
+2023-03-16 09:09:47,668 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-16 09:09:47,788 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-16 09:09:48,087 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-16 09:09:48,267 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-16 09:09:48,276 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-16 09:09:48,793 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-16 09:09:48,851 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-16 09:09:50,225 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-16 09:09:50,239 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-16 09:09:51,399 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-16 09:09:51,439 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-16 09:09:52,293 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1fe34f53, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@316bb680, org.springframework.security.web.context.SecurityContextPersistenceFilter@3661502c, org.springframework.security.web.header.HeaderWriterFilter@19580012, org.springframework.web.filter.CorsFilter@36c438e0, org.springframework.security.web.authentication.logout.LogoutFilter@5ce09b72, com.wdm.security.jwt.AuthTokenFilter@10ca0449, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b7ed08f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62b78d75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6428ea09, org.springframework.security.web.session.SessionManagementFilter@4214b3a1, org.springframework.security.web.access.ExceptionTranslationFilter@38adf536, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@480c0c36]
+2023-03-16 09:09:52,775 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-16 09:09:52,813 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-16 09:09:52,849 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-16 09:09:52,868 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 10.879 seconds (JVM running for 17.133)
+2023-03-16 09:14:03,694 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 09:14:03,695 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-16 09:14:03,700 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-03-16 09:14:05,166 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 09:14:43,543 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 09:21:38,130 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-6] JWT token is expired: JWT expired at 2023-03-11T11:20:46Z. Current time: 2023-03-16T09:21:38Z, a difference of 424852130 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-16 09:21:38,132 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 09:24:21,475 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : s
+2023-03-16 09:30:18,006 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 09:30:29,733 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-03-16 09:31:09,073 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 09:31:10,878 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 09:31:12,721 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 09:31:14,884 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 09:31:25,554 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 09:31:25,851 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 09:31:27,488 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 09:31:32,567 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 09:31:35,529 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-03-16 09:31:52,273 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 09:31:56,463 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 09:32:00,449 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-03-16 09:32:08,657 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 09:32:11,682 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : t
+2023-03-16 09:32:14,092 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-03-16 09:32:14,488 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : t
+2023-03-16 09:32:14,663 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : to
+2023-03-16 09:32:14,822 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : tom
+2023-03-16 09:32:15,132 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : toma
+2023-03-16 09:32:15,982 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : tomat
+2023-03-16 09:32:16,868 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : tomatp
+2023-03-16 09:32:17,797 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : tomat
+2023-03-16 09:32:19,638 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : tomatp
+2023-03-16 09:32:20,268 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : tomat
+2023-03-16 09:32:46,342 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 09:32:46,560 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 09:32:48,347 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 09:32:48,606 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 09:33:22,259 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 09:33:50,958 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 09:34:34,071 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : tomato
+2023-03-16 09:34:38,515 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 09:34:41,326 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-03-16 09:34:58,869 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 09:35:02,100 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 09:35:06,311 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 09:35:10,471 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 09:35:11,963 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-03-16 09:35:15,186 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : s
+2023-03-16 09:35:42,707 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-03-16 09:35:43,245 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : t
+2023-03-16 09:35:46,039 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : to
+2023-03-16 09:35:47,529 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : tom
+2023-03-16 09:35:47,844 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : to
+2023-03-16 09:35:48,098 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : t
+2023-03-16 09:35:50,740 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-03-16 09:35:51,001 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : p
+2023-03-16 09:35:51,549 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : po
+2023-03-16 09:35:52,821 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : pom
+2023-03-16 09:35:53,036 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : po
+2023-03-16 09:35:53,220 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : p
+2023-03-16 09:36:01,808 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 09:36:32,443 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 09:36:40,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-03-16 09:36:40,479 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : s
+2023-03-16 09:36:40,949 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : sp
+2023-03-16 09:36:42,172 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : spi
+2023-03-16 09:36:42,457 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : sp
+2023-03-16 09:36:42,684 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : s
+2023-03-16 09:36:49,421 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-03-16 09:38:31,560 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : m
+2023-03-16 09:39:04,152 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-03-16 09:39:15,713 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : t
+2023-03-16 09:39:19,335 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 09:41:05,329 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 09:45:44,050 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 09:45:44,138 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 09:51:54,661 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 09:52:00,034 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-03-16 09:52:02,549 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : d
+2023-03-16 09:52:07,203 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 09:52:09,097 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-03-16 09:52:11,534 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : c
+2023-03-16 09:52:13,056 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-03-16 09:52:13,255 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : s
+2023-03-16 09:52:15,060 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : sp
+2023-03-16 09:52:15,497 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : s
+2023-03-16 09:52:16,876 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-03-16 09:52:17,123 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : a
+2023-03-16 09:52:17,350 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : ap
+2023-03-16 09:52:17,656 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : app
+2023-03-16 09:52:18,863 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : appl
+2023-03-16 09:52:19,395 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : app
+2023-03-16 09:52:19,657 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : ap
+2023-03-16 09:52:23,609 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : a
+2023-03-16 09:52:28,557 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 09:52:35,904 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-03-16 09:52:38,281 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : c
+2023-03-16 09:52:42,113 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 09:52:49,769 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-03-16 09:52:50,475 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : p
+2023-03-16 09:52:51,896 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : po
+2023-03-16 09:52:54,696 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : pom
+2023-03-16 09:52:54,927 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : po
+2023-03-16 09:52:55,097 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : p
+2023-03-16 09:52:59,268 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 09:53:04,459 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-03-16 09:53:07,201 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : f
+2023-03-16 09:53:09,943 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 09:53:15,749 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-03-16 09:53:17,050 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : t
+2023-03-16 09:53:32,228 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : to
+2023-03-16 09:53:34,417 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : tom
+2023-03-16 09:53:36,051 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : to
+2023-03-16 09:53:36,904 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : t
+2023-03-16 09:53:40,509 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-03-16 09:53:40,831 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : p
+2023-03-16 09:53:42,099 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : po
+2023-03-16 09:53:43,305 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : pom
+2023-03-16 09:53:43,832 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : po
+2023-03-16 09:53:44,183 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : p
+2023-03-16 09:53:46,970 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 10:04:16,180 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 10:06:57,403 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 10:07:41,125 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 10:07:51,286 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 10:07:57,327 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 10:08:01,141 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 10:08:08,881 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 10:08:16,049 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 10:12:32,501 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 10:13:04,469 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 10:13:06,455 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 10:13:08,682 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 10:13:21,504 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 10:13:32,701 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 10:13:37,574 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 10:36:53,300 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 6028 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-16 10:36:53,301 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-16 10:36:53,303 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-16 10:36:53,395 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-16 10:36:53,395 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-16 10:36:54,942 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-16 10:36:55,073 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 109 ms. Found 9 JPA repository interfaces.
+2023-03-16 10:36:55,923 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-16 10:36:55,941 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-16 10:36:55,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-16 10:36:55,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-16 10:36:56,079 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-16 10:36:56,080 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2684 ms
+2023-03-16 10:36:56,296 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-16 10:36:56,397 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-16 10:36:56,656 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-16 10:36:56,812 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-16 10:36:56,821 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-16 10:36:57,300 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-16 10:36:57,355 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-16 10:36:58,697 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-16 10:36:58,714 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-16 10:36:59,832 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-16 10:36:59,874 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-16 10:37:00,708 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3de224a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71c10699, org.springframework.security.web.context.SecurityContextPersistenceFilter@735aa09d, org.springframework.security.web.header.HeaderWriterFilter@3cca8b9e, org.springframework.web.filter.CorsFilter@664c5002, org.springframework.security.web.authentication.logout.LogoutFilter@59342f84, com.wdm.security.jwt.AuthTokenFilter@10ae15ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40cb47e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ebc133c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39916b3a, org.springframework.security.web.session.SessionManagementFilter@236193ed, org.springframework.security.web.access.ExceptionTranslationFilter@29db40c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@102dea85]
+2023-03-16 10:37:01,097 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-16 10:37:01,136 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-16 10:37:01,194 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-16 10:37:01,213 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 8.628 seconds (JVM running for 10.019)
+2023-03-16 10:38:21,083 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 10:38:21,083 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-16 10:38:21,085 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-03-16 10:38:22,106 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 10:45:42,789 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 10:45:54,494 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 10:46:00,250 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 10:49:17,297 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 10:49:39,253 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 10:49:44,296 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 10:49:46,351 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 10:50:13,328 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 10:51:25,247 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 10:59:06,264 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 10:59:10,290 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 10:59:14,771 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 11:00:00,336 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:00:00,556 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 11:00:03,305 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 11:00:03,469 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 11:00:08,441 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 11:00:08,806 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 11:00:35,446 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 11:00:35,596 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 11:00:36,375 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 11:00:50,550 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:01:17,267 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 11:01:30,234 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 11:01:51,222 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:01:57,199 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 11:02:15,461 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 11:02:20,066 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 11:02:22,313 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 11:03:18,499 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 11:03:18,807 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:03:19,153 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:03:19,923 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 11:03:20,141 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 11:03:20,266 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 11:03:26,272 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 11:05:01,725 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 11:05:03,273 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 11:06:34,334 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:06:34,469 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 11:08:16,394 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 11:08:16,525 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:08:20,294 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 11:08:20,416 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 11:08:41,283 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 11:08:41,403 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 11:09:03,273 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:09:03,399 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 11:09:06,256 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 11:09:06,375 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 11:09:14,271 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:09:14,384 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 11:10:34,268 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 11:10:34,386 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 11:35:03,293 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:35:03,504 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:35:50,504 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 11:35:50,733 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 11:35:53,447 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 11:35:53,689 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 11:35:54,371 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 11:35:55,532 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 11:38:27,294 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:38:27,424 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:38:27,848 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 204
+2023-03-16 11:38:27,848 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 199
+2023-03-16 11:38:27,848 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 201
+2023-03-16 11:38:27,848 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 203
+2023-03-16 11:38:27,848 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 200
+2023-03-16 11:38:27,978 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 200
+2023-03-16 11:38:27,991 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 200
+2023-03-16 11:38:28,000 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 201
+2023-03-16 11:38:28,003 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 200
+2023-03-16 11:38:28,031 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 203
+2023-03-16 11:38:28,032 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 199
+2023-03-16 11:38:28,050 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 200
+2023-03-16 11:38:28,065 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 200
+2023-03-16 11:38:28,077 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 204
+2023-03-16 11:38:28,170 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 200
+2023-03-16 11:38:28,170 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 201
+2023-03-16 11:38:28,174 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 203
+2023-03-16 11:38:28,183 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 200
+2023-03-16 11:38:28,203 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 199
+2023-03-16 11:38:28,217 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 201
+2023-03-16 11:38:28,232 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 203
+2023-03-16 11:38:28,247 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 199
+2023-03-16 11:38:28,254 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 200
+2023-03-16 11:38:28,271 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 200
+2023-03-16 11:38:28,287 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 204
+2023-03-16 11:38:28,321 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 200
+2023-03-16 11:38:28,335 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 200
+2023-03-16 11:38:28,336 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 204
+2023-03-16 11:38:36,180 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 200
+2023-03-16 11:38:36,182 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 201
+2023-03-16 11:38:36,202 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 200
+2023-03-16 11:38:36,204 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 203
+2023-03-16 11:38:36,221 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 199
+2023-03-16 11:38:36,239 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 200
+2023-03-16 11:38:36,369 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 200
+2023-03-16 11:38:36,391 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 204
+2023-03-16 11:38:36,423 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 201
+2023-03-16 11:38:36,509 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 203
+2023-03-16 11:38:36,828 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 199
+2023-03-16 11:38:36,846 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 200
+2023-03-16 11:38:36,932 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 204
+2023-03-16 11:38:36,932 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 200
+2023-03-16 11:38:37,173 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 200
+2023-03-16 11:38:37,173 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 201
+2023-03-16 11:38:37,188 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 203
+2023-03-16 11:38:37,198 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 199
+2023-03-16 11:38:37,213 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 200
+2023-03-16 11:38:37,228 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 200
+2023-03-16 11:38:37,234 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 204
+2023-03-16 11:38:41,169 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 200
+2023-03-16 11:38:41,217 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 201
+2023-03-16 11:38:41,235 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 203
+2023-03-16 11:38:41,251 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 199
+2023-03-16 11:38:41,265 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 200
+2023-03-16 11:38:41,275 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 200
+2023-03-16 11:38:41,278 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 204
+2023-03-16 11:38:42,182 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 201
+2023-03-16 11:38:42,182 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 200
+2023-03-16 11:38:42,184 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 203
+2023-03-16 11:38:42,198 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 199
+2023-03-16 11:38:42,207 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 200
+2023-03-16 11:38:42,220 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 200
+2023-03-16 11:38:42,229 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 204
+2023-03-16 11:39:12,173 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 200
+2023-03-16 11:39:12,173 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 201
+2023-03-16 11:39:12,191 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 203
+2023-03-16 11:39:12,198 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 199
+2023-03-16 11:39:12,210 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 200
+2023-03-16 11:39:12,214 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 204
+2023-03-16 11:39:12,222 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 200
+2023-03-16 11:39:16,235 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:39:16,679 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 200
+2023-03-16 11:39:16,679 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 203
+2023-03-16 11:39:16,680 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 201
+2023-03-16 11:39:16,685 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 199
+2023-03-16 11:39:16,700 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 204
+2023-03-16 11:39:16,714 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 200
+2023-03-16 11:39:16,734 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 200
+2023-03-16 11:40:27,548 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 11:40:28,322 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 11:40:31,838 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:40:32,254 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 200
+2023-03-16 11:40:32,276 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 201
+2023-03-16 11:40:32,278 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 203
+2023-03-16 11:40:32,289 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 199
+2023-03-16 11:40:32,291 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 200
+2023-03-16 11:40:32,302 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 200
+2023-03-16 11:40:32,305 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 204
+2023-03-16 11:40:32,316 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 11:40:32,431 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:40:33,202 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 200
+2023-03-16 11:40:33,204 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 201
+2023-03-16 11:40:33,206 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 203
+2023-03-16 11:40:33,213 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 199
+2023-03-16 11:40:33,253 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 204
+2023-03-16 11:40:33,265 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 200
+2023-03-16 11:40:33,269 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 11:40:33,285 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 200
+2023-03-16 11:46:43,270 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 11:46:43,386 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 12:15:24,407 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 12:15:24,559 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 12:15:59,391 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 12:15:59,533 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 12:16:43,692 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-16 12:16:58,682 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 12:17:17,751 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:18:44,396 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 12:18:44,561 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 12:18:47,675 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 12:18:47,850 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:19:03,922 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 12:19:15,566 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 12:19:36,667 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:19:48,015 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 12:27:20,813 INFO com.wdm.controller.Categorycontroller [http-nio-8080-exec-2] add to category
+2023-03-16 12:27:30,129 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:28:05,095 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-16 12:28:11,062 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-3] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:11,064 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-10] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:11,065 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:11,065 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:15,424 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-7] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:15,426 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:17,071 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-2] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:17,071 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-8] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:17,072 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:17,072 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:18,320 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-5] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:18,321 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:21,579 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-1] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:21,580 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:21,583 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-9] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:21,584 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:24,927 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-6] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:24,928 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:27,565 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-4] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:27,566 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:30,401 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-3] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:30,402 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-10] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:28:30,403 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:28:30,402 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:12,970 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-7] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:12,971 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:29,784 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-5] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:29,786 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:29,786 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-1] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:29,786 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:38,388 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-9] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:38,389 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:43,024 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-6] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:43,025 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:46,920 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-4] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:46,921 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:48,251 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-3] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:48,252 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:53,440 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-10] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:53,441 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:29:53,442 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-7] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-16 12:29:53,444 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-16 12:30:30,157 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 12:30:57,859 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-03-16 12:30:58,794 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : t
+2023-03-16 12:30:59,635 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : to
+2023-03-16 12:31:07,610 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : tom
+2023-03-16 12:31:07,922 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : to
+2023-03-16 12:31:08,260 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : t
+2023-03-16 12:31:17,305 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:39:08,765 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 12:44:25,073 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 12:45:42,336 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 12:45:49,263 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 12:46:01,146 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:49:11,674 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 12:49:11,990 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 12:52:23,336 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 12:52:32,278 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 12:52:44,358 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 12:52:46,330 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:52:50,132 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 12:53:08,252 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 12:55:10,491 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 12:55:13,423 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 12:55:15,397 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 12:55:20,315 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 12:55:27,306 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 12:55:30,946 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 12:58:00,269 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:58:07,587 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 12:58:09,247 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 12:58:12,285 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 12:58:15,269 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 12:59:07,385 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 12:59:08,312 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 12:59:13,457 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 12:59:21,285 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 12:59:28,277 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 12:59:53,254 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:00:33,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:01:55,404 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:01:56,253 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:02:05,266 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:02:14,298 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:02:17,283 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:02:18,356 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:02:20,924 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 215
+2023-03-16 13:02:31,337 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:02:38,325 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:02:40,340 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 215
+2023-03-16 13:02:59,371 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:03:00,490 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 215
+2023-03-16 13:03:14,313 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:03:15,232 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:03:32,774 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:05:03,296 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:05:23,311 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:05:50,222 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:06:51,915 INFO com.wdm.controller.Categorycontroller [http-nio-8080-exec-6] add to category
+2023-03-16 13:06:54,390 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:07:28,406 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] save new product - resquestProduct= {"productName":"Cow milk","stock":"100","unit":"litre","categoryId":222,"price":"40"}, file=milk(1).jpg 
+2023-03-16 13:07:31,032 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:07:40,522 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'imagefile' is not present]
+2023-03-16 13:07:40,807 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:08:00,345 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:08:02,328 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:10:02,310 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:10:40,282 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:10:50,273 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:10:53,289 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:11:02,340 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:11:04,277 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:11:09,286 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:11:10,295 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:11:16,305 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:12:27,299 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:12:31,278 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:12:35,257 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:12:43,326 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:12:50,426 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:12:52,287 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:12:56,252 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:13:00,274 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:13:05,303 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:13:25,310 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:13:55,452 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:13:59,280 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:14:03,416 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:14:05,310 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:14:17,347 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:14:25,701 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:14:33,512 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:14:35,325 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:15:16,280 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:15:49,271 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:15:55,255 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:17:40,280 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:21:03,091 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:21:05,109 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 219
+2023-03-16 13:21:35,265 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:22:07,275 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:22:37,413 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:23:02,073 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:23:04,067 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 219
+2023-03-16 13:23:24,288 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:23:27,897 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:23:29,947 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 219
+2023-03-16 13:23:31,729 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 215
+2023-03-16 13:23:34,876 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 211
+2023-03-16 13:32:43,315 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:32:45,264 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:32:49,366 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:33:05,234 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:33:34,512 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:33:35,439 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:33:42,353 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:33:45,169 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:34:02,072 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:36:37,399 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:36:42,259 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:37:01,251 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:37:03,256 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:37:11,960 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:37:31,273 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:37:38,273 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:37:42,251 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:38:33,287 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:38:48,289 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:38:52,251 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 13:38:58,292 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 13:39:05,234 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:39:28,322 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:39:32,575 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:39:41,269 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 13:39:44,158 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 13:39:52,643 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 13:39:59,424 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 13:40:07,861 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 13:40:36,655 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 13:42:01,133 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 13:42:11,786 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 13:42:20,262 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 14:40:19,353 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m18s740ms329µs100ns).
+2023-03-16 14:42:51,760 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 219
+2023-03-16 14:43:24,352 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 14:44:44,490 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 14:45:01,921 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 14:45:17,489 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 14:45:50,397 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 219
+2023-03-16 14:46:03,688 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 223
+2023-03-16 14:46:45,006 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 223
+2023-03-16 14:47:17,036 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 14:49:31,974 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 14:50:18,233 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 14:50:22,334 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 14:50:31,382 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 14:50:36,076 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 14:51:05,541 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 14:51:18,560 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 14:52:14,989 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 14:53:30,812 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 14:54:14,283 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 14:54:18,119 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 14:54:20,734 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 14:54:26,741 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 14:54:32,325 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 14:54:39,262 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 14:56:16,916 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 14:56:22,890 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 14:56:38,515 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 14:56:39,835 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 14:57:29,623 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 14:57:32,466 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 14:57:43,325 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 14:57:43,783 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 14:58:10,490 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 14:58:23,092 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 14:58:33,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 14:58:44,006 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 14:58:59,435 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 14:59:04,077 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 14:59:10,354 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 15:04:54,965 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 15:06:41,283 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 15:06:48,244 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 223
+2023-03-16 15:07:33,455 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 15:08:02,961 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 15:08:17,265 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 15:08:21,059 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 15:09:02,382 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 15:11:34,361 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 15:11:38,447 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 15:12:00,068 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 15:12:00,898 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 15:12:34,918 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 15:12:40,260 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 15:12:49,702 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 15:13:00,660 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 15:16:54,309 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-03-16 15:16:54,619 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : b
+2023-03-16 15:16:55,011 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : br
+2023-03-16 15:16:56,259 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : bre
+2023-03-16 15:16:56,691 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : br
+2023-03-16 15:16:57,080 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : b
+2023-03-16 15:17:06,709 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 15:17:26,936 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 219
+2023-03-16 15:17:52,236 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 15:17:53,846 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 15:17:56,430 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 15:17:58,321 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 15:18:07,632 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 15:21:05,245 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 15:21:11,280 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 15:36:50,226 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 15:37:03,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 16:30:49,306 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 16:31:25,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 219
+2023-03-16 16:31:40,210 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 219
+2023-03-16 16:31:41,806 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'imagefile' is not present]
+2023-03-16 16:31:45,634 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 16:32:05,263 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-03-16 16:32:07,938 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : p
+2023-03-16 16:32:08,292 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : po
+2023-03-16 16:32:11,872 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : pom
+2023-03-16 16:32:12,983 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : po
+2023-03-16 16:32:18,381 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : p
+2023-03-16 16:32:37,726 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-03-16 16:32:44,321 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : p
+2023-03-16 16:32:45,016 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-03-16 16:32:45,768 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : c
+2023-03-16 16:32:46,061 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : co
+2023-03-16 16:32:59,826 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : coo
+2023-03-16 16:33:00,744 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : co
+2023-03-16 16:33:01,069 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : c
+2023-03-16 16:33:45,776 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 18:42:35,309 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 18:45:45,178 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 18:46:10,046 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 18:46:10,194 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 18:48:10,842 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 18:48:11,038 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 18:48:29,683 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 18:48:29,968 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 18:48:52,154 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 18:48:52,393 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 18:48:59,910 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 18:49:00,109 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 18:49:48,831 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 18:50:29,731 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 18:50:29,884 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 18:50:30,171 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 18:50:30,871 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 18:50:33,910 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 18:50:34,098 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 18:50:35,900 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 18:50:36,119 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 18:50:45,931 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 18:50:46,090 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 18:50:53,352 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 18:50:53,529 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 18:50:58,513 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 18:50:58,659 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 18:51:16,387 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 18:51:16,680 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 18:51:23,440 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 18:51:23,595 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 18:51:44,791 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 18:51:44,987 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 18:51:50,325 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 18:51:50,477 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 18:51:59,851 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 18:52:00,037 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 18:52:07,755 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 18:52:07,909 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 18:52:28,049 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 18:52:28,208 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 18:52:33,209 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 18:52:33,388 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 18:52:36,574 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 18:52:36,746 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 18:52:49,086 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 18:52:49,259 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 18:53:36,488 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 18:53:37,517 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 18:54:21,754 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 18:54:22,347 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 18:54:23,514 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-16 18:54:24,442 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 18:54:37,060 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 18:54:37,729 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 18:54:41,370 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 18:54:42,335 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 18:55:04,910 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 18:55:06,171 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 18:55:17,603 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 18:55:18,320 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 18:56:19,580 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(446)-127.0.0.1] Application shutdown requested.
+2023-03-16 18:56:19,851 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(446)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-16 18:56:19,855 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(446)-127.0.0.1] Stopping service [Tomcat]
+2023-03-16 18:56:19,888 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(446)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-16 18:56:19,943 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(446)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-16 18:56:19,950 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(446)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-16 18:56:19,965 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(446)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-16 18:56:20,008 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(446)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-16 18:56:20,073 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(446)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-16 18:56:20,084 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(446)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-03-16 19:53:24,719 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 8336 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-16 19:53:24,723 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-16 19:53:24,726 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-16 19:53:24,828 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-16 19:53:24,829 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-16 19:53:26,571 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-16 19:53:26,724 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 134 ms. Found 9 JPA repository interfaces.
+2023-03-16 19:53:27,795 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-16 19:53:27,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-16 19:53:27,815 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-16 19:53:27,816 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-16 19:53:27,946 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-16 19:53:27,947 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3117 ms
+2023-03-16 19:53:28,221 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-16 19:53:28,335 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-16 19:53:28,625 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-16 19:53:28,820 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-16 19:53:28,828 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-16 19:53:29,359 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-16 19:53:29,413 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-16 19:53:30,874 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-16 19:53:30,889 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-16 19:53:32,187 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-16 19:53:32,232 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-16 19:53:33,176 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f723e92, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fc7f507, org.springframework.security.web.context.SecurityContextPersistenceFilter@43028d92, org.springframework.security.web.header.HeaderWriterFilter@1b50bb78, org.springframework.web.filter.CorsFilter@2dd6fefa, org.springframework.security.web.authentication.logout.LogoutFilter@6a74d400, com.wdm.security.jwt.AuthTokenFilter@13a3c8de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e9289fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65f65fa1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b93da25, org.springframework.security.web.session.SessionManagementFilter@41a9932, org.springframework.security.web.access.ExceptionTranslationFilter@17a93754, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43944206]
+2023-03-16 19:53:33,667 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-16 19:53:33,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-16 19:53:33,747 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-16 19:53:33,777 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 9.834 seconds (JVM running for 13.099)
+2023-03-16 19:56:48,908 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 19:56:48,909 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-16 19:56:48,911 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-03-16 19:56:49,826 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 20:00:30,572 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 20:09:06,866 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 20:09:27,190 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 20:09:27,881 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 20:09:36,999 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 20:09:38,887 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-16 20:12:50,575 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 20:13:18,456 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-16 20:13:57,459 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-16 20:14:10,595 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-16 20:14:12,523 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-16 20:14:24,760 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-16 20:14:58,528 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-16 20:15:05,987 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-16 21:25:14,772 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-16 21:25:23,866 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+2023-03-16 21:25:23,889 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-16 21:25:23,890 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Stopping service [Tomcat]
+2023-03-16 21:25:23,893 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-16 21:25:23,904 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-16 21:25:23,907 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-16 21:25:23,914 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-16 21:25:23,936 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-16 21:25:23,946 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-16 21:25:23,961 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.

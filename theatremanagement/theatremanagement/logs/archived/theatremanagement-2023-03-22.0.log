@@ -1,0 +1,169 @@
+2023-03-22 09:30:45,351 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-22 09:30:45,412 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 8584 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-03-22 09:30:45,413 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-22 09:30:45,565 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-22 09:30:45,566 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-22 09:30:49,820 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-22 09:30:51,180 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1021 ms. Found 8 JPA repository interfaces.
+2023-03-22 09:30:53,459 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-22 09:30:53,484 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-22 09:30:53,487 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-22 09:30:53,488 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-22 09:30:53,690 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-22 09:30:53,692 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8124 ms
+2023-03-22 09:30:54,245 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-22 09:30:54,395 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-22 09:30:54,866 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-22 09:30:55,247 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-22 09:30:55,260 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-22 09:30:55,956 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-22 09:30:56,018 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-22 09:30:58,362 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-22 09:30:58,380 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-22 09:30:59,831 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-22 09:30:59,900 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-22 09:31:01,011 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1cc390bc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fc8c61d, org.springframework.security.web.context.SecurityContextPersistenceFilter@169ff724, org.springframework.security.web.header.HeaderWriterFilter@3011f4b3, org.springframework.web.filter.CorsFilter@1cb5cea7, org.springframework.security.web.authentication.logout.LogoutFilter@478aa7ca, com.example.demo.security.security.jwt.AuthTokenFilter@3926606f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15c591c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e4c0a52, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19aa8b22, org.springframework.security.web.session.SessionManagementFilter@5ecc057d, org.springframework.security.web.access.ExceptionTranslationFilter@2350f75d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3542cd54]
+2023-03-22 09:31:01,496 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-22 09:31:01,542 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-22 09:31:01,585 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-22 09:31:01,611 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 18.108 seconds (JVM running for 20.933)
+2023-03-22 09:35:21,600 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-22 09:35:21,601 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-22 09:35:21,604 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-03-22 09:35:24,689 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-22 09:35:48,499 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 09:36:16,627 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 09:36:45,594 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 09:37:02,479 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 09:38:59,721 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 09:57:15,373 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 10:11:30,901 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 10:13:11,395 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-22 10:14:00,012 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 10:18:49,919 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 10:18:53,140 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 10:19:39,452 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 10:20:04,932 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 10:35:19,619 ERROR com.example.demo.security.security.jwt.JwtUtils [http-nio-8080-exec-9] JWT token is expired: JWT expired at 2023-03-21T15:01:00Z. Current time: 2023-03-22T10:35:19Z, a difference of 70459615 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-22 10:35:19,639 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-22 10:35:27,123 ERROR com.example.demo.security.security.jwt.JwtUtils [http-nio-8080-exec-10] JWT token is expired: JWT expired at 2023-03-21T15:01:00Z. Current time: 2023-03-22T10:35:27Z, a difference of 70467123 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-22 10:35:27,125 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-22 11:07:11,496 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 11:07:15,209 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 11:32:44,790 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 11:37:45,012 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 11:45:43,719 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 11:48:12,403 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 11:50:15,168 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 11:52:32,629 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 11:54:34,481 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 11:57:45,800 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 12:02:08,187 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 12:05:36,797 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 12:07:17,983 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 12:08:41,136 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 12:12:17,765 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 12:13:01,912 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 12:17:36,018 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 12:20:41,454 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 12:22:27,653 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 12:24:18,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 12:24:27,743 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 12:26:12,964 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 12:26:55,458 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 12:27:15,712 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 12:30:59,524 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 12:31:05,475 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 12:31:23,104 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 12:34:04,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 12:35:30,690 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 12:35:41,413 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 12:36:12,275 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 12:36:17,666 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 12:39:06,900 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 12:43:36,499 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 12:46:56,378 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 12:48:01,613 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 12:49:06,644 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 12:51:49,521 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 12:51:57,442 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 12:53:12,521 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-22 12:53:30,819 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 12:57:18,282 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 12:59:05,995 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 13:00:07,658 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 13:01:02,759 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 13:12:14,685 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 13:13:27,552 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 13:15:13,289 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 13:29:40,403 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 13:32:10,564 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 14:25:08,182 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m37s400ms864µs900ns).
+2023-03-22 14:32:18,419 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 14:32:56,750 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 14:34:38,937 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 14:35:48,044 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 14:35:50,775 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 14:36:25,176 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 14:36:30,801 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 14:37:52,840 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 14:48:03,155 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 14:55:25,878 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 14:56:05,238 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 14:56:25,789 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 15:06:24,417 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 15:10:50,984 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-22 15:11:38,641 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 15:29:56,356 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 15:30:24,517 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 15:37:01,090 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 15:53:17,933 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 2171 ms
+2023-03-22 16:26:54,489 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 16:27:40,441 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 16:37:39,438 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 16:38:56,012 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 16:39:14,616 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 16:39:30,708 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-22 16:47:06,438 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 16:47:54,019 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 16:48:34,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 16:57:05,445 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-22 17:03:44,033 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 17:12:20,915 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-22 17:12:25,504 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-22 17:12:47,420 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 17:13:02,158 INFO com.example.demo.controller.ShowDetailsController [http-nio-8080-exec-3] creat ShowDetails
+2023-03-22 17:13:36,394 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-22 17:15:12,069 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-22 17:16:02,246 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 17:40:34,841 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-22 17:40:39,473 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-22 17:40:46,869 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-22 17:40:54,490 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-22 17:40:58,157 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-22 17:41:24,679 INFO com.example.demo.controller.ShowDetailsController [http-nio-8080-exec-10] creat ShowDetails
+2023-03-22 17:41:34,401 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-22 17:51:36,237 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-22 18:03:42,148 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-22 18:40:12,514 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m264ms448µs500ns).
+2023-03-22 18:40:39,900 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-22 18:40:51,979 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-22 19:01:43,187 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(582)-127.0.0.1] Application shutdown requested.
+2023-03-22 19:01:43,444 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(582)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-22 19:01:43,447 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(582)-127.0.0.1] Stopping service [Tomcat]
+2023-03-22 19:01:43,470 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(582)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-22 19:01:43,544 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(582)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-22 19:01:43,553 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(582)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-22 19:01:43,578 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(582)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-22 19:01:43,627 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(582)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-22 19:01:43,689 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(582)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-22 19:01:43,727 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(582)-127.0.0.1] HikariPool-1 - Shutdown completed.

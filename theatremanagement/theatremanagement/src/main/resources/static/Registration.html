@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <form>
+        <h1>REGISTRSTION</h1>
+        <link rel="stylesheet" href="./CSS/login.css">
+        <label>
+            Firstname
+        </label>
+        <input type="text" id="Firstname">
+        <div class="error" style="color: red;" id="fnameError"></div>
+        <label>
+            Lastname
+        </label>
+        <input type="text" id="Lastname">
+        <div class="error" style="color: red;" id="lnameError"></div>
+        <label>
+            Email
+        </label>
+        <input type="email" id="Email">
+        <div class="error" style="color: red;" id="emailError"></div>
+        <label>
+            Password
+        </label>
+        <input type="Password" id="Password">
+        <div class="error" style="color: red;" id="passError"></div>
+        <label>
+            Number
+        </label>
+        <input type="number" id="Number">
+        <div class="error" style="color: red;" id="numError"></div>
+        <label class="form-label select-label">Choose User Role</label>
+        <br>
+        <select required  id="userrole"  class="select form-control-lg" >
+                    
+            <option value="user">user</option>
+            <option value="admin">admin</option>
+            
+          </select>
+         
+       
+        <button type="button" id="sumitbtn" >Sumit</button>
+        <div>
+            <p class="mb-0">Allready have an account? <a href="login.html" class="text-dark-50">login</a>
+            </p>
+          </div>
+        <!-- <button onclick="clearField()" >Clear</button> -->
+         <!-- <button>Register</button>  -->
+         
+    </form>
+        <!-- <div class="card-footer">
+            <div id="response">
+        </div> -->
+<!-----------------Ajax-------------------------->
+
+<script>
+    
+    $(document).ready(function(){
+ 
+        $("#sumitbtn").click(function(){ 
+            var email_regex =/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            var paswd_regex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+            //var fname_regex = /^[A-Za-z][A-Za-z0-9_]{3,29}$/;
+            //var lname_regex = /^[A-Za-z][A-Za-z0-9_]{3,29}$/;
+            var number_regex = /^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$/;
+            //starting with 9,8,7 you can add more as well.
+
+           
+
+            var fname = jQuery.trim($("#Firstname").val());
+            var lname = jQuery.trim($("#Lastname").val());
+            var email = jQuery.trim($("#Email").val());
+            var pass = jQuery.trim($("#Password").val());
+            var number = jQuery.trim($("#Number").val());
+
+            if (fname == '') {
+                $('#fnameError').text('This field is required');
+                return false;
+            }else {
+
+            $('#fnameError').empty();
+            }
+
+            // if(fname != "") {
+            //     if(!fname_regex.test(fname)){
+            //      $('#fnameError').text('The fname entered is invalid.');
+            //     return false;
+            //         }
+            //     }else{
+            //         $('#fnameError').text('valid');
+            //     }
+
+
+            if (lname == '') {
+                $('#lnameError').text('This field is required');
+                return false;
+            }else {
+
+            $('#lnameError').empty();
+            }
+
+            // if(lname != "") {
+            //     if(!lname_regex.test(lname)){
+            //      $('#lnameError').text('The lname entered is invalid.');
+            //     return false;
+            //         }
+            //     }
+
+
+                if (email == '') {
+                $('#emailError').text('This field is required');
+                return false;
+                    }else {
+
+                $('#emailError').empty();
+                    }
+
+            if (email != "") {
+                if (!email_regex.test(email)) {
+                    $('#emailError').text('The e-mail address entered is invalid.');
+                    return false;
+                }else {
+
+                    $('#emailError').empty();
+                  }
+            }
+           
+
+
+            if (pass == '') {
+                $('#passError').text('This field is required');
+                return false;
+            }else {
+
+            $('#passError').empty();
+             }
+            
+            if (pass != "") {
+                if (!paswd_regex.test(pass)) {
+                    $('#passError').text('The password entered is invalid.');
+                    return false;
+                }else {
+
+                $('#passError').empty();
+                }
+            }
+
+           
+ 
+            if (number == '') {
+                $('#numError').text('This field is required');
+                return false;
+                     }else {
+
+            $('#numError').empty();
+                 }
+
+
+
+            if (number != "") {
+                if (!number_regex.test(number)) {
+                    $('#numError').text('The number entered is invalid.');
+                    return false;
+                }else {
+
+            $('#numError').empty();
+          }
+            }
+
+
+
+
+
+var Firstname=$('#Firstname').val();
+var Lastname=$('#Lastname').val();
+var Email=$('#Email').val();
+var Password=$('#Password').val();
+var Number=$('#Number').val();
+var Role=$('#userrole').val();
+
+
+var details={
+'fname': Firstname,
+'lname': Lastname ,
+'email': Email,
+'pass': Password,
+'mobile': Number,
+'role': Role
+};
+console.log(details);
+$.ajax({
+url: "http://localhost:8080/user/create",
+type: "POST",
+data: JSON.stringify(details),
+contentType: "application/json",
+success: function (data) {
+
+    
+    window.location = "index.html";
+console.log(data);
+
+},error: function (e) {
+console.log(e);
+}
+});
+})
+});
+
+
+
+    //     $.post('http://localhost:8080/user/creat',{
+    //         Firstname:Firstname,
+    //         Lastname:Lastname,
+    //         Email:Email,
+    //         Password:Password,
+    //         Number:Number,
+    //         Role:Role
+    //     }, function(response){
+
+    //         $("#response").html("<div class='alert  alert-success'>" +response.message+"</div>")
+    //         clearField();
+
+    //     })
+    // })
+    
+    // function clearField(){
+
+    //     $('#Firstname').val("");
+    //   $('#Lastname').val("");
+    //     $('#Email').val("");
+    //     $('#Password').val("");
+    //     $('#Number').val("");
+    //     $('#Role').val("");
+
+
+    // }
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,945 @@
+2023-03-18 09:21:05,985 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 6620 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-18 09:21:05,989 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-18 09:21:05,979 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-18 09:21:06,130 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-18 09:21:06,131 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-18 09:21:08,695 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-18 09:21:08,932 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 189 ms. Found 9 JPA repository interfaces.
+2023-03-18 09:21:10,062 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-18 09:21:10,084 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-18 09:21:10,085 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-18 09:21:10,086 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-18 09:21:10,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-18 09:21:10,265 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4132 ms
+2023-03-18 09:21:10,512 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-18 09:21:10,608 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-18 09:21:10,900 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-18 09:21:11,141 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-18 09:21:11,154 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-18 09:21:11,863 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-18 09:21:11,919 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-18 09:21:13,710 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-18 09:21:13,727 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-18 09:21:15,030 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-18 09:21:15,066 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-18 09:21:16,037 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@454d4fe2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fac53f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@29aa0517, org.springframework.security.web.header.HeaderWriterFilter@28e8afc8, org.springframework.web.filter.CorsFilter@732353ce, org.springframework.security.web.authentication.logout.LogoutFilter@1c56c0ec, com.wdm.security.jwt.AuthTokenFilter@1199a68d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4897614c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d3b6cd7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@125f4ea8, org.springframework.security.web.session.SessionManagementFilter@57f70f3e, org.springframework.security.web.access.ExceptionTranslationFilter@157a58, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12dc23e7]
+2023-03-18 09:21:16,473 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-18 09:21:16,505 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-18 09:21:16,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-18 09:21:16,553 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 11.388 seconds (JVM running for 13.84)
+2023-03-18 09:22:10,884 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-18 09:22:10,885 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-18 09:22:10,887 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-03-18 09:22:12,703 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 09:22:36,914 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 09:25:32,356 INFO com.wdm.controller.Categorycontroller [http-nio-8080-exec-4] add to category
+2023-03-18 09:25:35,492 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 09:26:35,331 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] save new product - resquestProduct= {"productName":"Good Day","stock":"10","unit":"Packet(600gms)","categoryId":244,"price":"70"}, file=biscuit.jpg 
+2023-03-18 09:26:37,591 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 09:28:58,229 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] save new product - resquestProduct= {"productName":"Good Day","stock":"50","unit":"Packets(100gms)","categoryId":244,"price":"20"}, file=goodDay.jpg 
+2023-03-18 09:28:59,915 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 09:30:34,348 INFO com.wdm.controller.Categorycontroller [http-nio-8080-exec-10] add to category
+2023-03-18 09:30:39,644 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 09:31:55,656 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] save new product - resquestProduct= {"productName":"Five star","stock":"67","unit":"pics","categoryId":249,"price":"10"}, file=fivestar.jpg 
+2023-03-18 09:31:57,175 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 09:32:00,989 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 250
+2023-03-18 09:32:11,473 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] updateProduct  product : {"productName":"Five star","stock":67,"unit":"pics","categoryId":249,"price":"200","imageId":251}
+2023-03-18 09:32:11,640 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 09:32:47,031 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] save new product - resquestProduct= {"productName":"Five Star","stock":"70","unit":"pics","categoryId":249,"price":"10"}, file=fivestar.jpg 
+2023-03-18 09:32:47,279 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 09:32:50,426 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 09:32:57,116 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] updateProduct  product : {"productName":"Five Star","stock":70,"unit":"pics","categoryId":249,"price":10,"imageId":253}
+2023-03-18 09:32:57,267 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 09:33:45,964 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 09:34:20,467 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 247
+2023-03-18 09:36:41,816 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 09:36:52,727 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 09:41:42,769 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 10:01:30,851 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 10:01:32,682 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 10:01:58,723 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 10:02:04,693 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 10:02:13,841 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 10:05:12,152 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 245
+2023-03-18 10:05:14,838 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 247
+2023-03-18 10:09:42,484 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 10:11:14,012 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 10:13:20,006 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 10:14:47,309 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 10:15:30,816 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 10:17:55,996 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 10:19:25,092 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 250
+2023-03-18 10:20:04,719 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 10:20:15,983 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 10:20:17,696 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 10:20:24,793 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 10:20:34,695 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 10:22:07,815 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 10:22:13,731 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 10:48:41,236 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.registerUser(com.wdm.model.RequestUserAccount): [Field error in object 'requestUserAccount' on field 'userRoll': rejected value []; codes [NotBlank.requestUserAccount.userRoll,NotBlank.userRoll,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestUserAccount.userRoll,userRoll]; arguments []; default message [userRoll]]; default message [must not be blank]] ]
+2023-03-18 10:57:36,975 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 11:13:01,940 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 11:17:42,842 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-18 11:19:01,557 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 11:20:01,720 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 11:20:09,252 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 11:22:10,135 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 11:22:13,317 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 11:22:22,701 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 11:22:26,681 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 11:23:11,727 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 11:24:18,867 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 11:24:19,801 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 11:24:23,742 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 11:24:25,703 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 11:24:43,146 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 11:24:52,718 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 11:24:59,370 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 11:25:05,779 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 11:25:15,681 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 11:25:45,728 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 11:26:01,693 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 11:26:11,674 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 11:26:46,295 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 11:26:57,755 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 11:27:10,705 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 11:29:45,856 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 11:30:01,566 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 11:32:01,780 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 11:32:54,931 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 11:33:47,853 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 11:33:54,028 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 11:34:12,218 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 11:34:21,902 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 11:35:03,676 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 11:35:11,713 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 11:35:23,772 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 11:35:39,053 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 11:36:27,713 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 11:37:18,846 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 250
+2023-03-18 11:38:14,515 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 250
+2023-03-18 11:42:11,330 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-18 11:42:21,915 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 11:42:39,326 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 11:48:28,189 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-18 11:49:55,714 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 12:09:29,633 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 12:11:57,090 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 12:11:59,898 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 12:12:02,376 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 12:12:05,180 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 12:27:03,427 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 12:27:09,113 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 250
+2023-03-18 12:27:10,888 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 245
+2023-03-18 12:27:22,639 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 237
+2023-03-18 12:27:24,567 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 235
+2023-03-18 14:08:52,740 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 14:09:35,220 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 250
+2023-03-18 14:09:35,331 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:09:35,418 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:09:47,498 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:11:05,798 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:11:05,823 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 14:11:08,221 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:11:09,957 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 14:11:11,841 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 250
+2023-03-18 14:11:11,944 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:11:12,097 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:12:07,377 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:25:21,376 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 14:26:37,964 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 14:26:47,448 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 14:27:30,189 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 14:27:32,543 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 250
+2023-03-18 14:27:32,639 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:27:32,743 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:27:40,573 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:27:43,733 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:27:46,853 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:28:09,581 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:28:21,507 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:28:24,558 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 14:30:13,565 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-18 14:30:13,703 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-18 14:30:52,007 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 250
+2023-03-18 14:31:08,650 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 14:31:18,513 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 14:31:36,610 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 14:31:38,975 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 14:31:39,093 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:31:39,228 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:38:37,972 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:38:43,759 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-18 14:39:00,663 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.registerUser(com.wdm.model.RequestUserAccount) with 2 errors: [Field error in object 'requestUserAccount' on field 'userRoll': rejected value []; codes [NotBlank.requestUserAccount.userRoll,NotBlank.userRoll,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestUserAccount.userRoll,userRoll]; arguments []; default message [userRoll]]; default message [must not be blank]] [Field error in object 'requestUserAccount' on field 'password': rejected value []; codes [Size.requestUserAccount.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestUserAccount.password,password]; arguments []; default message [password],20,8]; default message [size must be between 8 and 20]] ]
+2023-03-18 14:40:18,233 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.registerUser(com.wdm.model.RequestUserAccount) with 2 errors: [Field error in object 'requestUserAccount' on field 'userRoll': rejected value []; codes [NotBlank.requestUserAccount.userRoll,NotBlank.userRoll,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestUserAccount.userRoll,userRoll]; arguments []; default message [userRoll]]; default message [must not be blank]] [Field error in object 'requestUserAccount' on field 'password': rejected value []; codes [Size.requestUserAccount.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestUserAccount.password,password]; arguments []; default message [password],20,8]; default message [size must be between 8 and 20]] ]
+2023-03-18 14:40:20,105 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.wdm.controller.UserController.registerUser(com.wdm.model.RequestUserAccount) with 2 errors: [Field error in object 'requestUserAccount' on field 'password': rejected value []; codes [Size.requestUserAccount.password,Size.password,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestUserAccount.password,password]; arguments []; default message [password],20,8]; default message [size must be between 8 and 20]] [Field error in object 'requestUserAccount' on field 'userRoll': rejected value []; codes [NotBlank.requestUserAccount.userRoll,NotBlank.userRoll,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestUserAccount.userRoll,userRoll]; arguments []; default message [userRoll]]; default message [must not be blank]] ]
+2023-03-18 14:40:31,224 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 14:41:18,561 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 14:41:20,194 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 250
+2023-03-18 14:41:23,007 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 14:41:35,970 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 250
+2023-03-18 14:41:36,091 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 14:41:36,258 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:03:07,551 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:03:07,571 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 15:03:09,047 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:03:10,930 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:03:12,747 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:04:00,690 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 15:04:48,665 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 239
+2023-03-18 15:04:48,790 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:04:48,930 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:05:02,173 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:52:56,750 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 15:52:59,921 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 15:53:45,753 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 15:53:58,668 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 15:54:24,801 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 15:54:42,636 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,644 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,657 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,675 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,689 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,707 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,719 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,732 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,743 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,820 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,845 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,863 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,898 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,917 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,940 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,952 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:42,986 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 15:54:43,265 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,273 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,286 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,298 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,309 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,323 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,332 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,340 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,355 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,363 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,371 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,378 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,390 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,402 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,462 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,475 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,576 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,585 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,599 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,611 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,621 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,637 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,656 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,675 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,687 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,702 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,727 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,743 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,765 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,812 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,838 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:54:43,850 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 15:55:28,142 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 15:55:34,500 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 15:55:35,658 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 15:56:19,606 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 250
+2023-03-18 15:56:23,092 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 247
+2023-03-18 15:56:42,508 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 250
+2023-03-18 16:00:26,780 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 16:00:27,008 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,017 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,029 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,042 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,053 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,062 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,071 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,080 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,089 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,098 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,106 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,115 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,123 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,131 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,139 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:00:27,147 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:49,663 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:49,671 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:49,683 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:49,699 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:49,710 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:49,731 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,014 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,035 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,098 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,161 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,216 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,285 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,331 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,459 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,561 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,643 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:50,896 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:01:51,211 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,224 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,262 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,305 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,317 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,330 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,344 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,354 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,372 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,397 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,410 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,418 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,428 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,435 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,449 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,458 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,606 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,616 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,626 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,639 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,650 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,668 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,678 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,699 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,839 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:51,852 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:52,616 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:52,749 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:52,765 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:52,779 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:52,804 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:01:52,816 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:02:46,945 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 16:02:48,490 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:02:48,681 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:02:48,944 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:02:55,612 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:03:25,554 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 250
+2023-03-18 16:03:31,615 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 16:03:59,722 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:03:59,852 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:03:59,980 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:05:53,133 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 16:07:44,638 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:08:32,689 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 16:09:16,603 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 16:09:33,674 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 16:09:40,685 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 16:09:52,699 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 16:09:58,622 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 16:10:00,528 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 250
+2023-03-18 16:10:00,648 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:10:00,822 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:10:08,073 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:10:12,807 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:13:12,519 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:14:46,791 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:14:53,712 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 16:14:58,707 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 16:15:06,913 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:15:07,017 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:15:07,162 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:17:51,619 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 16:19:20,680 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:19:20,817 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:19:20,971 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:19:33,590 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:19:39,184 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:19:41,897 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:19:44,987 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 16:19:48,785 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 250
+2023-03-18 16:19:48,918 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:19:49,142 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:24:08,255 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:27:32,458 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-18 16:27:41,113 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 16:28:20,231 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:30:31,949 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 16:31:30,773 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 16:31:40,432 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:31:58,673 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 16:37:10,686 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 16:37:46,669 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 16:38:33,706 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:38:43,959 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 16:38:49,660 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-18 16:39:04,701 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 16:39:09,492 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 237
+2023-03-18 16:39:09,593 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:39:09,728 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:45:54,674 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:45:54,707 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 16:45:54,922 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:45:55,080 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"]
+2023-03-18 16:46:37,601 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 16:46:42,845 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 239
+2023-03-18 16:46:48,685 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 16:46:50,940 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:47:48,035 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 16:47:54,979 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 247
+2023-03-18 16:48:57,657 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 16:49:26,776 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:49:47,605 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 16:49:52,552 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:49:52,697 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:49:52,858 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:49:59,451 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:01,554 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:02,170 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:09,593 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:12,720 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:13,921 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:14,520 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:15,549 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:16,244 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:32,449 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:33,591 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:34,515 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:50:36,014 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:36,114 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:36,254 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:36,301 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:36,322 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:36,348 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:36,365 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:36,384 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:36,402 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:36,415 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:36,426 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:36,439 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:36,453 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:36,466 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:36,478 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:36,488 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:36,501 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:36,512 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:36,523 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:36,535 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:36,547 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:36,559 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:36,572 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:36,586 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:36,597 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:36,609 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:36,620 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:36,632 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:36,643 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:36,658 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:36,672 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:36,687 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:36,700 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:36,712 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:36,724 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:36,736 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:36,749 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:36,761 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:36,773 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:36,790 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:36,803 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:36,817 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:36,829 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:36,841 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:36,854 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:36,867 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:36,880 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:36,891 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:36,904 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:36,916 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:36,927 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:36,937 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:36,949 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:36,960 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:36,971 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:36,982 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:36,992 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,005 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,017 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,029 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,039 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,050 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,062 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,072 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,084 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,095 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,105 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,116 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,127 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,137 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,149 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,159 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,173 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,185 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,197 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,208 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,220 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,232 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,242 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,252 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,262 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,272 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,283 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,294 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,304 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,314 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,324 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,334 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,343 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,355 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,367 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,377 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,387 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,397 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,407 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,418 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,429 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,441 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,454 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,465 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,475 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,486 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,496 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,506 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,517 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,527 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,538 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,550 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,562 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,585 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,599 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,610 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,622 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,634 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,645 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,656 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,667 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,676 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,685 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,693 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,701 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,711 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,720 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,729 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,738 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,746 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,755 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,764 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,773 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,783 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,792 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,803 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,813 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,824 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,835 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,844 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,853 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,862 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,872 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,883 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,892 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,901 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:37,910 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:37,918 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:37,927 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:37,936 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:37,944 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:37,952 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:37,964 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:37,975 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:37,985 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:37,997 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,008 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,018 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,028 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,038 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,048 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,059 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,068 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,080 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,088 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,097 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,105 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,113 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,122 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,130 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,139 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,150 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,159 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,167 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,176 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,185 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,194 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,203 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,214 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,223 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,232 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,241 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,250 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,257 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,266 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,275 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,284 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,294 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,302 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,311 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,320 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,329 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,339 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,348 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,356 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,365 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,374 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,382 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,391 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,400 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,409 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,418 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,426 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,434 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,443 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,452 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,460 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,469 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,478 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,489 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,502 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,515 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,525 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,533 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,541 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,550 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,559 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,568 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,579 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,591 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,602 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,612 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,621 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,628 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,636 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,647 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,657 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,665 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,677 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,685 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,695 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,703 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,712 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,720 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,730 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,740 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,749 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,757 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,766 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,773 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,782 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,790 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,799 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,808 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,818 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,828 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,837 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,846 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,855 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,863 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,873 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,881 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,890 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,899 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,907 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:38,916 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:38,926 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:38,937 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:38,949 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:38,958 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:38,967 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:38,975 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:38,984 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:38,992 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:38,999 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,008 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,017 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,026 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,035 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,043 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,052 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,060 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,069 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,080 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,088 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,097 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,107 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,116 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,125 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,132 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,141 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,149 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,158 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,166 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,174 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,183 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,191 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,199 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,208 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,217 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,225 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,233 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,242 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,250 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,259 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,272 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,286 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,295 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,304 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,313 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,322 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,331 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,340 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,349 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,357 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,366 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,374 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,384 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,392 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,401 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,410 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,419 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,429 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,438 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,447 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,456 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,466 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,475 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,483 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,492 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,500 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,509 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,519 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,528 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,536 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,547 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,556 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,566 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,579 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,592 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,602 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,612 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,622 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,633 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,646 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,656 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,668 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,678 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,687 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,696 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,705 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,714 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,752 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,784 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,801 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,840 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:39,860 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:39,870 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:39,885 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:39,902 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:39,918 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:39,937 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:39,964 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:39,976 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:39,986 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:39,996 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:40,005 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:40,015 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:40,025 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:40,034 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:40,045 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:40,054 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:40,064 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:40,072 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:40,081 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:40,091 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:40,100 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:40,109 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:40,119 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:40,129 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:40,138 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:40,147 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:40,157 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:40,166 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:40,175 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:40,184 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:40,194 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:40,206 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:40,215 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:40,270 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:40,308 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:40,327 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:40,338 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:40,352 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:40,367 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:40,381 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:50:40,392 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:50:40,403 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:50:40,417 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:50:40,430 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:50:40,440 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:50:40,453 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:50:40,467 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:50:40,481 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:50:40,490 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:50:40,502 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:51:27,058 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 250
+2023-03-18 16:51:27,164 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:51:27,267 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:51:27,318 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:51:27,334 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:51:28,443 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:51:28,454 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:51:29,132 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:51:29,142 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:51:29,396 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:51:29,406 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:51:30,357 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:51:30,396 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:51:32,782 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 16:51:34,268 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 250
+2023-03-18 16:51:34,365 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:51:34,548 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:51:34,616 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:51:34,641 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:51:35,765 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:51:35,778 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:51:36,324 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:51:36,334 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:51:36,532 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:51:36,542 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:51:36,723 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:51:36,732 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:51:36,907 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:51:36,915 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:51:37,100 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 16:51:37,109 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 16:51:38,068 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 16:51:38,103 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:53:35,726 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-18 16:56:42,380 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 250
+2023-03-18 16:58:54,076 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 16:58:54,183 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 16:58:54,333 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:58:54,379 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:58:54,393 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:58:54,407 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:58:54,419 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:58:59,674 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 16:59:01,294 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 250
+2023-03-18 16:59:01,394 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 252
+2023-03-18 16:59:01,510 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 16:59:01,557 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-18 16:59:01,570 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 252
+2023-03-18 16:59:01,581 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 252
+2023-03-18 16:59:01,595 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 17:05:47,654 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 17:22:04,718 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 250
+2023-03-18 17:22:04,810 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 252
+2023-03-18 17:22:04,958 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 252
+2023-03-18 17:22:04,998 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 252
+2023-03-18 17:22:05,014 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 252
+2023-03-18 17:22:05,026 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 252
+2023-03-18 17:22:05,040 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 252
+2023-03-18 17:22:52,607 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 17:23:01,005 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 247
+2023-03-18 17:23:14,396 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-18 17:23:56,705 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 17:27:25,173 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 250
+2023-03-18 17:27:26,882 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 247
+2023-03-18 17:27:27,681 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 245
+2023-03-18 17:55:24,677 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 18:03:54,202 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 18:06:15,249 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 250
+2023-03-18 18:06:21,366 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] updateProduct  product : {"productName":"Five star","stock":67,"unit":"pics","categoryId":249,"price":"170","imageId":251}
+2023-03-18 18:06:22,512 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-18 18:06:40,085 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-18 18:06:55,867 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-18 18:07:01,115 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 247
+2023-03-18 18:13:29,680 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 18:21:48,712 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-18 18:26:57,482 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 250
+2023-03-18 18:26:58,778 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 247
+2023-03-18 18:27:00,061 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 237
+2023-03-18 18:27:01,684 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 223
+2023-03-18 18:27:10,319 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-18 18:30:11,446 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-18 18:40:52,047 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-03-18 18:40:52,492 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:40:52,496 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-03-18 18:40:52,546 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-18 18:40:52,664 WARN org.apache.juli.logging.DirectJDKLog [Thread-5] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-18 18:40:52,689 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:40:52,728 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:40:52,841 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-18 18:40:53,055 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-03-18 18:40:53,096 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-03-18 18:40:54,439 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 6620 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-18 18:40:54,439 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-18 18:40:55,739 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-18 18:40:55,849 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 108 ms. Found 9 JPA repository interfaces.
+2023-03-18 18:40:56,307 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-18 18:40:56,310 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:40:56,312 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-18 18:40:56,312 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-18 18:40:56,394 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-18 18:40:56,395 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1946 ms
+2023-03-18 18:40:56,552 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-18 18:40:56,571 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-03-18 18:40:56,572 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-18 18:40:56,607 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-03-18 18:40:56,608 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-18 18:40:57,308 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-18 18:40:57,310 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-18 18:40:57,999 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-18 18:40:58,019 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-18 18:40:59,712 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76c92a9f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e21cb65, org.springframework.security.web.context.SecurityContextPersistenceFilter@1977d034, org.springframework.security.web.header.HeaderWriterFilter@35199e57, org.springframework.web.filter.CorsFilter@7eff0e5, org.springframework.security.web.authentication.logout.LogoutFilter@236f4eef, com.wdm.security.jwt.AuthTokenFilter@62774104, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8f685cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@716459a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37695a20, org.springframework.security.web.session.SessionManagementFilter@2cab2080, org.springframework.security.web.access.ExceptionTranslationFilter@37e4de93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dd3bca4]
+2023-03-18 18:40:59,939 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-18 18:40:59,969 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:40:59,981 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-18 18:40:59,996 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 5.702 seconds (JVM running for 33597.283)
+2023-03-18 18:41:00,001 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-03-18 18:43:00,627 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-18 18:43:00,628 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-18 18:43:00,631 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-03-18 18:43:00,896 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-18 18:43:20,458 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-18 18:46:51,856 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(570)-127.0.0.1] Application shutdown requested.
+2023-03-18 18:46:51,871 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(570)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:46:51,871 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(570)-127.0.0.1] Stopping service [Tomcat]
+2023-03-18 18:46:51,872 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(570)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-18 18:46:51,875 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(570)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-18 18:46:51,876 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(570)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:46:51,878 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(570)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-18 18:46:51,883 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(570)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-18 18:46:51,885 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(570)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2023-03-18 18:46:51,890 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(570)-127.0.0.1] HikariPool-2 - Shutdown completed.

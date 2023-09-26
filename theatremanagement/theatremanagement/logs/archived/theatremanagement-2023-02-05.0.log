@@ -1,0 +1,390 @@
+2023-02-05 12:28:46,552 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-02-05 12:28:46,583 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 16600 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-02-05 12:28:46,586 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-05 12:28:46,730 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-05 12:28:46,731 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-05 12:28:48,412 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05 12:28:48,560 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 130 ms. Found 7 JPA repository interfaces.
+2023-02-05 12:28:49,587 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-05 12:28:49,607 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-05 12:28:49,608 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-02-05 12:28:49,609 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-05 12:28:49,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-05 12:28:49,755 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3020 ms
+2023-02-05 12:28:50,030 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05 12:28:50,146 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-05 12:28:50,442 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-05 12:28:50,630 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-02-05 12:28:50,641 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-02-05 12:28:51,086 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-02-05 12:28:51,145 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-05 12:28:52,541 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05 12:28:52,557 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05 12:28:53,411 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05 12:28:53,635 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-05 12:28:54,659 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-05 12:28:54,705 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-02-05 12:28:54,743 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05 12:28:54,763 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 9.269 seconds (JVM running for 11.427)
+2023-02-05 12:29:11,563 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05 12:29:11,564 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-05 12:29:11,567 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-02-05 12:29:11,672 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 12:29:44,939 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 12:30:41,090 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-02-05 12:31:09,754 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-02-05 12:31:24,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 12:31:40,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 12:44:36,097 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 12:45:32,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 12:46:13,779 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-02-05 12:50:26,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 12:57:47,515 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-02-05 12:59:23,464 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 13:00:20,768 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-02-05 13:00:54,362 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 13:01:34,180 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 13:02:15,133 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 13:03:00,152 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 13:07:51,179 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-02-05 13:08:06,267 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 13:09:14,565 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-02-05 13:10:25,180 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 13:12:20,760 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-02-05 13:14:56,247 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 14:04:25,998 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 14:04:41,710 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 14:05:15,131 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-02-05 14:05:49,973 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 14:06:08,145 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 14:07:57,533 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(106)-127.0.0.1] Application shutdown requested.
+2023-02-05 14:07:57,553 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(106)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:07:57,554 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(106)-127.0.0.1] Stopping service [Tomcat]
+2023-02-05 14:07:57,556 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(106)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-05 14:07:57,560 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(106)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:07:57,564 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(106)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:07:57,582 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(106)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05 14:07:57,586 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(106)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-02-05 14:07:57,594 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(106)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-02-05 14:35:13,636 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 4648 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-02-05 14:35:13,639 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-05 14:35:13,643 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-02-05 14:35:13,778 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-05 14:35:13,779 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-05 14:35:15,127 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05 14:35:15,307 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 160 ms. Found 7 JPA repository interfaces.
+2023-02-05 14:35:16,395 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-05 14:35:16,416 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:35:16,417 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-02-05 14:35:16,418 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-05 14:35:16,571 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-05 14:35:16,572 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2792 ms
+2023-02-05 14:35:16,847 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05 14:35:16,981 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-05 14:35:17,305 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-05 14:35:17,500 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-02-05 14:35:17,509 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-02-05 14:35:18,015 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-02-05 14:35:18,076 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-05 14:35:19,710 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05 14:35:19,728 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05 14:35:20,649 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05 14:35:20,908 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-05 14:35:22,103 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-05 14:35:22,142 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:35:22,182 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05 14:35:22,202 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 9.482 seconds (JVM running for 11.421)
+2023-02-05 14:35:33,855 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-02-05 14:35:33,921 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:35:33,925 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-02-05 14:35:33,949 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:35:34,001 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:35:34,017 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05 14:35:34,041 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-02-05 14:35:34,060 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-02-05 14:35:34,375 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 4648 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-02-05 14:35:34,376 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-05 14:35:35,261 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-05 14:35:35,344 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 81 ms. Found 7 JPA repository interfaces.
+2023-02-05 14:35:35,584 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-02-05 14:35:35,587 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:35:35,588 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-02-05 14:35:35,589 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-05 14:35:35,659 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-05 14:35:35,659 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1275 ms
+2023-02-05 14:35:35,804 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-05 14:35:35,821 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-02-05 14:35:35,822 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-02-05 14:35:35,862 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-02-05 14:35:35,863 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-02-05 14:35:36,491 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-05 14:35:36,493 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-05 14:35:37,038 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-05 14:35:37,159 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-05 14:35:38,214 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-05 14:35:38,246 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-02-05 14:35:38,255 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-05 14:35:38,292 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 4.089 seconds (JVM running for 27.511)
+2023-02-05 14:35:38,298 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-02-05 14:40:07,235 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-05 14:40:07,236 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-05 14:40:07,239 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-02-05 14:40:07,339 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 14:47:12,873 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-02-05 14:50:33,138 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 14:51:13,842 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 14:51:45,839 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-02-05 14:52:18,527 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 14:52:28,483 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 14:54:12,759 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 14:54:32,831 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 14:56:29,095 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-02-05 14:56:45,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 14:57:01,463 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 14:58:03,041 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 14:59:26,332 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-02-05 14:59:28,857 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 15:02:25,006 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-02-05 15:03:50,774 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 15:04:14,606 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 15:04:19,199 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-02-05 15:07:01,003 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 15:07:52,507 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 15:13:06,075 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-02-05 15:15:44,732 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-2] Init duration for springdoc-openapi is: 939 ms
+2023-02-05 15:20:12,263 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] creat Cinema
+2023-02-05 15:21:36,201 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-9] Failure in @ExceptionHandler com.example.demo.exceptionhandler.ControllerExceptionHandler#handleBindingErrors(MethodArgumentNotValidException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.example.demo.exceptionhandler.ErrorMessage> com.example.demo.exceptionhandler.ControllerExceptionHandler.handleBindingErrors(org.springframework.web.bind.MethodArgumentNotValidException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:176)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1331)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-05 15:21:36,204 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 10, column: 23] (through reference chain: com.example.demo.model.RequestCinema["movieName"])]
+2023-02-05 15:21:58,523 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-8] Failure in @ExceptionHandler com.example.demo.exceptionhandler.ControllerExceptionHandler#handleBindingErrors(MethodArgumentNotValidException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.example.demo.exceptionhandler.ErrorMessage> com.example.demo.exceptionhandler.ControllerExceptionHandler.handleBindingErrors(org.springframework.web.bind.MethodArgumentNotValidException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:176)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1331)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-05 15:21:58,524 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 10, column: 23] (through reference chain: com.example.demo.model.RequestCinema["movieName"])]
+2023-02-05 15:22:18,795 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-3] Failure in @ExceptionHandler com.example.demo.exceptionhandler.ControllerExceptionHandler#handleBindingErrors(MethodArgumentNotValidException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.example.demo.exceptionhandler.ErrorMessage> com.example.demo.exceptionhandler.ControllerExceptionHandler.handleBindingErrors(org.springframework.web.bind.MethodArgumentNotValidException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:176)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1331)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-05 15:22:18,797 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 10, column: 23] (through reference chain: com.example.demo.model.RequestCinema["movieName"])]
+2023-02-05 15:22:51,796 WARN org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-4] Failure in @ExceptionHandler com.example.demo.exceptionhandler.ControllerExceptionHandler#handleBindingErrors(MethodArgumentNotValidException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<com.example.demo.exceptionhandler.ErrorMessage> com.example.demo.exceptionhandler.ControllerExceptionHandler.handleBindingErrors(org.springframework.web.bind.MethodArgumentNotValidException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:176)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1331)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-05 15:22:51,798 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 10, column: 23] (through reference chain: com.example.demo.model.RequestCinema["movieName"])]
+2023-02-05 15:22:59,353 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 15:25:18,000 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] creat Cinema
+2023-02-05 15:25:25,485 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 15:25:29,470 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 15:35:36,080 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 15:37:21,712 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-02-05 15:37:31,856 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 15:39:04,742 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-02-05 15:39:05,761 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 15:39:06,025 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 15:39:06,596 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-02-05 15:39:06,811 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 15:39:07,078 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-02-05 15:39:07,345 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-02-05 15:39:07,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-02-05 15:39:07,670 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 15:39:08,068 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 15:39:08,269 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-02-05 15:39:08,563 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-02-05 15:39:08,707 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-02-05 15:39:08,887 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-02-05 15:39:09,091 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-02-05 15:42:01,262 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-02-05 15:42:37,315 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-02-05 15:43:22,208 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-02-05 15:43:49,398 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-02-05 15:47:23,574 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema

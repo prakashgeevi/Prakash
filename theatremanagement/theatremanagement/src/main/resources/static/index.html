@@ -1,0 +1,809 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepages</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/54e0ebeaef.js" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="./CSS/card.css"> -->
+        <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q==" crossorigin="anonymous"
+         referrerpolicy="no-referrer" />
+       
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+        <script srcs="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js" integrity="sha512-FHZVRMUW9FsXobt+ONiix6Z0tIkxvQfxtCSirkKc5Sb4TKHmqq1dZa8DphF0XqKb3ldLu/wgMa8mT6uXiLlRlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+  
+   .seat {
+   
+    width: 15px;
+    /* height: 12px; */
+    margin: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  } 
+  .chip {
+    display: inline-block;
+    padding: 10px;
+    height: 31px;
+    font-size: 16px;
+    line-height: 11px;
+    border-radius: 25px;
+    background-color: #4A235A;
+    color: white;
+  }
+  
+  .closebtn {
+    padding-left: 10px;
+    color: #cb3030;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: #000;
+  }
+  
+  </style>
+<body style="background-color: #083042;">
+
+  <div id="placeholder">
+
+	</div>
+
+  <script>
+    $(document).ready(function(){ 
+
+      if(localStorage.getItem('user') !== ''&& localStorage.getItem('email') !=""){
+        $("#placeholder").load("navbar.html");
+        mano();
+      }else{
+        location.replace("/");
+      }
+     
+    });
+    </script> 
+
+<!-- 
+<div class="container  min-vh-10 py-4  mt-5">
+  <div class="row">
+      <div class="col-md-12 mx-auto">
+          <div class="input-group">
+              <input  class="form-control border-end-0 border rounded-pill theatreshow " type="search"    id="example-search" onkeyup="searchCinema()" placeholder="Search movie...">
+
+              <span class="input-group-append">        
+             </span>
+          </div>
+      </div>
+  </div>
+</div> -->
+
+      <!-----Add moviex------------------------------------------------------------------------------------------------>
+
+        
+         
+  
+        
+            
+          
+      
+        
+        
+            <!-----Add moviex------------------------------------------------------------------------------------------------>                  
+    	
+
+       
+        
+     	     
+      
+        
+     <button type="button"  style="display:none;" onclick="manoj()" class="btn btn-primary admin" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">ADD CINEMA</button>
+
+	<!-- <div class="container mt-5">	
+      <div class="row row-cols-2 row-cols-md-3 g-4" id="mydd" >
+   
+       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+       </div>
+    </div>
+       </div> -->
+      
+       <div class="container mt-5">
+        <div class="row" id="mydd">
+    
+    
+        </div>
+      </div>
+   
+     <!-- </div> -->
+
+
+ <!-----GET ALL MOVIES------------------------------------------------------------------------------------------------>   
+        <script>
+
+// jQuery('.numbersOnly').keyup(function () { 
+//     this.value = this.value.replace(/[^0-9\.]/g,'');
+// });
+
+if(localStorage.getItem("role")==="admin"){
+
+$(".admin").attr("style", "display:block");
+}
+
+
+
+// function searchCinema(){
+
+//   mano($ ("#example-search").val());
+
+// }
+
+ 
+          function mano(){	
+
+      //       var url = "";
+      // if(searchText !== ""){
+      //   url = "http://localhost:8080/cinema/searchbycinemaname?movieName="+$ ("#example-search").val();
+      // } else {
+      //   url = "http://localhost:8080/cinema";
+      // }
+
+            $.ajax({
+                dataTypa: "JSON",
+                url: 'http://localhost:8080/cinema',
+             
+                type:"GET",
+                
+              success: function (responseText) {
+              
+                    var is_Data ="";
+     
+                $.each(responseText, function (index, item ) {
+                  
+                 is_Data = is_Data + '<div class="col-lg-3 col-md-4"><div class="card" style="width: 14rem; "><img src="'+item.poster+'" class="card-img-top" style="width: 220px; height: 300px; alt="..."><div class="card-body">' ;
+
+
+
+                 if(localStorage.getItem('role') == 'admin'){
+                    is_Data = is_Data +  '<button class="btn btn-outline-success me-md-4" style="padding-right:5%" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="edit" onclick ="edit('+item.id+')">EDIT</button><button class="btn btn-outline-warning"  style="padding-right:10%" type="button" id="DELETE" onclick ="deleteCinema('+item.id+')">DELETE</button>';
+                          } else {
+                            is_Data = is_Data +  '<div class="text-center"><button type="button" class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#exampleModal56" onclick=bookingMovie('+item.id+') >BOOKING</button></div>'; 
+
+                          
+                            //bookingMovie
+                          }
+                          is_Data = is_Data + '</div></div></div>';
+                  });
+                  
+                  $("#mydd").empty();
+                  $("#mydd").append(is_Data);	
+                  
+                }	
+              });
+          }
+
+          ///<!-----GET ALL THEATRES------------------------------------------------------------------------------------------------>   
+
+       function   manoj(){
+        document.getElementById('update').hidden= true;
+                    document.getElementById('btnpost').hidden= false;
+                    $('#movieName').val("");
+                    $('#rating').val("");
+                    $('#releasedYear').val("");
+                    $('#language').val("");
+                    $('#poster').val("");
+                    $('#actor').val("");
+                    $('#actress').val("");
+                    $('#musicDirecter').val("");
+                    $('#directer').val("");
+       }
+
+          
+
+
+
+//           function Theatre(){	
+//             $.ajax({
+//                 dataTypa: "JSON",
+//                 url: "http://localhost:8080/Theatre",
+             
+//                 type:"GET",
+                
+//               success: function (responseText) {
+              
+//                     var is_Data ="";
+                
+//                 $.each(responseText, function (index, item ) {
+            
+//                  is_Data = is_Data + '<div class="card" style="width: 14rem; "><img src="'+item.poster+'" class="card-img-top" style="width: 200px; height: 300px; alt="..."><div class="card-body">' ;
+
+//                  if(localStorage.getItem('role') == 'admin'){
+//                     is_Data = is_Data +  '<button class="btn btn-outline-success me-md-2" style="padding-right:5%" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="edit" onclick ="edit('+item.id+')">EDIT</button><button class="btn btn-outline-warning"  style="padding-right:10%" type="button" id="DELETE" onclick ="deleteCinema('+item.id+')">DELETE</button>';
+//                           }else{
+//                             is_Data = is_Data +  '<button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal5" >BOOKING</button>'; 
+// z
+                            
+//                           }
+//                           is_Data = is_Data + '</div></div>';
+//                   });
+                  
+//                   $("#mydd").empty();
+//                   $("#mydd").append(is_Data);	
+//                 }	
+//               });
+//           }
+
+
+         ///<!-----GET ALL THEATRES------------------------------------------------------------------------------------------------>
+          let name = localStorage.getItem('firstname')?localStorage.getItem('firstname'):''
+      console.log(name);
+      if(name==''){
+      alert('you need login first');
+      window.location = "login.html";  
+  }
+  function cleardata(){
+  window.localStorage.removeItem('lastname');
+  window.localStorage.removeItem('email');
+  window.localStorage.removeItem('number');
+  window.localStorage.removeItem('role');
+  window.localStorage.removeItem('user');
+  window.localStorage.removeItem('firstname');
+  window.localStorage.removeItem('lastname');
+  window.location = "login.html";    
+  }
+          </script>
+
+
+ <!-----------------------------------------------post------------------------------------------------------>    
+<script>
+
+   $(document).ready(function(){
+        $("#btnpost").click(function(){
+         
+                    //  document.getElementById('update').hidden= true;
+                    //    document.getElementsByClassName('sumit').hidden= false;
+                      
+var movieName=$('#movieName').val();
+var poster=$('#poster').val();
+
+var language=$('#language').val();
+var rating=$('#rating').val();
+var releasedYear=$('#releasedYear').val();
+                    ////////////////////////////////////////////
+var actor=$('#actor').val();
+var actress=$('#actress').val();
+var musicDirecter=$('#musicDirecter').val();
+var directer=$('#directer').val();
+
+
+var urlvalidation =/^(https?:\/\/.*\.(?:png|jpg))/;
+
+              var url = jQuery.trim($("#txt_uname").val());
+           if(poster == ''){
+            $('#emailError').text('This field is required');
+          return false;
+       }
+         if(poster != "") {
+           if(!urlvalidation.test(poster)){
+          $('#emailError').text('The url entered is invalid.');
+            return false;
+     }
+     }
+
+
+var details={
+'movieName': movieName,
+'rating': rating ,
+'releasedYear': releasedYear,
+'language': language,
+'poster': poster,
+
+'actor': actor,
+'actress': actress,
+'musicDirecter': musicDirecter,
+'directer': directer,
+
+'userid':localStorage.getItem('user')
+};
+console.log(details);
+$.ajax({
+url: "http://localhost:8080/cinema/create",
+type: "POST",
+data: JSON.stringify(details),
+contentType: "application/json",
+success: function (data) {
+  mano();
+console.log(data);
+},error: function (e) {
+console.log(e);
+}
+});
+})
+});
+
+
+//<!-----------------------------PUT OPERATION----------------------------------->
+
+var editDataId ="";
+function edit(id){
+
+                       editDataId = id;
+                      document.getElementById('update').hidden= false;
+                      document.getElementById('btnpost').hidden= true;
+
+                      
+                      
+$.ajax({
+dataType: "JSON",
+url: "http://localhost:8080/cinema/"+ id,
+type: "GET",
+ 
+success: function (response) {
+
+                       $('#movieName').val(response.movieName);
+                       $('#poster').val(response.poster);
+
+                       $('#language').val(response.language);
+                       $('#rating').val(response.rating);
+                       $('#releasedYear').val(response.releasedYear);
+                                       
+                        $('#actor').val(response.actors.actor);
+                        $('#actress').val(response.actors.actress);
+                        $('#musicDirecter').val(response.actors.musicDirecter);
+                        $('#directer').val(response.actors.directer);
+
+},error: function (e) {
+console.log(e);
+}
+});
+}
+
+
+function putCinema(){
+
+              var details={
+
+
+                        'movieName':  $('#movieName').val(),
+                        'rating':  $('#rating').val(),
+                        'releasedYear': $('#releasedYear').val(),
+                        'language': $('#language').val(),
+                        'poster': $('#poster').val(),                        
+                        'actor': $('#actor').val(),
+                        'actress': $('#actress').val(),
+                        'musicDirecter': $('#musicDirecter').val(),
+                        'directer': $('#directer').val(),
+                        'userid':localStorage.getItem('user')
+                        };
+   
+
+  $.ajax({
+url: "http://localhost:8080/cinema/"+editDataId,
+type: "PUT",
+data: JSON.stringify(details),
+contentType: "application/json",
+success: function (data) {
+  alert("success");
+    editDataId.empty();
+  $('#movieName').val("");
+    $('#rating').val("");
+    $('#releasedYear').val("");
+    $('#language').val("");
+    $('#poster').val("");
+    $('#actor').val("");
+    $('#actress').val("");
+    $('#musicDirecter').val("");
+    $('#directer').val("");
+    
+},error: function (e) {
+ 
+            console.log(JSON.stringify(e));
+}
+
+});
+}
+
+</script>
+<!-----------------------------DELETE OPERATION----------------------------------->
+
+<script>
+function deleteCinema(cinemaId){
+$.ajax({
+url: "http://localhost:8080/cinema/"+cinemaId,
+type: "DELETE",
+data: JSON,
+contentType: "application/json",
+success: function (data) {
+  mano();
+console.log(data);
+},error: function (e) {
+console.log(e);
+}
+});
+}
+
+var aa = "";
+var bb = "";
+var cc = "";
+function bookingMovie(id){
+
+   $.noConflict;
+ 
+  $.ajax({
+		url: "http://localhost:8080/showDetails/cinemaId/"+id,
+		type: "GET",
+		data: JSON,
+		contentType: "application/json",
+		success: function (responseText) {
+		console.log(responseText);
+			var bookingData ="";
+			var theatreData="";
+           aa  =  responseText.cinemaId;
+		  
+                 bookingData +='<img class="card-img-top" src="'+responseText.poster+'" alt="Card image cap"/><h5 class="card-title text-center">'+responseText.movieName+'</h5> <div hidden><p  id="aaid">'+responseText.cinemaId+'</p></div> '
+                
+                   $.each(responseText.theatres, function (index, item ) {
+				
+                    bb = item.id;
+						theatreData +='<div class="card"><div class="row"><div class="col-lg-6"><div class="card-body" ><h5 class="card-title text-center">'+item.theatrename+'</h5><p class="card-title text-center">'+item.address.street+'</p><p class="card-title text-center">'+item.address.city+'</p><div hidden><p  id="bbid">'+item.id+'</p></div> </div></div>';
+            
+						
+						$.each(item.listOfShow, function (indexes, show ) {
+				
+            cc = show.id;
+						theatreData +='<div class="col-lg-6"><div class="card-body" ><p class="card-title text-center">'+show.showTime+'</p><p class="card-title text-center">'+show.date+'</p><button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal100" data-bs-whatever="@mdo" onclick="go('+item.numberofrows+', '+item.numberofseats+')">BOOK</button><div hidden><p  id="ccid">'+show.id+'</p></div></div></div>';
+           
+				 
+				    });
+					
+					theatreData+='</div></div>';
+				  
+				 
+				    });
+					
+			
+                  
+                $("#movieBooking").empty();
+                $("#movieBooking").append(bookingData);
+			        	$("#theatreBooking").empty();
+                $("#theatreBooking").append(theatreData);			
+                $('.modal-backdrop').remove();	  
+},error: function (e) {
+console.log(e);
+}
+});
+}
+
+</script>
+
+
+ 
+
+
+<!----------------- -------seats----------------------- -->
+
+
+
+<div class="modal fade" id="exampleModal100"  style="text-align: center;" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+  <div class="modal-dialog modal-sm" style="max-width: 100%;width: auto !important;display: inline-block;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="padding-right: 20%;">SELECT SEATS</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+ <div class="modal-body">
+  <div class="container">
+   
+
+
+
+      <div class="row">
+      <div class="col-sm-8" style="width: auto;">
+      <table id="myTable" cellspacing="5" style="width:max-content">
+    
+    
+      </table>
+      </div>
+      <div class=" col-sm-4"  style="width: 350px;">
+      <div class="card" style="padding: 20px;"><p>SELECTED SEATS</p>
+      <div id="selectedSeats"></div>
+      <br></br>
+      <button class="btn btn-primary" id="bookSelectedSeats" onclick="Moviebooking()">BOOK NOW</button>
+      </div>      
+      </div>
+      </div>
+      </div>
+
+      </div>  
+    </div>
+    </div>
+    </div>
+
+<script> 
+
+// <!---------------SEATS SCRIPT START---------->
+  var seat = "<i style='font-size:24px' class='fas'>&#xf6c0;</i>";
+  var choosedSeats = [];
+ function f(x, y, boookedSeats) {
+  $.noConflict;
+ var rows = x,
+   rowButtonNumber = y;
+       let count = 0;
+ var table = document.getElementById("myTable");
+ table.innerHTML = "";
+ var selectedSeatsDiv = document.getElementById("selectedSeats");
+ selectedSeatsDiv.innerHTML = "";
+ 
+ 
+ for (var i = 0; i < rows; i++) {
+   var tr = document.createElement("tr");
+   table.appendChild(tr);
+   for (var j = 0; j < rowButtonNumber; j++) {  
+       count++;
+     var td = document.createElement("td");
+     td.style = 'text-align:center; padding:10px ; margiin : 3px';
+     var btn = document.createElement("i");
+     btn.innerHTML = "&#xf6c0;";
+     btn.id = "" + (count) ;
+     btn.className = "fas" ;
+     btn.style = 'font-size : 24px';
+     if(boookedSeats.includes(count)){
+       btn.style = 'color:grey;';
+     } else {
+       btn.style = 'cursor:pointer;color:orange;';
+       btn.onclick = function() {
+ 
+         if(!choosedSeats.includes(this.id)){
+ 
+           const span = document.createElement("span");
+           span.className='closebtn';
+           span.onclick = function() {
+             this.parentElement.style.display='none';
+             const index = choosedSeats.indexOf(this.parentElement.id);
+             if (index > -1) { // only splice array when item is found
+               choosedSeats.splice(index, 1); // 2nd parameter means remove one item only
+             }
+ 
+             console.log(choosedSeats);
+           }
+           span.innerText ="x";
+ 
+ 
+           const item = document.createElement("div");
+           item.className='chip';
+           item.id = this.id;
+           item.innerText ="S-"+this.id;
+           item.appendChild(span);
+           selectedSeatsDiv.appendChild(item);
+           choosedSeats.push(this.id);
+           console.log(choosedSeats);
+         }
+ 
+         //  const item = document.createElement("p");
+       }
+     }
+     td.appendChild(btn);
+     tr.appendChild(td);
+   }
+ }
+ }
+ 
+ function go(row,col) {
+  
+  $.ajax({
+  url: "http://localhost:8080/Booking/show/"+ cc,
+  type: "GET",
+  contentType: "application/json",
+  success: function (data) {
+    
+  console.log(data);
+  $.noConflict;
+console.log(row);
+console.log(col);
+ var boookedSeats = data;
+ f(row, col, boookedSeats);
+
+  },error: function (e) {
+  console.log(e);
+  }
+  });
+
+
+
+ 
+ }
+ </script>
+<script> 
+  // <!---------------BOOKIN FUNCTION OPEN---------->
+  
+  function Moviebooking(){
+
+   //alert(document.getElementById("aaid").value) ;
+ var cinemaId = aa;
+   console.log(cinemaId);
+ var theatresId = bb;
+ console.log(theatresId);
+ var showId = cc;
+ console.log(showId);
+
+  var bookingData={
+    'cinemaId': cinemaId,
+    'theatreId': theatresId,
+    'showDetailsid': showId,
+    'seatNumber':  choosedSeats,
+    'userId':localStorage.getItem('user')
+  }
+
+  console.log(bookingData);
+  $.ajax({
+  url: "http://localhost:8080/Booking",
+  type: "POST",
+  data: JSON.stringify(bookingData),
+  contentType: "application/json",
+  success: function (data) {
+    alert("BOOKING SUCCESS");
+    aa.empty();
+    bb.empty();
+    cc.empty();
+    
+  console.log(data);
+  },error: function (e) {
+  console.log(e);
+  }
+  });
+             }
+  </script>
+   <!---------------BOOKIN FUNCTION END---------->
+<!----------------- -------seats----------------------- -->
+<!----------------- -------USER----------------------- -->
+
+
+<!-- Button trigger modal -->
+
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal56" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >										
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+		<div class="modal-body ">
+		<div class="container-fluid">
+    
+		<div class="row">
+		<div class="col-lg-6"><div class="card"><div class="card-body" id="movieBooking"></div></div></div>
+		<div class="col-lg-6" id="theatreBooking"></div>
+  
+		</div>
+		</div>
+		</div>
+	  
+	  
+		</div>
+		</div>
+		</div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center text-info" id="exampleModalLabel">ADD CINEMA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+                       
+              <form>
+                <label class="form-label" for="Details">Cinema Details</label>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        
+                        <input type="text" id="movieName" class="form-control form-control-lg" placeholder="MOVIENAME"/>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        
+                        <input type="text" id="releasedYear" class="form-control form-control-lg" placeholder="RELEASED YEAR"/>
+                      </div>
+                    </div>
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                 
+                  <input type="text" id="poster" class="form-control form-control-lg" placeholder="POSTER"/>
+                  <div class="error" style="color: red;" id="emailError"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <div class="form-outline">
+               
+                <input type="text" id="language" class="form-control form-control-lg" placeholder="LANGUAGE"/>
+              </div>
+          </div>
+
+
+
+          <div class="col-md-6 mb-4">
+            <div class="form-outline">
+             
+              <input type="text" id="rating" class="form-control form-control-lg" placeholder="RATING"/>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="form-outline">
+           <label>
+            <input type="text" id="actor" class="form-control form-control-lg" placeholder="ACTOR"/>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+        <div class="form-outline">
+         
+          <input type="text" id="actress" class="form-control form-control-lg" placeholder="ACTRESS"/>
+         </div>
+         </div>
+
+         <div class="col-md-6 mb-4">
+          <div class="form-outline">
+           
+          <input type="text" id="musicDirecter" class="form-control form-control-lg" placeholder="MUSICDIRECTER"/>
+           </div>
+           </div>
+
+           <div class="col-md-6 mb-4">
+            <div class="form-outline">
+             
+            <input type="text" id="directer" class="form-control form-control-lg" placeholder="DIRECTER"/>
+            </div>
+            </div>
+           
+            </div>
+            </form>
+         </div>   
+         
+         
+       
+          <div class="modal-footer">
+            <button type="button" id="btnpost" hidden class="btn btn-primary" data-bs-dismiss="modal" >Summit</button>
+         
+            <!-- <button type="button" id="btnpost" class="btn btn-primary"data-bs-dismiss="modal">Summit</button> -->
+
+            <button data-bs-toggle="modal" hidden data-bs-target="#smallModel" type="button" id="update"
+            class="btn btn-warning" onclick="putCinema()">Update</button>
+            <button type="button" id="close" class="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
+
+          </div>
+        </div> 
+      </div>
+    </div>
+ <!-- </div> -->
+ 
+
+
+
+</script>
+</body>
+</html>

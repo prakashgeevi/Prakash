@@ -1,0 +1,1199 @@
+2023-01-23 13:15:08,805 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 13:15:08,807 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-01-23 13:15:08,811 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 13:15:08,918 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-23 13:15:08,919 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-23 13:15:10,236 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 13:15:10,375 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 121 ms. Found 7 JPA repository interfaces.
+2023-01-23 13:15:11,327 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 13:15:11,345 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:15:11,346 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 13:15:11,347 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 13:15:11,508 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 13:15:11,508 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2588 ms
+2023-01-23 13:15:11,740 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 13:15:11,854 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-23 13:15:12,154 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-23 13:15:12,345 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-23 13:15:12,354 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 13:15:12,812 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-23 13:15:12,871 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 13:15:14,326 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 13:15:14,348 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 13:15:15,610 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 13:15:15,938 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 13:15:17,436 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 13:15:17,497 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:15:17,553 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 13:15:17,586 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 9.558 seconds (JVM running for 11.292)
+2023-01-23 13:17:18,109 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 13:17:18,110 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 13:17:18,114 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-01-23 13:17:19,772 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 1060 ms
+2023-01-23 13:18:42,526 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] creat Cinema
+2023-01-23 13:19:27,876 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] delete a theatre
+2023-01-23 13:19:33,297 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] delete a theatre
+2023-01-23 13:19:36,981 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] delete a theatre
+2023-01-23 13:19:41,068 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] delete a theatre
+2023-01-23 13:19:45,052 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] delete a theatre
+2023-01-23 13:19:48,299 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] delete a theatre
+2023-01-23 13:19:51,522 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] delete a theatre
+2023-01-23 13:20:59,294 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] save new theater - Theatrename=ARRS,PhoneNumber= 9047383251 
+2023-01-23 13:22:44,590 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 13:22:44,641 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:22:44,644 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-01-23 13:22:44,648 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 13:22:44,660 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:22:44,668 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:22:44,688 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 13:22:44,702 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-01-23 13:22:44,735 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-01-23 13:22:44,923 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 13:22:44,923 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 13:22:45,290 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 13:22:45,341 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 7 JPA repository interfaces.
+2023-01-23 13:22:45,509 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 13:22:45,511 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:22:45,512 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 13:22:45,513 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 13:22:45,555 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 13:22:45,555 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 628 ms
+2023-01-23 13:22:45,636 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 13:22:45,646 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-01-23 13:22:45,646 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 13:22:45,674 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-01-23 13:22:45,674 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 13:22:46,070 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 13:22:46,072 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 13:22:46,374 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 13:22:46,443 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 13:22:46,974 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 13:22:46,990 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:22:46,995 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 13:22:47,023 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 2.169 seconds (JVM running for 460.729)
+2023-01-23 13:22:47,028 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 13:22:48,884 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 13:22:48,884 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 13:22:48,887 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-01-23 13:22:49,655 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 355 ms
+2023-01-23 13:24:14,129 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 13:24:14,165 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:14,167 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping service [Tomcat]
+2023-01-23 13:24:14,167 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 13:24:14,173 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:14,178 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:14,181 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 13:24:14,184 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-01-23 13:24:14,207 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-01-23 13:24:14,371 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 13:24:14,372 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 13:24:14,695 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 13:24:14,734 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 7 JPA repository interfaces.
+2023-01-23 13:24:14,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 13:24:14,845 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:14,846 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 13:24:14,846 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 13:24:14,875 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 13:24:14,876 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 501 ms
+2023-01-23 13:24:14,927 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 13:24:14,937 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-01-23 13:24:14,938 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 13:24:14,960 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-01-23 13:24:14,960 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 13:24:15,283 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 13:24:15,284 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 13:24:15,526 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 13:24:15,581 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 13:24:16,041 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 13:24:16,052 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:16,058 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 13:24:16,078 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.761 seconds (JVM running for 549.784)
+2023-01-23 13:24:16,083 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 13:24:24,180 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 13:24:24,243 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:24,244 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Stopping service [Tomcat]
+2023-01-23 13:24:24,254 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:24,262 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:24,273 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 13:24:24,275 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-01-23 13:24:24,293 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-01-23 13:24:24,475 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 13:24:24,476 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 13:24:25,147 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 13:24:25,245 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 98 ms. Found 7 JPA repository interfaces.
+2023-01-23 13:24:25,431 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 13:24:25,433 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:25,435 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 13:24:25,436 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 13:24:25,518 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 13:24:25,520 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1034 ms
+2023-01-23 13:24:25,639 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 13:24:25,732 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-01-23 13:24:25,733 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 13:24:25,762 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-01-23 13:24:25,763 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 13:24:26,128 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 13:24:26,128 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 13:24:26,514 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 13:24:26,697 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 13:24:27,557 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 13:24:27,639 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 13:24:27,645 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 13:24:27,664 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 3.258 seconds (JVM running for 561.37)
+2023-01-23 13:24:27,669 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 13:24:32,830 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 13:24:32,831 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 13:24:32,835 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-01-23 13:24:33,432 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 223 ms
+2023-01-23 13:29:12,821 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=2m16s912ms563µs900ns).
+2023-01-23 14:06:30,221 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=36m17s377ms652µs200ns).
+2023-01-23 14:07:54,301 INFO com.example.demo.controller.ShowDetailsController [http-nio-8080-exec-6] creat ShowDetails
+2023-01-23 14:14:37,651 INFO com.example.demo.controller.BookingController [http-nio-8080-exec-8] get a availableBooking
+2023-01-23 14:14:45,156 INFO com.example.demo.controller.BookingController [http-nio-8080-exec-9] get a availableBooking
+2023-01-23 14:15:15,245 INFO com.example.demo.controller.BookingController [http-nio-8080-exec-10] get a availableBooking
+2023-01-23 14:17:20,126 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 14:17:36,211 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 14:17:36,513 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:19:04,173 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 14:19:05,562 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:20:00,393 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] creat Cinema
+2023-01-23 14:20:28,865 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 14:20:29,463 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 14:20:29,668 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 14:20:30,279 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 14:20:30,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:20:30,694 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:20:30,925 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:20:31,094 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:20:31,255 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 14:20:31,423 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 14:20:31,582 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 14:20:31,752 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 14:20:31,912 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 14:20:32,092 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 14:20:32,254 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:20:37,818 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:20:38,129 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:20:38,343 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:20:38,562 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 14:20:38,774 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 14:20:39,005 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 14:20:39,250 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 14:20:39,459 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 14:20:39,758 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 14:20:40,041 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:20:42,187 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:21:21,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:21:42,745 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:21:43,320 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 14:22:00,179 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 14:23:15,723 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 14:25:18,055 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:25:18,444 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:25:18,669 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:32:29,671 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-01-23 14:32:29,710 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:29,711 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Stopping service [Tomcat]
+2023-01-23 14:32:29,713 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 14:32:29,720 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:29,726 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:29,733 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:32:29,736 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2023-01-23 14:32:29,752 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2023-01-23 14:32:29,891 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:32:29,892 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:32:30,187 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:32:30,228 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 40 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:32:30,340 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:32:30,341 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:30,341 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:32:30,342 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:32:30,374 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:32:30,374 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 479 ms
+2023-01-23 14:32:30,433 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:32:30,444 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-01-23 14:32:30,444 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:32:30,466 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-01-23 14:32:30,466 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:32:30,690 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:32:30,691 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:32:30,949 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:32:31,007 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:32:31,509 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:32:31,531 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:31,536 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:32:31,556 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.718 seconds (JVM running for 4645.269)
+2023-01-23 14:32:31,559 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:32:48,001 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 14:32:48,019 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:48,020 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Stopping service [Tomcat]
+2023-01-23 14:32:48,023 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:48,026 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:48,030 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:32:48,030 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+2023-01-23 14:32:48,041 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+2023-01-23 14:32:48,177 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:32:48,178 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:32:48,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:32:48,501 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:32:48,599 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:32:48,600 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:48,601 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:32:48,601 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:32:48,634 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:32:48,635 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 454 ms
+2023-01-23 14:32:48,679 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:32:48,690 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2023-01-23 14:32:48,690 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:32:48,711 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2023-01-23 14:32:48,711 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:32:48,944 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:32:48,945 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:32:49,198 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:32:49,250 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:32:49,695 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:32:49,710 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:49,716 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:32:49,732 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.599 seconds (JVM running for 4663.444)
+2023-01-23 14:32:49,735 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:32:56,861 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 14:32:56,905 INFO org.apache.juli.logging.DirectJDKLog [Thread-23] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:56,906 INFO org.apache.juli.logging.DirectJDKLog [Thread-23] Stopping service [Tomcat]
+2023-01-23 14:32:56,914 INFO org.apache.juli.logging.DirectJDKLog [Thread-23] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:56,920 INFO org.apache.juli.logging.DirectJDKLog [Thread-23] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:56,928 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-23] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:32:56,930 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown initiated...
+2023-01-23 14:32:56,947 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown completed.
+2023-01-23 14:32:57,100 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:32:57,100 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:32:57,424 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:32:57,468 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 42 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:32:57,575 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:32:57,576 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:57,577 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:32:57,577 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:32:57,609 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:32:57,609 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 505 ms
+2023-01-23 14:32:57,658 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:32:57,666 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2023-01-23 14:32:57,666 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:32:57,686 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2023-01-23 14:32:57,687 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:32:57,895 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:32:57,896 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:32:58,178 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:32:58,235 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:32:58,668 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:32:58,679 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:32:58,684 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:32:58,697 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.634 seconds (JVM running for 4672.409)
+2023-01-23 14:32:58,699 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:33:17,308 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 14:33:17,331 INFO org.apache.juli.logging.DirectJDKLog [Thread-27] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:17,332 INFO org.apache.juli.logging.DirectJDKLog [Thread-27] Stopping service [Tomcat]
+2023-01-23 14:33:17,336 INFO org.apache.juli.logging.DirectJDKLog [Thread-27] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:17,339 INFO org.apache.juli.logging.DirectJDKLog [Thread-27] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:17,342 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-27] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:17,344 INFO com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown initiated...
+2023-01-23 14:33:17,351 INFO com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown completed.
+2023-01-23 14:33:17,491 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:33:17,492 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:33:17,753 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:33:17,798 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:33:17,910 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:33:17,911 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:17,911 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:33:17,912 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:33:17,941 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:33:17,941 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 444 ms
+2023-01-23 14:33:17,992 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:33:18,002 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2023-01-23 14:33:18,003 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:33:18,023 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2023-01-23 14:33:18,024 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:33:18,249 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:33:18,250 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:18,528 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:33:18,582 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:33:19,092 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:33:19,110 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:19,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:33:19,140 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.691 seconds (JVM running for 4692.852)
+2023-01-23 14:33:19,142 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:33:32,468 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 14:33:32,485 INFO org.apache.juli.logging.DirectJDKLog [Thread-31] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:32,486 INFO org.apache.juli.logging.DirectJDKLog [Thread-31] Stopping service [Tomcat]
+2023-01-23 14:33:32,488 INFO org.apache.juli.logging.DirectJDKLog [Thread-31] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:32,491 INFO org.apache.juli.logging.DirectJDKLog [Thread-31] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:32,494 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-31] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:32,494 INFO com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown initiated...
+2023-01-23 14:33:32,502 INFO com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown completed.
+2023-01-23 14:33:32,658 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:33:32,658 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:33:32,982 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:33:33,023 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 40 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:33:33,122 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:33:33,123 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:33,123 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:33:33,124 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:33:33,154 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:33:33,155 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 492 ms
+2023-01-23 14:33:33,217 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:33:33,225 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2023-01-23 14:33:33,226 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:33:33,249 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2023-01-23 14:33:33,249 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:33:33,473 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:33:33,473 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:33,705 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:33:33,757 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:33:34,230 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:33:34,249 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:34,254 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:33:34,275 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.67 seconds (JVM running for 4707.987)
+2023-01-23 14:33:34,277 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:33:41,148 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 14:33:41,176 INFO org.apache.juli.logging.DirectJDKLog [Thread-35] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:41,176 INFO org.apache.juli.logging.DirectJDKLog [Thread-35] Stopping service [Tomcat]
+2023-01-23 14:33:41,178 INFO org.apache.juli.logging.DirectJDKLog [Thread-35] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:41,180 INFO org.apache.juli.logging.DirectJDKLog [Thread-35] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:41,183 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-35] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:41,183 INFO com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-9 - Shutdown initiated...
+2023-01-23 14:33:41,188 INFO com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-9 - Shutdown completed.
+2023-01-23 14:33:41,320 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:33:41,320 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:33:41,607 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:33:41,651 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:33:41,783 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:33:41,784 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:41,784 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:33:41,784 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:33:41,865 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:33:41,865 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 541 ms
+2023-01-23 14:33:41,919 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:33:41,929 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2023-01-23 14:33:41,930 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:33:41,948 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2023-01-23 14:33:41,949 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:33:42,148 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:33:42,148 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:42,414 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:33:42,468 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:33:42,924 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:33:42,942 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:42,949 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:33:42,961 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.689 seconds (JVM running for 4716.673)
+2023-01-23 14:33:42,964 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:33:51,946 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 14:33:51,977 INFO org.apache.juli.logging.DirectJDKLog [Thread-39] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:51,978 INFO org.apache.juli.logging.DirectJDKLog [Thread-39] Stopping service [Tomcat]
+2023-01-23 14:33:51,982 INFO org.apache.juli.logging.DirectJDKLog [Thread-39] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:51,983 INFO org.apache.juli.logging.DirectJDKLog [Thread-39] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:51,987 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-39] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:51,988 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-10 - Shutdown initiated...
+2023-01-23 14:33:51,995 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-10 - Shutdown completed.
+2023-01-23 14:33:52,176 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:33:52,177 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:33:52,442 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:33:52,482 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 39 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:33:52,578 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:33:52,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:52,579 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:33:52,579 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:33:52,609 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:33:52,610 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 430 ms
+2023-01-23 14:33:52,666 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:33:52,676 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2023-01-23 14:33:52,676 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:33:52,703 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2023-01-23 14:33:52,703 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:33:52,899 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:33:52,899 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:33:53,153 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:33:53,206 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:33:53,662 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:33:53,679 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:33:53,684 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:33:53,698 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.598 seconds (JVM running for 4727.41)
+2023-01-23 14:33:53,700 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:37:21,221 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 14:37:21,222 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 14:37:21,228 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2023-01-23 14:37:21,232 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 14:37:21,435 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 14:37:21,567 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 14:37:21,765 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:37:21,872 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:37:22,035 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:37:22,294 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:37:22,596 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 14:37:53,280 INFO com.example.demo.controller.UserController [http-nio-8080-exec-10] login User
+2023-01-23 14:37:53,566 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 14:40:15,274 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-01-23 14:40:15,292 INFO org.apache.juli.logging.DirectJDKLog [Thread-43] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:40:15,292 INFO org.apache.juli.logging.DirectJDKLog [Thread-43] Stopping service [Tomcat]
+2023-01-23 14:40:15,294 INFO org.apache.juli.logging.DirectJDKLog [Thread-43] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 14:40:15,298 INFO org.apache.juli.logging.DirectJDKLog [Thread-43] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:40:15,302 INFO org.apache.juli.logging.DirectJDKLog [Thread-43] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:40:15,306 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-43] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:40:15,308 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-11 - Shutdown initiated...
+2023-01-23 14:40:15,317 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-11 - Shutdown completed.
+2023-01-23 14:40:15,495 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 7736 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:40:15,496 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:40:15,789 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:40:15,830 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:40:15,945 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:40:15,946 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:40:15,947 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:40:15,947 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:40:15,978 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:40:15,978 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 477 ms
+2023-01-23 14:40:16,034 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:40:16,045 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2023-01-23 14:40:16,045 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:40:16,066 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2023-01-23 14:40:16,066 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:40:16,259 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:40:16,259 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:40:16,549 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:40:16,608 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:40:17,057 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:40:17,071 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:40:17,077 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:40:17,100 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.671 seconds (JVM running for 5110.813)
+2023-01-23 14:40:17,103 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 14:40:47,245 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 14:40:47,246 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 14:40:47,252 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2023-01-23 14:40:47,257 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 14:40:47,896 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 14:40:48,074 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 14:40:48,255 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:40:48,418 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:40:48,593 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:40:48,728 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 14:40:48,904 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:40:53,694 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 14:40:53,802 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 14:41:23,884 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] creat Cinema
+2023-01-23 14:43:25,554 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 14:43:25,729 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:43:25,911 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:43:26,078 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:43:26,194 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 14:43:26,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:43:35,503 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 14:43:35,620 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 14:43:39,243 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] delete a theatre
+2023-01-23 14:43:39,265 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 14:43:40,977 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] delete a theatre
+2023-01-23 14:43:40,993 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:43:41,679 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] delete a theatre
+2023-01-23 14:43:41,697 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 14:44:01,961 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 14:44:58,784 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] creat new User
+2023-01-23 14:45:17,934 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 14:45:17,947 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.example.demo.entity.User.getEmail()" because "user" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.demo.entity.User.getEmail()" because "user" is null
+	at com.example.demo.serviceImpl.UserServiceImpl.login(UserServiceImpl.java:70)
+	at com.example.demo.controller.UserController.login(UserController.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-01-23 14:45:23,853 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] login User
+2023-01-23 14:45:23,858 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.example.demo.entity.User.getEmail()" because "user" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.demo.entity.User.getEmail()" because "user" is null
+	at com.example.demo.serviceImpl.UserServiceImpl.login(UserServiceImpl.java:70)
+	at com.example.demo.controller.UserController.login(UserController.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-01-23 14:45:57,399 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 14:45:57,408 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:45:58,470 INFO com.example.demo.controller.UserController [http-nio-8080-exec-5] login User
+2023-01-23 14:45:58,475 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:46:28,699 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] creat new User
+2023-01-23 14:47:05,947 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(82)-127.0.0.1] Application shutdown requested.
+2023-01-23 14:47:05,964 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(82)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:47:05,966 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(82)-127.0.0.1] Stopping service [Tomcat]
+2023-01-23 14:47:05,967 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(82)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 14:47:05,970 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(82)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:47:05,972 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(82)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:47:05,976 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(82)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:47:05,978 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(82)-127.0.0.1] HikariPool-12 - Shutdown initiated...
+2023-01-23 14:47:05,984 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(82)-127.0.0.1] HikariPool-12 - Shutdown completed.
+2023-01-23 14:47:11,486 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-01-23 14:47:11,495 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 5980 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 14:47:11,496 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 14:47:11,600 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-23 14:47:11,601 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-23 14:47:12,712 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 14:47:12,830 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 104 ms. Found 7 JPA repository interfaces.
+2023-01-23 14:47:13,648 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 14:47:13,663 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:47:13,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 14:47:13,664 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 14:47:13,796 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 14:47:13,797 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2194 ms
+2023-01-23 14:47:14,017 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 14:47:14,089 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-23 14:47:14,328 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-23 14:47:14,505 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-23 14:47:14,514 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 14:47:15,041 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-23 14:47:15,114 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 14:47:16,473 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 14:47:16,487 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 14:47:17,263 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 14:47:17,462 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 14:47:18,368 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 14:47:18,405 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 14:47:18,446 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 14:47:18,468 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 7.714 seconds (JVM running for 9.044)
+2023-01-23 14:49:35,514 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 14:49:35,515 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 14:49:35,519 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-01-23 14:49:35,655 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 14:49:36,060 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:49:36,293 INFO com.example.demo.controller.UserController [http-nio-8080-exec-2] login User
+2023-01-23 14:49:36,299 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:50:39,184 INFO com.example.demo.controller.UserController [http-nio-8080-exec-5] login User
+2023-01-23 14:50:39,190 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:50:43,486 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] login User
+2023-01-23 14:50:43,494 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:51:00,543 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 14:51:00,881 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 14:51:21,599 INFO com.example.demo.controller.UserController [http-nio-8080-exec-8] login User
+2023-01-23 14:51:21,605 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:51:22,589 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 14:51:22,595 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:51:27,014 INFO com.example.demo.controller.UserController [http-nio-8080-exec-10] login User
+2023-01-23 14:51:27,021 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:52:36,473 INFO com.example.demo.controller.UserController [http-nio-8080-exec-2] login User
+2023-01-23 14:52:36,484 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:53:25,029 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 14:53:25,036 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:53:25,222 INFO com.example.demo.controller.UserController [http-nio-8080-exec-5] login User
+2023-01-23 14:53:25,226 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:53:25,405 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] login User
+2023-01-23 14:53:25,419 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:53:25,612 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 14:53:25,617 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:53:25,780 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 14:53:25,786 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:53:25,940 INFO com.example.demo.controller.UserController [http-nio-8080-exec-8] login User
+2023-01-23 14:53:25,946 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:53:26,125 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 14:53:26,130 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:56:03,445 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 14:56:03,454 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:56:17,094 INFO com.example.demo.controller.UserController [http-nio-8080-exec-2] login User
+2023-01-23 14:56:17,099 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 14:56:27,949 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 14:56:28,198 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 14:56:34,720 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 14:56:38,314 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 14:59:57,260 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] creat Cinema
+2023-01-23 15:00:05,437 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 15:00:26,109 INFO com.example.demo.controller.UserController [http-nio-8080-exec-10] login User
+2023-01-23 15:00:26,212 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 15:00:37,741 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 15:00:56,139 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 15:00:56,144 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 15:01:00,434 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] login User
+2023-01-23 15:01:00,440 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 15:04:29,872 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 15:04:29,877 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 15:04:49,905 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 937 ms
+2023-01-23 15:05:06,850 INFO com.example.demo.controller.UserController [http-nio-8080-exec-5] login User
+2023-01-23 15:05:06,869 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.example.demo.entity.User.getEmail()" because "user" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.demo.entity.User.getEmail()" because "user" is null
+	at com.example.demo.serviceImpl.UserServiceImpl.login(UserServiceImpl.java:70)
+	at com.example.demo.controller.UserController.login(UserController.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-01-23 15:06:17,066 INFO com.example.demo.controller.UserController [http-nio-8080-exec-8] creat new User
+2023-01-23 15:07:16,229 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-01-23 15:07:16,304 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:07:16,306 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-01-23 15:07:16,308 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 15:07:16,316 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:07:16,320 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:07:16,335 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:07:16,340 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-01-23 15:07:16,351 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-01-23 15:07:16,481 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 5980 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 15:07:16,482 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 15:07:16,790 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:07:16,834 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 7 JPA repository interfaces.
+2023-01-23 15:07:16,963 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 15:07:16,964 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:07:16,964 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 15:07:16,965 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 15:07:16,997 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 15:07:16,997 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 510 ms
+2023-01-23 15:07:17,048 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:07:17,067 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-01-23 15:07:17,067 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 15:07:17,095 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-01-23 15:07:17,096 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 15:07:17,465 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:07:17,466 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:07:17,801 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:07:17,872 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 15:07:24,668 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-01-23 15:07:24,680 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 12216 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 15:07:24,683 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 15:07:24,768 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-23 15:07:24,768 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-23 15:07:25,888 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:07:26,006 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 99 ms. Found 7 JPA repository interfaces.
+2023-01-23 15:07:26,869 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 15:07:26,888 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:07:26,889 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 15:07:26,889 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 15:07:27,011 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 15:07:27,012 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2243 ms
+2023-01-23 15:07:27,210 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:07:27,285 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-23 15:07:27,507 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-23 15:07:27,651 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-23 15:07:27,659 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 15:07:28,093 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-23 15:07:28,137 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 15:07:29,408 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:07:29,423 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:07:30,173 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:07:30,371 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 15:07:31,273 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 15:07:31,307 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:07:31,335 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 15:07:31,351 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 7.33 seconds (JVM running for 8.61)
+2023-01-23 15:07:40,045 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 15:07:40,045 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 15:07:40,048 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-01-23 15:07:41,290 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-3] Init duration for springdoc-openapi is: 708 ms
+2023-01-23 15:08:17,728 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] creat new User
+2023-01-23 15:08:39,648 INFO com.example.demo.controller.UserController [http-nio-8080-exec-5] login User
+2023-01-23 15:08:39,910 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 15:09:49,264 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 15:09:49,284 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:09:49,285 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-01-23 15:09:49,287 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 15:09:49,292 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:09:49,295 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:09:49,304 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:09:49,309 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-01-23 15:09:49,323 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-01-23 15:09:49,473 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 12216 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 15:09:49,474 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 15:09:49,792 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:09:49,835 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 42 ms. Found 7 JPA repository interfaces.
+2023-01-23 15:09:49,962 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 15:09:49,963 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:09:49,964 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 15:09:49,965 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 15:09:50,001 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 15:09:50,001 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 523 ms
+2023-01-23 15:09:50,056 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:09:50,066 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-01-23 15:09:50,066 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 15:09:50,091 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-01-23 15:09:50,092 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 15:09:50,479 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:09:50,480 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:09:50,772 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:09:50,865 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 15:09:51,564 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 15:09:51,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:09:51,588 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 15:09:51,611 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 2.198 seconds (JVM running for 148.87)
+2023-01-23 15:09:51,616 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 15:10:07,422 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 15:10:07,423 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 15:10:07,425 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-01-23 15:10:07,440 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 15:10:07,460 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 15:12:49,507 INFO com.example.demo.controller.UserController [http-nio-8080-exec-8] login User
+2023-01-23 15:12:49,513 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 15:12:54,337 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 15:12:54,343 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.example.demo.exceptionhandler.NotFoundException: ]
+2023-01-23 15:13:46,037 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 15:13:46,065 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:13:46,066 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping service [Tomcat]
+2023-01-23 15:13:46,067 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 15:13:46,071 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:13:46,073 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:13:46,078 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:13:46,079 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-01-23 15:13:46,089 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-01-23 15:13:46,240 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 12216 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 15:13:46,240 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 15:13:46,590 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:13:46,637 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46 ms. Found 7 JPA repository interfaces.
+2023-01-23 15:13:46,749 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 15:13:46,751 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:13:46,751 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 15:13:46,751 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 15:13:46,786 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 15:13:46,786 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 541 ms
+2023-01-23 15:13:46,834 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:13:46,845 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-01-23 15:13:46,845 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 15:13:46,870 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-01-23 15:13:46,871 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 15:13:47,157 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:13:47,158 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:13:47,465 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:13:47,525 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 15:13:47,981 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 15:13:47,994 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:13:47,999 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 15:13:48,022 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.848 seconds (JVM running for 385.282)
+2023-01-23 15:13:48,025 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 15:13:54,165 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 15:13:54,167 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 15:13:54,171 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-01-23 15:14:35,518 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 15:14:37,000 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 15:16:40,284 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-01-23 15:16:40,323 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:16:40,324 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Stopping service [Tomcat]
+2023-01-23 15:16:40,326 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 15:16:40,335 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:16:40,341 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:16:40,349 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:16:40,351 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-01-23 15:16:40,371 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-01-23 15:16:40,543 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 12216 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\theatremanagement)
+2023-01-23 15:16:40,544 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-23 15:16:40,866 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-23 15:16:40,912 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 45 ms. Found 7 JPA repository interfaces.
+2023-01-23 15:16:41,028 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-23 15:16:41,030 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:16:41,030 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-23 15:16:41,030 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-23 15:16:41,065 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-23 15:16:41,065 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 518 ms
+2023-01-23 15:16:41,118 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-23 15:16:41,127 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-01-23 15:16:41,127 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-01-23 15:16:41,148 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-01-23 15:16:41,148 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-23 15:16:41,392 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-23 15:16:41,393 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 15:16:41,689 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-23 15:16:41,741 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-01-23 15:16:42,209 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-23 15:16:42,222 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-23 15:16:42,227 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-23 15:16:42,249 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 1.755 seconds (JVM running for 559.508)
+2023-01-23 15:16:42,252 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-01-23 15:16:46,086 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-23 15:16:46,087 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-23 15:16:46,090 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-01-23 15:16:46,259 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 15:16:54,921 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 15:16:55,054 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 15:17:04,818 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 15:17:04,935 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 15:17:16,562 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] delete a theatre
+2023-01-23 15:17:16,632 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:24:08,311 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 15:24:08,995 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 15:25:06,765 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] creat Cinema
+2023-01-23 15:25:08,842 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:27:30,229 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 15:27:30,843 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 15:27:31,024 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 15:27:31,207 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 15:27:33,547 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 15:27:33,743 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 15:27:33,898 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 15:27:34,062 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 15:27:57,344 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 15:27:57,477 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 15:31:46,480 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 15:34:58,530 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 15:35:00,165 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] delete a theatre
+2023-01-23 15:35:00,183 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 15:36:08,813 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] creat Cinema
+2023-01-23 15:36:18,963 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 15:38:40,475 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 15:43:25,030 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:43:25,234 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:43:25,380 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:43:25,554 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:43:25,711 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:43:25,860 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:43:26,003 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:54:21,971 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] login User
+2023-01-23 15:54:22,219 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:54:33,267 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:55:07,891 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:55:08,100 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:55:08,243 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:55:08,393 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:55:08,551 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:55:08,703 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:55:08,908 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:55:09,055 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:55:11,437 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:55:19,487 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:55:21,280 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 15:56:31,452 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 15:56:31,606 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 15:56:34,594 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 15:56:36,147 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 15:56:37,793 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 15:56:57,308 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 16:03:01,087 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 16:03:01,191 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 16:03:03,240 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:03:04,117 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 16:03:06,537 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 16:03:07,263 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:03:08,117 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 16:03:08,309 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:03:08,526 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 16:03:08,746 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 16:03:10,346 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 16:03:39,776 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 221 ms
+2023-01-23 16:04:17,777 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 16:04:17,945 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:04:28,942 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:04:29,103 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:04:29,264 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:04:29,412 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:04:29,562 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:04:29,692 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:04:29,825 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:04:35,197 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:04:46,217 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 16:04:46,367 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:04:48,937 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 16:06:42,911 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 16:06:43,539 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 16:06:43,977 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 16:06:50,968 INFO com.example.demo.controller.UserController [http-nio-8080-exec-10] login User
+2023-01-23 16:06:51,057 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 16:06:52,907 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:08:57,929 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 16:08:58,015 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:08:59,888 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 16:09:17,599 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 16:09:17,684 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 16:10:11,023 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 16:10:11,119 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:10:12,727 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 16:10:14,658 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:24:50,544 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 16:24:50,723 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:24:53,431 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 16:24:54,382 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 16:24:57,777 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 16:24:58,637 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 16:31:01,172 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 16:31:01,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:31:01,559 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 16:31:01,775 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 16:31:12,172 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 16:31:12,281 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 16:31:15,442 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 16:32:01,515 INFO com.example.demo.controller.UserController [http-nio-8080-exec-8] login User
+2023-01-23 16:32:01,616 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 16:32:04,028 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 16:32:36,485 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 16:32:36,583 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:32:40,059 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 16:33:16,302 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 16:33:16,493 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:33:38,720 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 16:33:41,542 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 16:33:41,931 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 16:39:44,477 INFO com.example.demo.controller.UserController [http-nio-8080-exec-10] login User
+2023-01-23 16:39:44,689 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 16:40:18,338 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:40:44,751 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 16:40:47,563 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 16:41:05,154 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 16:41:05,330 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 16:41:09,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 16:41:40,224 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 16:41:42,456 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 16:41:56,626 INFO com.example.demo.controller.UserController [http-nio-8080-exec-10] login User
+2023-01-23 16:41:56,728 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 16:42:00,399 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 16:47:28,990 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 16:47:31,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 16:47:41,642 INFO com.example.demo.controller.UserController [http-nio-8080-exec-5] login User
+2023-01-23 16:47:41,736 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 16:47:45,188 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 16:47:51,334 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 17:08:08,624 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 17:08:08,786 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 17:08:18,473 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 17:08:50,165 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 17:08:50,266 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 17:19:54,670 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 17:19:55,361 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 17:20:03,278 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 17:20:03,367 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 17:20:19,787 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 17:20:19,875 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 17:20:43,882 INFO com.example.demo.controller.UserController [http-nio-8080-exec-2] login User
+2023-01-23 17:20:44,092 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 17:20:58,205 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 17:21:02,648 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 17:21:02,885 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 17:23:06,087 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 17:23:06,203 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 17:24:12,422 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] login User
+2023-01-23 17:24:12,669 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 17:24:50,516 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 17:24:50,719 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 17:25:04,413 INFO com.example.demo.controller.UserController [http-nio-8080-exec-5] login User
+2023-01-23 17:25:04,608 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 17:27:32,165 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 17:27:32,361 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 17:27:42,517 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 17:27:42,718 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 17:29:02,652 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 17:29:03,405 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 17:29:03,578 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 17:29:03,717 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 17:29:03,897 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 17:29:04,031 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 17:29:04,192 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 17:29:04,573 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 17:29:05,132 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 17:29:05,493 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 17:29:05,678 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 17:29:14,476 INFO com.example.demo.controller.UserController [http-nio-8080-exec-3] login User
+2023-01-23 17:29:14,568 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 17:29:49,982 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 17:31:34,005 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 17:31:34,558 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 17:31:34,779 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 17:32:11,604 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 17:32:12,109 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 17:32:36,011 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 17:32:36,103 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 17:34:17,987 INFO com.example.demo.controller.UserController [http-nio-8080-exec-6] login User
+2023-01-23 17:34:18,108 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 17:34:38,227 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 17:34:46,786 INFO com.example.demo.controller.UserController [http-nio-8080-exec-10] login User
+2023-01-23 17:34:46,876 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 17:51:25,714 INFO com.example.demo.controller.UserController [http-nio-8080-exec-2] login User
+2023-01-23 17:51:25,828 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 17:58:01,783 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 18:03:01,795 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 18:05:55,660 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 18:16:02,360 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 18:37:06,454 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 18:37:06,950 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 18:37:07,101 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 18:37:12,909 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 18:37:13,642 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 18:37:13,825 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 18:37:23,450 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 18:37:23,657 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 18:37:23,810 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 18:37:23,979 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 18:37:24,155 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 18:37:24,322 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 18:38:43,596 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 18:38:47,859 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 18:39:06,027 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 18:39:06,121 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 19:11:44,986 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 19:11:45,636 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 19:11:45,793 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 19:11:45,976 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 19:11:46,133 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 19:11:46,303 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 19:11:46,437 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 19:11:54,647 INFO com.example.demo.controller.UserController [http-nio-8080-exec-7] login User
+2023-01-23 19:11:54,744 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 19:12:13,048 INFO com.example.demo.controller.UserController [http-nio-8080-exec-9] login User
+2023-01-23 19:12:13,133 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 19:14:31,924 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 19:14:32,213 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 19:14:32,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 19:14:32,548 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 19:14:32,693 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 19:14:32,845 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 19:14:33,031 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 19:14:33,227 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 19:14:48,882 INFO com.example.demo.controller.UserController [http-nio-8080-exec-4] login User
+2023-01-23 19:14:48,980 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 19:19:57,217 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 19:19:57,389 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 19:19:57,542 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 19:19:57,681 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 19:19:57,817 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 19:19:57,977 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 19:19:58,112 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 19:19:58,245 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 19:19:58,378 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 19:20:07,162 INFO com.example.demo.controller.UserController [http-nio-8080-exec-1] login User
+2023-01-23 19:20:07,266 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-01-23 19:20:13,178 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-01-23 19:20:13,676 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-01-23 19:20:13,885 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-01-23 19:20:14,066 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-01-23 19:20:14,227 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-01-23 19:20:14,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-01-23 19:20:14,553 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-01-23 19:20:14,719 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-01-23 19:20:14,872 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-01-23 19:24:23,508 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(327)-127.0.0.1] Application shutdown requested.
+2023-01-23 19:24:23,550 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(327)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-23 19:24:23,551 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(327)-127.0.0.1] Stopping service [Tomcat]
+2023-01-23 19:24:23,554 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(327)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-23 19:24:23,570 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(327)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-23 19:24:23,573 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(327)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-23 19:24:23,581 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(327)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-23 19:24:23,587 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(327)-127.0.0.1] HikariPool-4 - Shutdown initiated...
+2023-01-23 19:24:23,594 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(327)-127.0.0.1] HikariPool-4 - Shutdown completed.

@@ -1,0 +1,1377 @@
+2023-03-14 09:24:29,945 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-14 09:24:29,958 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 13816 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-03-14 09:24:29,959 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-14 09:24:30,169 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-14 09:24:30,170 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-14 09:24:34,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-14 09:24:35,367 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 348 ms. Found 8 JPA repository interfaces.
+2023-03-14 09:24:36,977 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-14 09:24:36,997 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-14 09:24:36,998 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-14 09:24:36,998 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-14 09:24:37,160 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-14 09:24:37,160 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6989 ms
+2023-03-14 09:24:37,735 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-14 09:24:37,895 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-14 09:24:38,307 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-14 09:24:38,540 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-14 09:24:38,552 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-14 09:24:39,309 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-14 09:24:39,385 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-14 09:24:41,026 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-14 09:24:41,043 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-14 09:24:43,402 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-14 09:24:43,480 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-14 09:24:44,987 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@761343c8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b7d45f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@3749cfdb, org.springframework.security.web.header.HeaderWriterFilter@75dc9582, org.springframework.web.filter.CorsFilter@5f5c4062, org.springframework.security.web.authentication.logout.LogoutFilter@6b972d3a, com.example.demo.security.security.jwt.AuthTokenFilter@33b2cd08, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e88409a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@478aa7ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c86c897, org.springframework.security.web.session.SessionManagementFilter@200a440d, org.springframework.security.web.access.ExceptionTranslationFilter@45501141, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@737fc395]
+2023-03-14 09:24:45,831 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-14 09:24:45,897 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-14 09:24:45,956 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-14 09:24:45,987 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 17.647 seconds (JVM running for 21.135)
+2023-03-14 09:24:56,885 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14 09:24:56,886 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-14 09:24:56,888 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-03-14 09:24:56,928 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 09:24:57,014 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 09:24:58,424 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 09:26:42,990 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 09:27:33,021 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 09:30:05,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 09:30:27,362 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 09:30:33,399 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 09:32:20,382 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 09:33:35,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 09:35:30,525 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 09:35:35,142 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 09:37:23,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 09:37:25,387 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 09:48:19,144 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 09:48:42,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 09:48:46,745 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 09:48:51,396 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 09:48:55,302 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 09:48:59,699 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 09:49:06,795 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 09:49:28,800 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 09:49:51,615 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 09:49:53,286 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 09:49:54,824 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 09:50:00,623 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 09:50:27,527 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 09:50:40,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 09:50:44,398 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 09:50:47,040 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 09:50:50,920 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 09:50:53,054 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 09:52:06,376 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 09:52:07,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 09:52:10,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 09:52:15,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 09:53:07,199 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 09:53:30,368 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 09:53:39,074 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 09:53:47,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 09:53:53,782 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 09:54:00,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 09:54:07,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 09:54:13,866 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 09:54:21,363 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 09:54:27,156 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 09:54:29,978 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 09:56:12,383 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 09:56:13,400 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 09:56:16,428 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 09:56:18,012 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:02:33,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 10:04:11,575 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 10:14:58,380 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 10:15:54,399 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 10:16:01,367 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 10:16:07,586 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:19:19,576 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:19:20,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 10:19:25,721 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 10:23:11,885 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 10:24:13,056 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:25:12,682 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:38:31,631 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 10:38:51,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 10:38:55,397 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 10:38:59,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 10:39:03,374 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:39:06,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 10:39:09,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:39:24,409 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 10:40:11,372 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 10:40:12,462 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 10:40:34,407 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 10:40:36,353 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 10:42:25,357 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 10:42:56,711 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:43:04,385 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 10:44:42,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 10:44:44,371 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 10:45:13,541 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 10:45:21,359 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:45:24,417 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 10:45:25,361 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:46:29,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 10:46:31,419 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 10:46:51,017 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 10:46:52,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 10:46:55,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 10:46:58,357 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 10:47:11,383 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:47:16,690 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 10:47:20,359 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:47:28,371 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 10:47:32,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 10:47:36,364 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 10:47:46,393 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 10:47:50,371 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 10:47:53,425 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:48:03,511 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:48:08,367 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 10:48:11,362 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 10:48:19,359 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 10:50:58,616 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 10:51:03,175 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 10:51:16,121 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 10:51:47,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 10:51:50,368 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 10:51:58,363 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 10:52:23,872 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 11:04:09,324 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:04:50,378 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 11:05:36,367 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:05:53,392 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:05:59,666 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 11:18:23,923 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:27:54,331 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:28:07,528 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:28:31,313 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:28:56,752 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:29:46,278 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:29:58,377 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:31:12,392 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 11:31:14,429 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:31:16,405 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 11:31:20,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:31:23,518 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 11:31:31,726 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 11:31:42,506 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:33:16,370 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:33:36,727 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:33:41,561 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 11:33:55,642 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:34:44,380 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:35:35,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:35:46,372 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:35:51,505 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 11:36:01,761 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:36:24,893 ERROR com.example.demo.security.security.jwt.JwtUtils [http-nio-8080-exec-5] JWT token is expired: JWT expired at 2023-03-14T11:23:47Z. Current time: 2023-03-14T11:36:24Z, a difference of 757888 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-14 11:36:24,895 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:36:49,763 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] creat Cinema
+2023-03-14 11:41:02,419 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 11:41:28,406 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 11:42:57,385 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:43:12,383 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:44:19,897 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:44:28,832 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 11:44:43,578 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:45:20,380 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:46:13,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:46:17,385 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:46:59,438 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:47:07,394 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:47:16,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 11:47:22,410 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 11:47:27,418 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:47:30,566 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:47:34,387 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:49:14,418 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:49:15,389 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 11:49:24,444 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:49:36,396 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:49:40,405 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:49:44,477 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:49:56,099 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 11:50:49,389 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 11:50:53,739 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:51:18,381 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.demo.entity.Cinema> com.example.demo.controller.CinemaController.savecinema(com.example.demo.model.RequestCinema): [Field error in object 'requestCinema' on field 'language': rejected value [null]; codes [NotBlank.requestCinema.language,NotBlank.language,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestCinema.language,language]; arguments []; default message [language]]; default message [must not be blank]] ]
+2023-03-14 11:53:01,371 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 11:53:10,711 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 11:53:15,528 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:53:20,340 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 11:53:22,977 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:53:39,448 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:53:43,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:53:44,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 11:53:50,450 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 11:54:06,223 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] creat Cinema
+2023-03-14 11:54:23,154 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:56:27,389 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:56:32,481 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:56:40,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 11:56:43,376 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:56:46,444 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 11:56:49,426 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:56:52,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 11:56:53,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 11:56:56,426 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:56:58,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 11:57:00,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 11:57:02,363 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:57:08,818 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 11:57:18,472 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 11:57:19,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 11:57:20,380 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 11:57:23,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 11:57:25,452 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 11:58:17,406 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 11:58:21,908 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] creat Cinema
+2023-03-14 11:58:26,802 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:07:31,419 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 12:07:34,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:07:37,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 12:07:40,700 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:08:46,413 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 12:26:14,403 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 12:26:16,002 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:27:07,408 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:27:31,378 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 12:28:29,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 12:37:08,374 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 12:39:05,409 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:39:13,449 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:39:19,382 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:39:23,496 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 12:39:36,442 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 12:39:39,834 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:44:13,476 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 12:44:20,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:44:23,373 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:44:26,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 12:44:31,380 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 12:44:34,408 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 12:44:36,478 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:44:38,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:45:20,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:45:24,373 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:45:29,452 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 12:45:39,769 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 12:46:30,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:46:33,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 12:46:34,372 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:46:41,358 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 12:46:53,360 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 12:47:24,388 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 12:47:36,387 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:47:41,374 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:47:43,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:48:19,482 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 12:48:21,374 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:48:36,755 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 12:49:22,504 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 12:49:51,452 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:51:24,813 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:51:33,336 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:51:54,913 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 12:52:04,205 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 12:52:25,446 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 12:52:28,399 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:52:55,371 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 12:53:02,362 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:53:09,790 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:53:23,192 ERROR com.example.demo.security.security.jwt.JwtUtils [http-nio-8080-exec-7] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-14 12:53:23,195 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 12:53:28,639 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:54:13,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 12:54:16,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:54:20,318 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:54:55,554 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 12:55:17,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 12:55:22,587 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 12:55:31,073 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:55:48,397 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:56:39,446 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:56:43,278 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 12:58:04,385 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 12:58:08,977 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:58:50,183 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 12:59:17,374 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 12:59:24,408 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 12:59:28,421 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 12:59:31,527 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 12:59:33,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 12:59:47,593 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 13:00:21,578 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:00:37,387 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:00:53,528 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 13:01:10,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 13:01:16,843 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:02:23,280 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:05:56,495 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:06:36,663 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 13:07:24,570 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 13:08:04,799 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:08:06,723 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:08:09,412 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:08:15,913 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:08:24,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:08:28,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:08:35,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:08:47,480 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:08:53,411 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 13:08:55,374 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:09:00,385 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:09:07,461 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:09:14,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:09:33,388 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 13:09:39,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:09:47,163 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 13:10:47,340 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:10:56,136 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 13:10:58,660 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:11:03,898 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:11:06,716 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 13:11:30,520 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:11:40,486 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:11:49,487 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:14:43,413 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:16:33,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:16:35,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:17:11,549 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:17:37,467 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:18:01,423 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:18:24,845 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 13:18:44,731 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:18:45,402 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:18:54,401 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:19:01,490 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 13:20:13,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:20:16,418 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 13:20:24,405 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:20:32,846 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 13:20:36,655 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 13:20:57,897 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:21:08,485 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:21:14,540 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 13:21:15,485 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:21:21,889 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:21:24,654 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 13:21:37,682 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 13:21:41,324 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:21:44,808 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 13:22:14,439 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:22:17,397 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 13:22:20,455 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:22:24,752 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 13:22:28,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:22:31,512 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:22:34,389 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:24:21,276 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:24:36,407 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:24:40,392 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 13:24:44,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 13:24:48,411 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:24:53,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 13:24:57,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:25:00,421 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:25:04,634 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:25:07,624 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 13:25:10,258 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 13:25:25,655 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-14 13:25:31,241 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 13:25:35,876 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 13:26:09,396 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:26:11,540 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 13:28:49,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:29:02,453 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 13:29:15,111 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:30:50,491 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:30:58,390 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 13:31:10,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:33:23,392 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:34:19,784 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:36:01,364 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 13:36:08,453 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 13:36:14,403 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 13:36:17,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 13:36:22,604 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 13:36:43,593 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 13:38:38,410 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 13:39:16,393 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 13:39:17,454 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 14:23:47,005 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m32s730ms7µs300ns).
+2023-03-14 14:25:20,763 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 14:26:08,392 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 14:26:15,974 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 14:26:18,667 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 14:28:47,358 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 14:29:15,389 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 14:29:30,191 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 14:29:31,671 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 14:29:34,031 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 14:29:39,839 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 14:29:51,611 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 14:30:07,528 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 14:32:06,385 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 14:37:53,717 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-14 14:46:51,996 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 14:51:07,238 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 14:54:14,413 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 14:54:54,388 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 14:54:58,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 14:55:12,433 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 14:55:17,382 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 14:55:22,487 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 14:55:24,366 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 14:55:51,949 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] delete a theatre
+2023-03-14 14:56:18,411 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 14:56:26,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 14:56:32,362 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] delete a theatre
+2023-03-14 14:56:35,440 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 14:56:50,330 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] delete a theatre
+2023-03-14 14:56:53,664 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 14:57:19,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 14:57:23,618 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 14:57:25,353 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] delete a theatre
+2023-03-14 14:57:26,884 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 14:58:43,988 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 14:58:55,698 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 15:22:29,926 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 15:22:29,936 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 15:22:30,011 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 15:26:07,992 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 15:26:10,485 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 15:26:11,814 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-14 15:26:13,537 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 15:26:18,902 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 15:26:20,990 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 15:33:58,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 15:34:01,475 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 15:34:14,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 15:34:56,364 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 15:35:15,384 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 15:35:23,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 15:35:25,425 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 15:35:33,420 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 15:35:34,372 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 15:35:45,356 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 15:35:51,862 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 15:46:24,406 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 16:12:23,166 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 16:12:26,359 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 16:12:41,151 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 16:12:42,737 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 16:12:44,151 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 16:12:59,976 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 16:13:05,834 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 16:13:09,783 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 16:13:13,620 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 16:13:23,808 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 16:13:29,139 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 16:13:32,503 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 16:13:41,608 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 16:13:45,781 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 16:13:49,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 16:13:53,583 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 16:13:57,816 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 16:13:58,939 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 16:14:02,924 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 16:14:09,055 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 16:14:13,060 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 16:14:17,684 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 16:14:23,279 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 16:14:27,424 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 16:14:57,955 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 16:15:00,645 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 16:15:02,120 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 16:15:05,293 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 16:15:07,175 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 16:15:10,093 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 16:15:38,235 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 16:15:49,649 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 16:15:51,333 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 16:16:20,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 16:16:27,157 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 16:16:35,021 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 16:16:42,395 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 16:16:48,473 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 16:16:56,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 16:17:03,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 16:17:13,358 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 16:17:14,962 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 16:18:58,674 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 16:18:58,719 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.example.demo.exceptionhandler.CinemaNotFoundException: 14]
+2023-03-14 16:19:22,141 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 16:19:22,147 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.example.demo.exceptionhandler.CinemaNotFoundException: 14]
+2023-03-14 16:19:50,843 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 16:19:50,848 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.example.demo.exceptionhandler.CinemaNotFoundException: 14]
+2023-03-14 16:20:44,261 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 16:21:27,503 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 16:21:28,376 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 16:21:32,343 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 16:21:35,495 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 16:22:06,454 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 16:22:07,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 16:22:18,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 16:22:21,084 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 16:22:22,798 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 16:23:04,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 16:23:23,362 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 16:23:29,416 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 16:23:32,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 16:24:09,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 16:24:16,575 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 16:25:02,361 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 16:26:07,591 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 16:26:09,392 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 16:29:47,191 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 17:05:19,001 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 17:05:20,736 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 17:05:53,428 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 17:06:01,389 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 17:06:03,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:06:17,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 17:06:30,413 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 17:06:32,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 17:06:43,422 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 17:06:48,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 17:06:57,350 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 17:07:02,540 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 17:07:16,371 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 17:07:33,362 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 17:07:37,285 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 17:07:42,338 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:07:47,471 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 17:07:52,347 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 17:07:57,333 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 17:08:12,366 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 17:08:31,019 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 17:08:42,092 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-14 17:09:03,797 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 17:09:48,439 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 17:10:04,382 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 17:10:07,398 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:10:13,415 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 17:10:16,087 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-14 17:10:50,435 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 17:11:02,672 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 17:11:05,318 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 17:11:29,698 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:11:30,981 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 17:11:45,075 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 17:11:46,614 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 17:11:51,742 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 17:12:01,559 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 17:12:08,146 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:14:43,692 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-14 17:15:08,181 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-14 17:15:17,077 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 17:15:21,607 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 17:15:24,627 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 17:17:29,376 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 17:29:50,644 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 17:29:53,789 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 17:30:00,467 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 17:30:24,590 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 17:31:03,355 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 17:31:21,452 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 17:31:23,401 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:31:29,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 17:31:49,416 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 17:31:53,368 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 17:31:56,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 17:32:39,931 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 17:32:52,186 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 17:33:06,574 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 17:33:54,272 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:33:54,289 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:54,400 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:55,666 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:33:55,668 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:55,698 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:56,387 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:33:56,390 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:56,413 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:56,728 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:33:56,729 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:56,757 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:56,888 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:33:56,890 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:56,913 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:57,065 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:33:57,066 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:33:57,091 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:05,981 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2023-03-14 17:35:06,198 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-14 17:35:06,204 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-03-14 17:35:06,217 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-14 17:35:06,285 WARN org.apache.juli.logging.DirectJDKLog [Thread-5] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:35:06,294 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-14 17:35:06,311 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-14 17:35:06,343 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-14 17:35:06,411 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-03-14 17:35:06,433 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-03-14 17:35:06,909 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 13816 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-03-14 17:35:06,910 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-14 17:35:08,784 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-14 17:35:08,979 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 191 ms. Found 8 JPA repository interfaces.
+2023-03-14 17:35:09,637 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-14 17:35:09,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-14 17:35:09,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-14 17:35:09,642 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-14 17:35:09,733 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-14 17:35:09,733 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2816 ms
+2023-03-14 17:35:10,057 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-14 17:35:10,096 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-03-14 17:35:10,097 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-14 17:35:10,140 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-03-14 17:35:10,143 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-14 17:35:10,897 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-14 17:35:10,898 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-14 17:35:11,919 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-14 17:35:11,972 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-14 17:35:14,135 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62f153f8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13967d2a, org.springframework.security.web.context.SecurityContextPersistenceFilter@2346afad, org.springframework.security.web.header.HeaderWriterFilter@1f6fd638, org.springframework.web.filter.CorsFilter@27835cc1, org.springframework.security.web.authentication.logout.LogoutFilter@3f945fbe, com.example.demo.security.security.jwt.AuthTokenFilter@3817d22c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61ce3980, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71fd97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54dfc4df, org.springframework.security.web.session.SessionManagementFilter@34b3ba50, org.springframework.security.web.access.ExceptionTranslationFilter@374ea08d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d75cb4d]
+2023-03-14 17:35:14,497 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-14 17:35:14,535 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-14 17:35:14,546 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-14 17:35:14,570 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 7.768 seconds (JVM running for 29449.72)
+2023-03-14 17:35:14,576 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-03-14 17:35:22,133 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-14 17:35:22,133 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-14 17:35:22,137 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-03-14 17:35:22,139 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:35:22,142 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:22,168 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:22,862 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:35:22,864 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:22,894 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,009 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:35:23,010 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,034 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,160 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:35:23,161 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,187 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,311 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:35:23,313 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,345 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,476 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlocklistedUrls(StrictHttpFirewall.java:535)
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:505)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:206)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-03-14 17:35:23,478 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:23,542 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-14 17:35:29,380 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-2] Init duration for springdoc-openapi is: 1104 ms
+2023-03-14 17:47:26,507 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 17:47:27,388 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 17:47:30,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 17:47:33,378 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 17:47:39,369 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 17:47:49,202 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-14 17:47:54,370 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-14 17:48:11,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 17:48:14,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 17:48:17,426 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 17:48:21,192 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 17:48:22,731 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 17:48:39,683 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 17:48:47,922 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-14 17:48:51,000 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 17:49:17,733 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 17:49:18,382 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 17:49:32,381 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:49:38,434 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 17:49:43,374 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 17:49:51,316 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 17:50:00,405 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 17:50:01,844 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 17:50:53,116 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 17:50:56,539 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 17:50:59,011 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-14 17:52:02,775 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 17:52:02,866 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 17:52:02,993 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 17:52:03,957 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 17:52:14,729 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 17:52:16,428 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 17:52:17,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 17:52:19,406 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 17:52:23,775 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 17:52:24,525 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 18:09:24,444 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:09:29,377 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:09:32,419 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:09:33,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:09:46,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:09:56,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:16:19,490 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:17:00,611 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:17:10,343 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 18:18:07,504 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:18:13,238 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:18:14,179 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 18:18:22,581 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:18:37,610 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:18:43,534 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:18:56,928 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:18:58,835 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 18:19:18,161 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:19:19,798 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:19:32,873 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:19:37,588 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:20:09,388 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:20:12,397 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:21:53,493 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:21:55,037 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 18:22:41,540 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:22:47,542 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:22:48,767 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-14 18:23:28,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:28:46,459 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:28:49,423 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:29:00,446 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:29:06,403 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:29:20,487 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:29:23,570 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:29:27,427 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:29:28,409 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:29:35,440 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:29:37,423 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:29:44,793 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:29:51,795 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 18:30:09,702 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:30:19,421 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:30:26,566 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:30:27,603 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-14 18:31:03,414 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:31:06,529 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:31:08,456 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:31:16,740 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:31:18,357 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 18:31:48,379 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:31:52,935 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 18:32:41,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:32:59,410 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:33:06,423 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:33:12,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:33:20,535 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:33:24,570 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:33:26,596 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 18:33:42,477 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:33:56,540 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:33:58,757 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 18:35:36,411 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:35:47,444 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:35:53,386 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 18:36:28,400 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:36:49,371 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:37:02,555 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:37:11,311 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:37:13,124 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:37:19,436 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:37:19,562 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:37:22,280 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:37:23,642 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:37:26,440 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:37:29,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:37:32,616 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:37:37,771 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:37:39,923 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 18:37:56,465 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:37:59,484 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:38:01,460 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:38:07,664 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:38:09,540 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-14 18:39:06,420 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:39:20,497 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 18:39:34,249 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-14 18:39:58,360 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:40:08,365 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:40:13,814 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:40:15,359 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:40:21,434 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:40:26,367 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:40:32,523 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 18:40:49,394 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:40:52,701 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:40:53,933 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:41:03,290 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 18:41:23,529 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:41:28,867 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:41:31,472 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-14 18:41:37,009 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:41:43,455 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:41:45,615 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:41:48,517 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:41:52,046 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:41:58,747 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 18:42:28,755 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:42:48,589 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:42:50,920 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-14 18:42:53,227 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-14 18:43:54,055 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:43:54,802 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-14 18:47:25,455 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:47:38,412 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:47:43,487 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:47:56,402 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-14 18:52:27,814 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 18:53:43,814 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:53:46,237 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-14 18:54:06,910 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-14 18:54:15,803 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:54:17,580 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 18:54:46,404 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-14 18:54:59,270 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-14 18:55:02,260 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-14 18:55:11,427 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-14 18:55:25,440 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-14 18:55:39,410 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-14 18:55:50,470 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-14 18:56:05,409 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-14 18:56:13,139 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-14 19:06:27,240 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(618)-127.0.0.1] Application shutdown requested.
+2023-03-14 19:06:27,266 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(618)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-14 19:06:27,267 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(618)-127.0.0.1] Stopping service [Tomcat]
+2023-03-14 19:06:27,269 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(618)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-14 19:06:27,282 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(618)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-14 19:06:27,284 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(618)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-14 19:06:27,288 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(618)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-14 19:06:27,302 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(618)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-14 19:06:27,304 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(618)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2023-03-14 19:06:27,310 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(618)-127.0.0.1] HikariPool-2 - Shutdown completed.

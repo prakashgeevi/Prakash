@@ -1,0 +1,32 @@
+2023-06-29 19:31:00,212 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-06-29 19:31:00,223 INFO org.springframework.boot.StartupInfoLogger [main] Starting CinemaControllerTest using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 11840 (started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-06-29 19:31:00,225 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-29 19:31:04,117 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-06-29 19:31:06,183 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 74f329df-8b23-4154-afa5-88f51ad2e525
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-29 19:31:06,703 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ff09659, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@517fbf62, org.springframework.security.web.context.SecurityContextPersistenceFilter@36238b12, org.springframework.security.web.header.HeaderWriterFilter@32e830a0, org.springframework.security.web.csrf.CsrfFilter@42576db9, org.springframework.security.web.authentication.logout.LogoutFilter@8ac512e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@48b2dbc4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6caa4dc5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65db548, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@769b0752, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d2e6f62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77ff14ce, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@150f41b9, org.springframework.security.web.session.SessionManagementFilter@10b87ff6, org.springframework.security.web.access.ExceptionTranslationFilter@1c92a549, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75452aea]
+2023-06-29 19:31:06,963 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-06-29 19:31:06,966 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2023-06-29 19:31:07,034 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 67 ms
+2023-06-29 19:31:07,177 INFO org.springframework.boot.StartupInfoLogger [main] Started CinemaControllerTest in 8.122 seconds (JVM running for 10.922)
+2023-06-29 19:31:07,753 INFO com.wdm.bookingSystem.controller.CinemaController [main] creat Cinema
+2023-06-29 19:37:32,620 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-06-29 19:37:32,621 INFO org.springframework.boot.StartupInfoLogger [main] Starting CinemaControllerTest using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 14764 (started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-06-29 19:37:32,624 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-06-29 19:37:36,386 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2023-06-29 19:37:38,153 WARN org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 3535a2f5-0a89-474e-82d3-d3ad1d5f4257
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-06-29 19:37:38,660 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b1a901d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11bdab37, org.springframework.security.web.context.SecurityContextPersistenceFilter@63dc3420, org.springframework.security.web.header.HeaderWriterFilter@36238b12, org.springframework.security.web.csrf.CsrfFilter@22aee519, org.springframework.security.web.authentication.logout.LogoutFilter@166e5a6d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@cae2a97, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@46e388ec, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@280484c7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@298263fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6caa4dc5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ed51944, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a6f6cac, org.springframework.security.web.session.SessionManagementFilter@5d2e6f62, org.springframework.security.web.access.ExceptionTranslationFilter@63262071, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10d98940]
+2023-06-29 19:37:38,883 INFO org.springframework.mock.web.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-06-29 19:37:38,884 INFO org.springframework.web.servlet.FrameworkServlet [main] Initializing Servlet ''
+2023-06-29 19:37:38,890 INFO org.springframework.web.servlet.FrameworkServlet [main] Completed initialization in 4 ms
+2023-06-29 19:37:38,970 INFO org.springframework.boot.StartupInfoLogger [main] Started CinemaControllerTest in 7.407 seconds (JVM running for 9.496)
+2023-06-29 19:37:39,387 INFO com.wdm.bookingSystem.controller.CinemaController [main] creat Cinema

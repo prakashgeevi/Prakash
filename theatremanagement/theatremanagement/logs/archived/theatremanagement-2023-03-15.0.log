@@ -1,0 +1,505 @@
+2023-03-15 09:18:12,031 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting TheatreManagementApplication using Java 17.0.4.1 on DESKTOP-2F7T33D with PID 9948 (C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement\target\classes started by ADMIN in C:\Users\ADMIN\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\manoj\theatremanagement)
+2023-03-15 09:18:12,037 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-15 09:18:12,064 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-15 09:18:12,242 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-15 09:18:12,243 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-15 09:18:16,846 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-15 09:18:17,153 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 287 ms. Found 8 JPA repository interfaces.
+2023-03-15 09:18:18,602 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-15 09:18:18,622 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-15 09:18:18,623 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-15 09:18:18,624 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-15 09:18:18,796 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-15 09:18:18,796 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6551 ms
+2023-03-15 09:18:19,338 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-15 09:18:19,574 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-15 09:18:19,990 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-15 09:18:20,250 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-15 09:18:20,266 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-15 09:18:20,939 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-15 09:18:21,019 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-15 09:18:22,800 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-15 09:18:22,815 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-15 09:18:24,020 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-15 09:18:24,072 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-15 09:18:25,087 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4822c4d0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@253f4251, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ecc057d, org.springframework.security.web.header.HeaderWriterFilter@397dc8a1, org.springframework.web.filter.CorsFilter@462eeafa, org.springframework.security.web.authentication.logout.LogoutFilter@3749cfdb, com.example.demo.security.security.jwt.AuthTokenFilter@1c9a17ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@519db70, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@169ff724, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b97f2d1, org.springframework.security.web.session.SessionManagementFilter@3a5e218e, org.springframework.security.web.access.ExceptionTranslationFilter@43df2e7c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@308bbf6a]
+2023-03-15 09:18:25,577 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-15 09:18:25,613 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-15 09:18:25,652 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-15 09:18:25,672 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started TheatreManagementApplication in 15.863 seconds (JVM running for 19.453)
+2023-03-15 09:27:23,340 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-15 09:27:23,341 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-15 09:27:23,347 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-03-15 09:27:24,690 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 09:28:04,886 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-15 09:28:26,108 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 09:28:37,101 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 09:35:13,892 INFO org.springdoc.api.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 1053 ms
+2023-03-15 09:38:11,789 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 09:52:38,545 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 09:52:50,037 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 09:57:24,597 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 09:58:39,829 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 09:58:50,298 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 09:59:01,814 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 10:00:33,062 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 10:27:38,752 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-15 10:36:19,122 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 10:37:42,964 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 11:01:15,675 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 11:01:37,719 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 11:02:06,800 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 11:02:45,811 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 11:03:11,084 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 11:04:21,451 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 11:06:10,069 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 11:07:12,827 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 11:08:57,155 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 11:09:03,278 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 11:09:05,051 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a Cinema
+2023-03-15 11:09:07,116 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-15 11:16:27,638 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 11:18:36,872 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] save new theater - Theatrename=ARRS,PhoneNumber= 9047383251 
+2023-03-15 11:19:33,807 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 11:23:16,827 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 11:23:33,571 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 11:24:44,323 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 11:25:23,910 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 11:25:25,620 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 11:29:37,089 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 11:29:52,297 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 11:29:57,899 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-15 11:32:04,919 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 11:32:08,250 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 11:32:09,958 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-15 11:33:09,112 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 11:33:10,787 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-15 11:35:26,002 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-15 11:49:22,922 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 11:52:01,909 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 11:57:11,172 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 11:58:54,319 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 11:58:54,590 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 11:58:59,730 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-15 11:59:33,951 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 11:59:47,821 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 11:59:49,485 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-15 12:01:24,546 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 12:01:26,157 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-15 12:03:17,589 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 12:03:18,452 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-15 12:03:24,745 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-15 12:03:26,796 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a Cinema
+2023-03-15 12:05:29,182 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 12:05:31,708 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a Cinema
+2023-03-15 12:06:35,890 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 12:11:36,107 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a Cinema
+2023-03-15 12:12:12,933 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-15 12:12:18,213 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-15 12:12:37,152 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-15 12:12:41,864 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-15 12:12:46,068 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-15 12:12:49,100 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a Cinema
+2023-03-15 12:12:52,066 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a Cinema
+2023-03-15 12:17:41,233 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 12:17:42,647 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-15 12:17:52,985 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 12:18:08,631 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a Cinema
+2023-03-15 12:18:11,659 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 12:19:26,183 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a Cinema
+2023-03-15 12:19:28,642 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 12:19:37,337 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 12:19:38,252 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a Cinema
+2023-03-15 12:20:09,110 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 12:44:14,730 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 12:46:25,030 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 12:46:32,799 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 12:52:12,906 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 12:54:14,236 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 12:54:18,643 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 12:54:25,281 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 12:55:39,028 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 12:55:44,754 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 12:55:54,490 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 13:02:34,888 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 13:03:54,141 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 13:05:36,716 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 13:06:00,043 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 13:06:01,233 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 13:06:14,621 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 13:09:12,988 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 13:09:13,770 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 13:09:30,155 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 14:13:38,187 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12s953ms163µs900ns).
+2023-03-15 15:02:43,654 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 15:03:04,835 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 15:05:36,021 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:05:45,547 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 15:06:39,827 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 15:07:29,545 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 15:08:51,529 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:09:28,227 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 15:10:20,882 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 15:10:23,683 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 15:10:35,851 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:15:48,831 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 15:16:12,896 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 15:16:17,927 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:16:31,777 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 15:20:47,663 INFO com.example.demo.controller.ShowDetailsController [http-nio-8080-exec-6] creat ShowDetails
+2023-03-15 15:21:03,717 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:21:59,868 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:21:59,933 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 15:21:59,961 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:46,863 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:46,922 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 15:22:46,944 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:51,691 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:55,826 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:55,874 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 15:22:55,988 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:56,934 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:58,539 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:22:59,358 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:23:00,600 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:23:01,655 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:23:07,638 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:23:08,495 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:24:39,914 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:24:40,056 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:24:40,132 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:24:41,859 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:24:41,903 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 15:24:41,924 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:24:45,868 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:24:45,956 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:24:45,972 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:25:18,872 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:25:18,905 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:25:18,920 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 15:25:21,889 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 15:25:27,908 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 15:25:29,891 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 15:27:00,906 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:27:15,895 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 15:27:17,875 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 15:27:51,028 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:27:55,958 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 15:27:59,885 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 15:28:03,897 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 15:28:42,895 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:28:47,874 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 15:28:54,887 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "theatreId20"]
+2023-03-15 15:29:15,933 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 15:29:22,885 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 15:29:41,641 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "theatreId20"]
+2023-03-15 15:30:47,928 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 15:30:50,394 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:30:51,479 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 15:34:49,918 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 15:42:23,600 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 15:43:03,430 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 15:43:11,071 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 15:43:26,277 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:44:20,922 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 15:44:23,880 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:44:27,800 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 15:44:33,803 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 15:44:40,882 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 15:44:47,104 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:45:30,967 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 15:45:40,312 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 15:46:24,128 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 15:46:28,927 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 15:46:32,876 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:00:05,880 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:00:39,865 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:01:36,648 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 16:02:09,887 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:02:15,067 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:02:19,137 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:02:40,433 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:02:55,282 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 16:02:58,424 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:03:22,699 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:04:13,798 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:04:17,787 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:04:18,229 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:04:34,269 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:05:20,438 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 16:06:21,603 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:06:55,498 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:10:46,252 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:11:11,370 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:12:06,862 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:12:07,231 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:12:07,449 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:12:07,545 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:12:07,656 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:12:07,817 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:12:46,877 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 16:12:50,883 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 16:14:28,322 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:14:29,874 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:14:38,159 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:14:55,556 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:17:17,771 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:17:42,628 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:17:45,849 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:18:19,915 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:18:26,876 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 16:18:56,891 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 16:19:01,225 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:19:03,189 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:19:18,896 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:19:40,971 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:19:48,098 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:20:07,193 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 16:20:09,932 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:20:33,422 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:20:36,569 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:20:42,331 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:27:53,254 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:28:38,640 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 16:28:46,466 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 16:28:57,743 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:29:06,441 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:29:08,991 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:29:15,443 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:29:20,111 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:29:24,375 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:29:27,042 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 16:29:31,277 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:29:55,091 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 16:29:57,479 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 16:29:59,662 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:29:59,712 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:30:02,178 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:30:38,031 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:31:42,927 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:32:23,570 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 16:32:26,649 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:32:53,181 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:32:55,501 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:36:11,626 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 16:57:27,539 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 16:57:34,634 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 16:57:37,305 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 16:57:46,583 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 16:58:26,374 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 16:58:55,966 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 16:58:59,242 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 16:59:59,551 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 17:00:18,940 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:01:50,931 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 17:04:43,551 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 17:05:14,700 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:05:14,792 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 17:05:23,783 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 17:05:31,211 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 17:05:41,358 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:05:43,827 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 17:09:00,681 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:09:06,651 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 17:10:26,325 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 17:12:01,329 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 17:12:01,972 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 17:12:02,113 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:12:04,395 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:12:18,953 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 17:12:22,223 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:12:59,230 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 17:12:59,559 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 17:13:30,049 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 17:13:33,391 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 17:14:00,153 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 17:14:03,846 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 17:14:46,983 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:14:53,601 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 17:15:03,000 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 17:15:08,954 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 17:15:11,828 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 17:15:16,639 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 17:16:04,044 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 17:16:29,730 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 17:16:38,343 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 17:17:02,369 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:17:17,194 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 17:17:21,180 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 17:17:28,100 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 17:17:36,693 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 17:17:41,611 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:18:04,755 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 17:18:56,085 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 17:18:57,837 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 17:19:16,720 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:20:41,846 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 17:20:41,964 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 17:20:48,271 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 17:20:50,393 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:21:02,919 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 17:21:11,862 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 17:21:18,325 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:21:20,743 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 17:21:42,560 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 17:21:49,342 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 17:23:06,680 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 17:23:06,841 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 17:24:21,687 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 17:29:05,897 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 17:29:13,878 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:29:25,494 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:29:26,229 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 17:29:26,413 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 17:29:26,590 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:29:26,765 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 17:29:26,908 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 17:29:27,062 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 17:29:27,221 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 17:29:27,375 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 17:29:27,535 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 17:29:27,719 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:29:28,071 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 17:29:28,423 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 17:29:28,725 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:29:28,941 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 17:29:29,119 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 17:29:29,340 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 17:29:29,622 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 17:29:29,880 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 17:29:30,982 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 17:29:31,270 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:29:31,556 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 17:29:31,822 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 17:29:31,988 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:29:32,152 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 17:29:32,309 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 17:29:32,494 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 17:29:32,821 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 17:29:32,998 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 17:29:33,150 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 17:29:33,324 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:29:49,681 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 17:29:53,842 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:32:18,876 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 17:32:31,881 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 17:32:31,961 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 17:32:36,892 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:32:36,911 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 17:32:42,880 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 17:32:42,883 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 17:32:55,873 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:32:55,876 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:33:17,548 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 17:34:22,292 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-1] get a alltheatre
+2023-03-15 17:34:22,293 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 17:34:24,643 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 17:34:24,658 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:34:29,069 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:35:05,404 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 17:35:11,985 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 17:35:14,198 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 17:37:07,738 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 17:37:07,739 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:37:17,657 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:37:33,625 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 17:37:36,197 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 17:37:38,453 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 17:37:50,504 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 17:37:51,321 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 17:41:56,984 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 17:42:13,164 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 17:42:40,534 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 17:44:17,868 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 17:44:18,578 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 17:44:23,562 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 17:44:26,478 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 17:45:58,341 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 17:46:40,084 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:49:24,887 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 17:49:48,895 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 17:52:06,875 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 17:55:50,546 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 17:55:52,388 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 17:55:54,756 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 17:57:31,778 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 18:20:18,248 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 18:20:20,233 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 18:21:10,790 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 18:21:39,970 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 18:21:47,456 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 18:21:51,397 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 18:22:20,046 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 18:24:04,264 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 18:24:10,989 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-2] get a allCinema
+2023-03-15 18:25:07,912 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-10] get a alltheatre
+2023-03-15 18:25:07,970 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 18:25:20,924 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 18:35:33,379 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 18:35:37,725 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 18:37:29,753 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 18:38:49,908 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 18:43:27,888 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 18:56:44,444 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 18:57:39,352 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 18:58:13,631 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 18:58:41,814 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 18:58:43,902 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 18:58:44,015 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 18:58:44,126 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 18:58:45,988 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 18:59:35,813 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 19:00:49,915 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-5] get a alltheatre
+2023-03-15 19:03:03,915 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 19:03:21,883 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-2] get a alltheatre
+2023-03-15 19:03:33,883 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-8] get a alltheatre
+2023-03-15 19:04:22,289 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 19:04:34,625 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 19:04:51,255 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 19:04:54,150 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-4] get a alltheatre
+2023-03-15 19:04:58,619 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 19:05:01,329 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 19:05:57,926 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-9] get a alltheatre
+2023-03-15 19:06:43,896 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 19:17:15,272 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-7] get a alltheatre
+2023-03-15 19:17:17,618 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 19:17:29,159 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 19:18:02,322 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a allCinema
+2023-03-15 19:18:10,447 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 19:18:19,886 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-1] get a allCinema
+2023-03-15 19:19:07,093 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 19:19:52,999 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 19:26:50,806 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-6] get a allCinema
+2023-03-15 19:27:15,394 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 19:27:19,470 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-3] get a allCinema
+2023-03-15 19:27:21,567 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 19:27:56,787 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-4] get a allCinema
+2023-03-15 19:28:29,480 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-6] get a alltheatre
+2023-03-15 19:28:32,123 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-10] get a allCinema
+2023-03-15 19:28:34,930 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 19:29:22,843 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-9] get a allCinema
+2023-03-15 19:29:30,680 ERROR com.example.demo.security.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-15 19:29:40,037 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-5] get a allCinema
+2023-03-15 19:29:55,418 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-8] get a Cinema
+2023-03-15 19:29:55,560 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.demo.entity.Cinema> com.example.demo.controller.CinemaController.savecinema(com.example.demo.model.RequestCinema) with 5 errors: [Field error in object 'requestCinema' on field 'actor': rejected value []; codes [Size.requestCinema.actor,Size.actor,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestCinema.actor,actor]; arguments []; default message [actor],15,2]; default message [size must be between 2 and 15]] [Field error in object 'requestCinema' on field 'musicDirecter': rejected value []; codes [Size.requestCinema.musicDirecter,Size.musicDirecter,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestCinema.musicDirecter,musicDirecter]; arguments []; default message [musicDirecter],15,2]; default message [size must be between 2 and 15]] [Field error in object 'requestCinema' on field 'movieName': rejected value []; codes [NotBlank.requestCinema.movieName,NotBlank.movieName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestCinema.movieName,movieName]; arguments []; default message [movieName]]; default message [movieName is mandatory]] [Field error in object 'requestCinema' on field 'language': rejected value []; codes [NotBlank.requestCinema.language,NotBlank.language,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestCinema.language,language]; arguments []; default message [language]]; default message [must not be blank]] [Field error in object 'requestCinema' on field 'actress': rejected value []; codes [Size.requestCinema.actress,Size.actress,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [requestCinema.actress,actress]; arguments []; default message [actress],15,2]; default message [size must be between 2 and 15]] ]
+2023-03-15 19:31:22,747 INFO com.example.demo.controller.TheatreController [http-nio-8080-exec-3] get a alltheatre
+2023-03-15 19:32:13,429 INFO com.example.demo.controller.CinemaController [http-nio-8080-exec-7] get a allCinema
+2023-03-15 19:34:05,071 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(605)-127.0.0.1] Application shutdown requested.
+2023-03-15 19:34:05,297 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(605)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-15 19:34:05,300 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(605)-127.0.0.1] Stopping service [Tomcat]
+2023-03-15 19:34:05,322 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(605)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-15 19:34:05,372 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(605)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-15 19:34:05,379 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(605)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-15 19:34:05,402 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(605)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-15 19:34:05,454 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(605)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-15 19:34:05,534 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(605)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-15 19:34:05,571 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(605)-127.0.0.1] HikariPool-1 - Shutdown completed.

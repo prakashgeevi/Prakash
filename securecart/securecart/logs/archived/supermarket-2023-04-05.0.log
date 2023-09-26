@@ -1,0 +1,571 @@
+2023-04-05 09:28:09,750 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-04-05 09:28:09,765 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9892 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-04-05 09:28:09,767 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-05 09:28:09,915 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-05 09:28:09,916 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-05 09:28:12,126 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-05 09:28:12,313 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 166 ms. Found 10 JPA repository interfaces.
+2023-04-05 09:28:13,782 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-05 09:28:13,808 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 09:28:13,810 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-05 09:28:13,811 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-05 09:28:14,077 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-05 09:28:14,080 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4163 ms
+2023-04-05 09:28:14,430 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-05 09:28:14,565 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-04-05 09:28:14,938 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-05 09:28:15,147 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-04-05 09:28:15,160 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-05 09:28:15,759 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-04-05 09:28:15,818 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-05 09:28:17,642 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-05 09:28:17,665 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 09:28:19,285 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-05 09:28:19,344 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-04-05 09:28:20,771 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@603ac80f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4edb5687, org.springframework.security.web.context.SecurityContextPersistenceFilter@510f87ca, org.springframework.security.web.header.HeaderWriterFilter@2312ef44, org.springframework.web.filter.CorsFilter@269e04f0, org.springframework.security.web.authentication.logout.LogoutFilter@423d237d, com.wdm.security.jwt.AuthTokenFilter@143e623b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14d67e46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b6a1553, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3422970d, org.springframework.security.web.session.SessionManagementFilter@3b9e3de7, org.springframework.security.web.access.ExceptionTranslationFilter@3485ed1a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35bf0a4b]
+2023-04-05 09:28:21,259 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-05 09:28:21,287 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 09:28:21,331 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 09:28:21,358 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 12.442 seconds (JVM running for 13.661)
+2023-04-05 09:29:52,693 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-05 09:29:52,693 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-05 09:29:52,705 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 11 ms
+2023-04-05 09:29:53,302 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: rawPassword cannot be null] with root cause
+java.lang.IllegalArgumentException: rawPassword cannot be null
+	at org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder.encode(BCryptPasswordEncoder.java:107)
+	at com.wdm.controller.UserController.socialLogin(UserController.java:229)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.wdm.security.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-04-05 09:30:06,946 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 09:30:19,380 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : h
+2023-04-05 09:30:20,716 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 09:30:24,324 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : h
+2023-04-05 09:30:27,044 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 09:30:34,347 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : gr
+2023-04-05 09:30:35,881 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : grb
+2023-04-05 09:30:40,957 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : gr
+2023-04-05 09:30:41,472 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : g
+2023-04-05 09:30:41,922 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 09:31:27,548 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : ch
+2023-04-05 09:31:28,201 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : cha
+2023-04-05 09:31:28,828 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : chak
+2023-04-05 09:31:29,407 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : chakr
+2023-04-05 09:31:31,888 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : ch
+2023-04-05 09:31:32,459 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 09:32:11,520 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : a
+2023-04-05 09:32:11,985 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : ap
+2023-04-05 09:32:13,395 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : a
+2023-04-05 09:32:15,033 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 09:32:16,739 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : al
+2023-04-05 09:32:17,288 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : alm
+2023-04-05 09:32:19,152 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 09:32:20,132 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : r
+2023-04-05 09:32:20,680 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : ro
+2023-04-05 09:32:23,227 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : ros
+2023-04-05 09:32:24,650 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : ro
+2023-04-05 09:32:25,776 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : roe
+2023-04-05 09:32:27,305 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : roes
+2023-04-05 09:32:28,448 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : roe
+2023-04-05 09:32:29,455 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 09:32:56,663 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 09:33:22,188 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-04-05 09:33:24,631 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 09:33:25,849 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-04-05 09:33:32,950 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 09:52:58,433 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 09:56:02,903 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 10:00:47,074 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:00:54,651 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-04-05 10:02:32,924 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:02:37,732 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:02:59,010 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 10:03:53,835 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:05:07,871 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:05:55,088 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 10:06:13,450 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-04-05 10:06:15,414 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-04-05 10:06:28,418 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:06:31,421 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 10:06:43,429 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:06:54,739 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:07:01,425 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:07:05,412 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:07:11,555 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 10:07:32,823 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:07:35,722 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-04-05 10:07:53,389 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:08:03,422 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 10:08:04,430 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:08:10,416 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:08:13,795 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 10:08:35,209 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:08:42,124 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-04-05 10:09:11,077 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:09:22,825 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-04-05 10:09:33,414 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:09:53,847 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 10:34:45,871 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-05 10:34:45,968 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:45,972 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-04-05 10:34:45,978 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-05 10:34:45,986 WARN org.apache.juli.logging.DirectJDKLog [Thread-5] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-04-05 10:34:45,988 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:45,993 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:46,018 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 10:34:46,025 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-04-05 10:34:46,051 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-04-05 10:34:46,828 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9892 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-04-05 10:34:46,828 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-05 10:34:48,119 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-05 10:34:48,295 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 173 ms. Found 10 JPA repository interfaces.
+2023-04-05 10:34:48,771 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-05 10:34:48,774 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:48,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-05 10:34:48,776 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-05 10:34:48,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-05 10:34:48,862 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2016 ms
+2023-04-05 10:34:49,005 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-05 10:34:49,019 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-04-05 10:34:49,020 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-05 10:34:49,041 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-04-05 10:34:49,042 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-05 10:34:49,636 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-05 10:34:49,638 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 10:34:50,750 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-05 10:34:50,768 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-04-05 10:34:51,821 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62036d64, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4031081a, org.springframework.security.web.context.SecurityContextPersistenceFilter@633a9c23, org.springframework.security.web.header.HeaderWriterFilter@5fe48983, org.springframework.web.filter.CorsFilter@fab74a4, org.springframework.security.web.authentication.logout.LogoutFilter@7cc2ab57, com.wdm.security.jwt.AuthTokenFilter@1442646f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@394e6e0f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@421d5034, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3aa159b6, org.springframework.security.web.session.SessionManagementFilter@220577ed, org.springframework.security.web.access.ExceptionTranslationFilter@a6a089b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30a0b3f4]
+2023-04-05 10:34:51,991 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-05 10:34:52,015 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:52,019 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 10:34:52,029 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 5.685 seconds (JVM running for 4004.333)
+2023-04-05 10:34:52,032 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-05 10:34:57,730 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-04-05 10:34:57,750 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:57,750 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping service [Tomcat]
+2023-04-05 10:34:57,757 WARN org.apache.juli.logging.DirectJDKLog [Thread-7] The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-04-05 10:34:57,758 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:57,761 INFO org.apache.juli.logging.DirectJDKLog [Thread-7] Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:57,768 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 10:34:57,771 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2023-04-05 10:34:57,789 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2023-04-05 10:34:57,983 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9892 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-04-05 10:34:58,000 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-05 10:34:58,806 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-05 10:34:58,880 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 73 ms. Found 10 JPA repository interfaces.
+2023-04-05 10:34:59,032 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-05 10:34:59,033 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:34:59,034 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-05 10:34:59,048 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-05 10:34:59,102 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-05 10:34:59,102 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1098 ms
+2023-04-05 10:34:59,193 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-05 10:34:59,208 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-04-05 10:34:59,208 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-05 10:34:59,236 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-04-05 10:34:59,236 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-05 10:34:59,636 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-05 10:34:59,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 10:35:00,497 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-05 10:35:00,521 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-04-05 10:35:01,318 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12be779b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20a13916, org.springframework.security.web.context.SecurityContextPersistenceFilter@6dc3d57c, org.springframework.security.web.header.HeaderWriterFilter@7948a769, org.springframework.web.filter.CorsFilter@7064f31a, org.springframework.security.web.authentication.logout.LogoutFilter@4a63695, com.wdm.security.jwt.AuthTokenFilter@5f3bc4c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32ce72ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e81f872, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ead7fd0, org.springframework.security.web.session.SessionManagementFilter@238b49c0, org.springframework.security.web.access.ExceptionTranslationFilter@4852f011, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@32fd9d43]
+2023-04-05 10:35:01,426 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-05 10:35:01,436 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:35:01,442 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 10:35:01,450 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 3.552 seconds (JVM running for 4013.754)
+2023-04-05 10:35:01,452 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-05 10:35:09,507 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-05 10:35:09,508 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-05 10:35:09,511 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-04-05 10:35:19,550 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-6] To get item data itemservice.deleteByid(id)
+2023-04-05 10:35:24,576 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-10] To get item data itemservice.deleteByid(id)
+2023-04-05 10:35:31,942 INFO com.wdm.controller.ItemsController [http-nio-8080-exec-2] To get item data itemservice.deleteByid(id)
+2023-04-05 10:36:07,631 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 10:36:17,597 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:36:22,231 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:36:23,848 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:36:26,530 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:36:28,606 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-04-05 10:36:53,350 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-04-05 10:37:38,557 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:37:38,643 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:37:38,650 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:37:40,332 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:37:40,636 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:37:41,286 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-04-05 10:37:41,296 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:37:42,617 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:37:42,928 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:37:45,106 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 578
+2023-04-05 10:37:47,677 INFO com.wdm.controller.CartController [http-nio-8080-exec-1] save new product = TotalPrice=578, productId= {} 
+2023-04-05 10:37:47,678 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-1] CartServiceimpl | cart is called
+2023-04-05 10:37:48,497 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 10:37:53,969 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:37:54,274 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 10:37:55,058 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-04-05 10:37:55,068 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:38:00,464 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-04-05 10:38:00,469 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:38:20,032 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:38:20,076 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:38:20,081 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:38:21,421 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:38:21,722 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:38:43,560 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:38:47,579 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 10:38:49,424 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-04-05 10:38:49,545 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:38:52,001 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-04-05 10:38:52,024 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:39:28,808 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-04-05 10:39:28,814 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:39:29,912 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:39:30,090 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:39:30,096 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:39:30,927 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:39:31,228 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:39:32,826 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:39:33,142 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:39:36,210 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 444
+2023-04-05 10:39:37,773 INFO com.wdm.controller.CartController [http-nio-8080-exec-10] save new product = TotalPrice=444, productId= {} 
+2023-04-05 10:39:37,774 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-10] CartServiceimpl | cart is called
+2023-04-05 10:39:38,416 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 10:39:44,627 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-04-05 10:39:44,633 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:41:21,211 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-04-05 10:41:21,231 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:02,129 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:02,172 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:02,181 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:03,569 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:03,864 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:43:05,151 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-04-05 10:43:05,154 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:15,625 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:15,936 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:43:19,187 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 578
+2023-04-05 10:43:20,472 INFO com.wdm.controller.CartController [http-nio-8080-exec-9] save new product = TotalPrice=578, productId= {} 
+2023-04-05 10:43:20,473 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-9] CartServiceimpl | cart is called
+2023-04-05 10:43:21,977 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 10:43:25,092 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:25,424 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:43:26,163 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-04-05 10:43:26,173 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:37,150 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:43:37,456 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 10:43:43,684 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 574
+2023-04-05 10:43:47,990 INFO com.wdm.controller.CartController [http-nio-8080-exec-8] save new product = TotalPrice=574, productId= {} 
+2023-04-05 10:43:47,991 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-8] CartServiceimpl | cart is called
+2023-04-05 10:43:48,954 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:43:50,472 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 572
+2023-04-05 10:43:52,788 INFO com.wdm.controller.CartController [http-nio-8080-exec-6] save new product = TotalPrice=572, productId= {} 
+2023-04-05 10:43:52,789 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-6] CartServiceimpl | cart is called
+2023-04-05 10:43:53,454 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:43:56,880 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 548
+2023-04-05 10:43:59,383 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 452
+2023-04-05 10:44:01,316 INFO com.wdm.controller.CartController [http-nio-8080-exec-10] save new product = TotalPrice=452, productId= {} 
+2023-04-05 10:44:01,317 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-10] CartServiceimpl | cart is called
+2023-04-05 10:44:01,952 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-04-05 10:44:08,702 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:44:09,009 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:44:09,868 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-04-05 10:44:09,868 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:44:26,085 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:44:26,382 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:44:38,276 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-04-05 10:44:38,320 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:44:42,271 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:44:42,594 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 
+2023-04-05 10:44:56,315 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 578
+2023-04-05 10:45:00,299 INFO com.wdm.controller.CartController [http-nio-8080-exec-5] save new product = TotalPrice=578, productId= {} 
+2023-04-05 10:45:00,299 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-5] CartServiceimpl | cart is called
+2023-04-05 10:45:02,017 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:45:08,229 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:45:11,680 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3] getProductById  productId : 
+2023-04-05 10:45:17,538 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:45:19,407 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4] getProductById  productId : 
+2023-04-05 10:46:41,320 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:47:42,136 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 10:47:48,615 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:47:55,055 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:48:26,195 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:49:22,157 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 
+2023-04-05 10:49:24,908 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:49:31,431 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:49:50,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:49:51,564 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 578
+2023-04-05 10:49:52,750 INFO com.wdm.controller.CartController [http-nio-8080-exec-7] save new product = TotalPrice=578, productId= {} 
+2023-04-05 10:49:52,751 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-7] CartServiceimpl | cart is called
+2023-04-05 10:49:54,047 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:49:57,294 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:49:59,731 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 
+2023-04-05 10:50:24,800 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:50:26,655 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 
+2023-04-05 10:50:29,301 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:50:39,057 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: INSUFFICIENT QUANTITY]
+2023-04-05 10:50:41,046 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 10:50:54,271 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:50:54,587 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:50:55,509 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-04-05 10:50:55,511 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:51:00,273 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:51:00,577 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 
+2023-04-05 10:51:46,102 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:51:46,161 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:51:46,161 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:51:47,943 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.ProductCustomException: cart is empty]
+2023-04-05 10:51:48,255 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 
+2023-04-05 10:51:50,267 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 576
+2023-04-05 10:51:54,776 INFO com.wdm.controller.CartController [http-nio-8080-exec-9] save new product = TotalPrice=576, productId= {} 
+2023-04-05 10:51:54,777 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-9] CartServiceimpl | cart is called
+2023-04-05 10:51:55,657 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7] getProductById  productId : 
+2023-04-05 10:53:52,595 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-05 10:53:52,614 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:53:52,615 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Stopping service [Tomcat]
+2023-04-05 10:53:52,615 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-05 10:53:52,620 WARN org.apache.juli.logging.DirectJDKLog [Thread-11] The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-04-05 10:53:52,626 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:53:52,631 INFO org.apache.juli.logging.DirectJDKLog [Thread-11] Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:53:52,638 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 10:53:52,645 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2023-04-05 10:53:52,665 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2023-04-05 10:53:52,847 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9892 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-04-05 10:53:52,847 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-05 10:53:53,682 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-05 10:53:53,759 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 73 ms. Found 10 JPA repository interfaces.
+2023-04-05 10:53:53,914 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-05 10:53:53,915 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:53:53,916 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-05 10:53:53,917 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-05 10:53:53,948 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-05 10:53:53,949 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1098 ms
+2023-04-05 10:53:53,997 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-05 10:53:54,009 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2023-04-05 10:53:54,010 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-05 10:53:54,031 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2023-04-05 10:53:54,031 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-05 10:53:54,333 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-05 10:53:54,334 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 10:53:54,702 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-05 10:53:54,713 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-04-05 10:53:55,196 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2bcc870e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10552515, org.springframework.security.web.context.SecurityContextPersistenceFilter@2658b85e, org.springframework.security.web.header.HeaderWriterFilter@504b4d75, org.springframework.web.filter.CorsFilter@65b380d, org.springframework.security.web.authentication.logout.LogoutFilter@23230dda, com.wdm.security.jwt.AuthTokenFilter@12ba6f6d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@146b1e4b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e41c956, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27cc6942, org.springframework.security.web.session.SessionManagementFilter@74454001, org.springframework.security.web.access.ExceptionTranslationFilter@64dadb6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4acd6f73]
+2023-04-05 10:53:55,287 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-05 10:53:55,294 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 10:53:55,300 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 10:53:55,310 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 2.526 seconds (JVM running for 5147.614)
+2023-04-05 10:53:55,313 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-05 11:02:04,213 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-05 11:02:04,260 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:02:04,261 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Stopping service [Tomcat]
+2023-04-05 11:02:04,269 WARN org.apache.juli.logging.DirectJDKLog [Thread-15] The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-04-05 11:02:04,270 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:02:04,276 INFO org.apache.juli.logging.DirectJDKLog [Thread-15] Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:02:04,286 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 11:02:04,288 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2023-04-05 11:02:04,295 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2023-04-05 11:02:04,448 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9892 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-04-05 11:02:04,449 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-05 11:02:04,837 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-05 11:02:04,903 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65 ms. Found 10 JPA repository interfaces.
+2023-04-05 11:02:05,034 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-05 11:02:05,035 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:02:05,036 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-05 11:02:05,036 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-05 11:02:05,073 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-05 11:02:05,074 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 620 ms
+2023-04-05 11:02:05,126 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-05 11:02:05,136 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2023-04-05 11:02:05,136 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-05 11:02:05,159 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2023-04-05 11:02:05,160 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-05 11:02:05,498 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-05 11:02:05,499 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 11:02:05,850 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-05 11:02:05,860 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-04-05 11:02:06,327 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a25bef1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5376fac7, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a718bc1, org.springframework.security.web.header.HeaderWriterFilter@41153740, org.springframework.web.filter.CorsFilter@7e939589, org.springframework.security.web.authentication.logout.LogoutFilter@124e58c5, com.wdm.security.jwt.AuthTokenFilter@64f3c2d9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26843458, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e43b8ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ed48ce9, org.springframework.security.web.session.SessionManagementFilter@1a060f05, org.springframework.security.web.access.ExceptionTranslationFilter@4363e94e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@668cc963]
+2023-04-05 11:02:06,406 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-05 11:02:06,414 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:02:06,420 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 11:02:06,430 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 2.041 seconds (JVM running for 5638.734)
+2023-04-05 11:02:06,435 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-05 11:06:54,198 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-05 11:06:54,228 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Pausing ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:06:54,230 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Stopping service [Tomcat]
+2023-04-05 11:06:54,240 WARN org.apache.juli.logging.DirectJDKLog [Thread-19] The web application [ROOT] appears to have started a thread named [HikariPool-5 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-04-05 11:06:54,241 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Stopping ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:06:54,246 INFO org.apache.juli.logging.DirectJDKLog [Thread-19] Destroying ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:06:54,251 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 11:06:54,252 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+2023-04-05 11:06:54,263 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+2023-04-05 11:06:54,409 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9892 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-04-05 11:06:54,409 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-05 11:06:54,789 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-05 11:06:54,852 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 60 ms. Found 10 JPA repository interfaces.
+2023-04-05 11:06:54,982 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-04-05 11:06:54,982 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:06:54,983 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-04-05 11:06:54,984 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-04-05 11:06:55,020 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-05 11:06:55,020 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 607 ms
+2023-04-05 11:06:55,071 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-05 11:06:55,083 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2023-04-05 11:06:55,083 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-04-05 11:06:55,100 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2023-04-05 11:06:55,101 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-05 11:06:55,385 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-05 11:06:55,386 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-05 11:06:55,722 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-05 11:06:55,729 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-04-05 11:06:56,054 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32e5b438, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fbdc46c, org.springframework.security.web.context.SecurityContextPersistenceFilter@49ee4bf8, org.springframework.security.web.header.HeaderWriterFilter@4d860bd9, org.springframework.web.filter.CorsFilter@2ae818cf, org.springframework.security.web.authentication.logout.LogoutFilter@21926ca0, com.wdm.security.jwt.AuthTokenFilter@64075e00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d691328, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60cc1b9f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@311aabce, org.springframework.security.web.session.SessionManagementFilter@33493cfa, org.springframework.security.web.access.ExceptionTranslationFilter@77847aef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@11d14703]
+2023-04-05 11:06:56,150 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-05 11:06:56,157 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-04-05 11:06:56,163 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-05 11:06:56,168 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 1.807 seconds (JVM running for 5928.473)
+2023-04-05 11:06:56,173 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-04-05 11:45:13,373 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-05 11:45:13,377 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-05 11:45:13,379 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-04-05 11:52:23,420 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 
+2023-04-05 11:52:26,047 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 574
+2023-04-05 11:52:28,596 INFO com.wdm.controller.CartController [http-nio-8080-exec-8] save new product = TotalPrice=574, productId= {} 
+2023-04-05 11:52:28,597 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-8] CartServiceimpl | cart is called
+2023-04-05 11:52:30,107 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 

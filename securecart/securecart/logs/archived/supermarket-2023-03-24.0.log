@@ -1,0 +1,369 @@
+2023-03-24 09:18:13,904 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-24 09:18:13,908 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 14168 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-24 09:18:13,909 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-24 09:18:14,007 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-24 09:18:14,007 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-24 09:18:15,685 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-24 09:18:15,824 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 118 ms. Found 9 JPA repository interfaces.
+2023-03-24 09:18:16,705 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-24 09:18:16,722 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-24 09:18:16,723 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-24 09:18:16,724 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-24 09:18:16,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-24 09:18:16,860 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2851 ms
+2023-03-24 09:18:17,082 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-24 09:18:17,186 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-24 09:18:17,441 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-24 09:18:17,613 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-24 09:18:17,622 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-24 09:18:18,088 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-24 09:18:18,137 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-24 09:18:19,491 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-24 09:18:19,505 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-24 09:18:20,669 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-24 09:18:20,706 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-24 09:18:21,514 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26762ed9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@517c4681, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f6b3482, org.springframework.security.web.header.HeaderWriterFilter@1a35b31e, org.springframework.web.filter.CorsFilter@2f864c16, org.springframework.security.web.authentication.logout.LogoutFilter@4928ca40, com.wdm.security.jwt.AuthTokenFilter@3be9127a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e24b44e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b8a4d67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5158dbfb, org.springframework.security.web.session.SessionManagementFilter@617234df, org.springframework.security.web.access.ExceptionTranslationFilter@41e0e023, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ca63485]
+2023-03-24 09:18:21,907 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-24 09:18:21,938 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-24 09:18:21,970 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-24 09:18:21,982 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 8.748 seconds (JVM running for 9.976)
+2023-03-24 09:20:35,413 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-24 09:20:35,414 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-24 09:20:35,417 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-03-24 09:20:37,321 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 09:21:24,268 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-03-24 09:21:37,972 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 09:27:52,492 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 09:28:36,822 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 09:29:22,541 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 09:30:38,293 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 09:30:50,735 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 09:31:06,697 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 09:31:23,831 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 09:31:29,406 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 09:31:33,548 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 09:31:40,586 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 09:31:46,549 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 09:32:41,836 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 09:32:44,078 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 09:32:51,812 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 09:33:06,076 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 09:33:38,044 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 09:34:04,097 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 09:34:21,901 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 09:34:23,892 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 09:34:28,361 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 09:34:50,503 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 09:35:06,095 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 09:35:07,694 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 09:35:23,277 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 09:35:36,206 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 09:37:50,794 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 252
+2023-03-24 11:00:58,613 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-24 11:00:58,695 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 8752 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-24 11:00:58,697 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-24 11:00:58,956 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-24 11:00:58,957 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-24 11:01:01,216 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-24 11:01:01,482 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 244 ms. Found 9 JPA repository interfaces.
+2023-03-24 11:01:03,043 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-24 11:01:03,072 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-24 11:01:03,074 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-24 11:01:03,075 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-24 11:01:03,342 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-24 11:01:03,342 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4383 ms
+2023-03-24 11:01:03,708 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-24 11:01:03,868 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-24 11:01:04,292 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-24 11:01:04,548 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-24 11:01:04,560 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-24 11:01:05,407 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-24 11:01:05,495 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-24 11:01:08,018 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-24 11:01:08,036 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-24 11:01:09,894 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-24 11:01:09,955 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-24 11:01:11,052 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e2b17ef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40c74221, org.springframework.security.web.context.SecurityContextPersistenceFilter@30e8e6e0, org.springframework.security.web.header.HeaderWriterFilter@4d505165, org.springframework.web.filter.CorsFilter@77fa880, org.springframework.security.web.authentication.logout.LogoutFilter@4d34e5a3, com.wdm.security.jwt.AuthTokenFilter@4d867e71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4dd0d372, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63b6b005, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65cc6cd8, org.springframework.security.web.session.SessionManagementFilter@1dd793bf, org.springframework.security.web.access.ExceptionTranslationFilter@73223d8e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d95dcc0]
+2023-03-24 11:01:11,640 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-24 11:01:11,690 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-24 11:01:11,732 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-24 11:01:11,759 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 14.337 seconds (JVM running for 19.241)
+2023-03-24 11:04:09,074 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-24 11:04:09,074 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-24 11:04:09,077 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-03-24 11:04:11,031 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 11:04:17,111 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 11:14:15,493 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 11:22:51,018 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 11:29:37,301 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 11:29:49,350 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 11:30:19,428 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 11:32:48,393 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 11:35:40,032 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 11:35:56,822 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 11:37:13,302 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 11:37:21,368 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 11:37:30,152 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 11:37:45,133 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 11:38:03,281 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 11:38:35,554 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 11:40:42,967 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 11:48:13,886 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 11:48:21,885 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 11:50:02,665 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 11:50:19,307 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 11:50:45,954 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 11:51:15,386 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 11:52:12,555 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 11:54:47,915 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 11:54:50,918 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 11:55:13,247 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 11:55:16,314 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 11:55:23,225 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 11:55:38,251 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 11:55:44,076 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 11:55:59,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 11:56:04,360 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 11:56:14,272 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 11:56:30,350 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 11:56:37,929 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 11:56:48,064 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 11:56:56,076 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 12:06:55,537 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 12:08:34,421 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 12:10:28,244 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 12:11:44,258 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 12:12:19,237 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 12:12:44,106 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 12:13:07,468 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 12:13:28,332 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 12:13:30,240 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 12:13:34,372 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 12:15:43,269 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 12:16:16,365 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 12:17:10,569 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-03-24 12:17:13,619 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 12:17:26,408 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 12:17:42,895 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 12:17:44,569 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6] getProductById  productId : 209
+2023-03-24 12:17:45,843 INFO com.wdm.controller.CartController [http-nio-8080-exec-5] save new product = TotalPrice=209, productId= {} 
+2023-03-24 12:17:45,844 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-5] CartServiceimpl | cart is called
+2023-03-24 12:17:48,362 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 12:30:49,943 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 12:30:51,394 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 209
+2023-03-24 12:31:08,443 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 12:31:34,208 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 12:31:58,192 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 209
+2023-03-24 12:32:00,297 INFO com.wdm.controller.CartController [http-nio-8080-exec-1] save new product = TotalPrice=209, productId= {} 
+2023-03-24 12:32:00,297 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-1] CartServiceimpl | cart is called
+2023-03-24 12:43:18,468 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 12:43:56,490 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 12:44:32,324 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 12:44:58,293 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 12:46:25,266 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 12:48:00,713 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 12:52:10,985 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 12:52:13,229 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 12:52:22,258 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 12:55:17,302 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 209
+2023-03-24 12:55:54,473 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 12:55:56,247 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 12:56:03,283 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 12:56:08,220 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 12:56:14,217 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 12:58:19,932 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 12:58:41,234 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 12:58:54,178 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 13:02:03,661 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 13:02:05,542 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 209
+2023-03-24 13:02:44,255 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 13:03:00,447 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 13:03:10,510 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 13:03:12,473 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 13:03:25,274 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 13:03:38,253 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 13:03:47,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 13:03:52,228 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 13:04:01,865 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 13:04:24,039 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 13:04:45,599 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 13:05:01,341 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 13:05:14,266 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 13:05:21,274 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 13:05:22,610 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5] getProductById  productId : 209
+2023-03-24 13:05:35,249 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 13:06:06,280 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 13:06:13,251 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 13:07:36,257 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 13:08:11,303 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 13:11:39,248 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 13:11:44,302 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 13:11:49,266 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 13:12:07,307 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 13:12:15,238 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-24 13:12:20,239 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 13:12:24,238 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 13:12:33,226 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 14:29:43,428 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m5s781ms109µs200ns).
+2023-03-24 14:42:23,638 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 14:42:27,053 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 14:42:54,466 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 14:44:16,088 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 14:53:45,777 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-6] JWT token is expired: JWT expired at 2023-03-24T11:24:23Z. Current time: 2023-03-24T14:53:45Z, a difference of 12562769 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-24 14:53:45,820 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-24 14:57:52,274 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 15:20:26,531 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-24 15:20:44,551 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 15:20:56,287 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-03-24 15:21:05,463 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-24 15:21:07,826 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-03-24 15:21:34,136 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-03-24 15:21:38,270 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-03-24 15:21:56,388 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-03-24 15:21:58,294 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-03-24 15:22:14,850 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-03-24 15:22:19,237 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-03-24 15:22:23,393 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-03-24 15:22:33,726 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-03-24 15:22:35,127 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-03-24 15:22:37,203 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-03-24 15:22:45,110 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-03-24 15:22:47,227 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-03-24 15:23:05,463 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 15:23:12,039 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-03-24 15:23:14,390 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 15:28:22,320 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-24 15:28:34,698 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 15:28:57,845 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-03-24 15:29:11,040 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-03-24 15:29:15,083 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-03-24 15:29:19,236 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-03-24 15:29:35,807 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-03-24 15:30:01,638 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-03-24 15:30:18,085 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-03-24 15:30:44,517 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-03-24 15:30:50,842 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-03-24 15:30:54,029 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-03-24 15:30:56,416 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-03-24 15:30:57,370 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-03-24 15:30:59,255 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-03-24 15:31:10,146 INFO com.wdm.controller.OrderController [http-nio-8080-exec-7] To get all orders
+2023-03-24 15:31:13,069 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-03-24 15:31:21,883 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-03-24 15:31:27,481 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-03-24 15:31:31,094 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-03-24 15:31:43,607 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-03-24 15:32:25,092 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-03-24 15:32:29,039 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-03-24 15:32:36,028 INFO com.wdm.controller.OrderController [http-nio-8080-exec-3] To get all orders
+2023-03-24 15:33:21,377 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-03-24 15:33:23,871 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-03-24 15:33:30,670 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-03-24 15:33:33,233 INFO com.wdm.controller.OrderController [http-nio-8080-exec-6] To get all orders
+2023-03-24 15:33:43,486 INFO com.wdm.controller.OrderController [http-nio-8080-exec-5] To get all orders
+2023-03-24 15:33:52,588 INFO com.wdm.controller.OrderController [http-nio-8080-exec-10] To get all orders
+2023-03-24 15:34:01,901 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-03-24 15:34:28,629 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 15:34:32,410 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1] getProductById  productId : 207
+2023-03-24 15:34:35,004 INFO com.wdm.controller.CartController [http-nio-8080-exec-4] save new product = TotalPrice=207, productId= {} 
+2023-03-24 15:34:35,005 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-4] CartServiceimpl | cart is called
+2023-03-24 15:34:39,623 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 15:34:49,940 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-03-24 15:35:07,892 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-03-24 15:36:02,903 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-24 15:36:07,120 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-24 15:36:15,659 INFO com.wdm.controller.OrderController [http-nio-8080-exec-8] To get all orders
+2023-03-24 15:39:23,072 INFO com.wdm.controller.OrderController [http-nio-8080-exec-9] To get all orders
+2023-03-24 15:43:59,098 INFO com.wdm.controller.OrderController [http-nio-8080-exec-1] To get all orders
+2023-03-24 15:44:22,088 INFO com.wdm.controller.OrderController [http-nio-8080-exec-2] To get all orders
+2023-03-24 15:45:13,050 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 15:55:28,797 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 15:55:36,509 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 16:13:26,970 INFO com.wdm.controller.OrderController [http-nio-8080-exec-4] To get all orders
+2023-03-24 16:56:04,601 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-24 16:57:05,181 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-4] JWT token is expired: JWT expired at 2023-03-15T14:59:40Z. Current time: 2023-03-24T16:57:05Z, a difference of 784645181 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-24 16:57:05,183 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-24 16:57:36,215 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2] getProductById  productId : 209
+2023-03-24 16:58:19,682 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 209
+2023-03-24 16:58:22,639 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9] getProductById  productId : 209
+2023-03-24 16:58:27,181 INFO com.wdm.controller.CartController [http-nio-8080-exec-6] save new product = TotalPrice=209, productId= {} 
+2023-03-24 16:58:27,182 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-6] CartServiceimpl | cart is called
+2023-03-24 17:07:09,308 INFO org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-24 17:07:09,477 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-24 17:07:09,480 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-03-24 17:07:09,501 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-24 17:07:09,546 WARN org.apache.juli.logging.DirectJDKLog [Thread-5] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-24 17:07:09,553 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-24 17:07:09,573 INFO org.apache.juli.logging.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-24 17:07:09,619 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-24 17:07:09,683 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-03-24 17:07:09,707 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-03-24 17:07:10,441 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 8752 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-24 17:07:10,441 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-24 17:07:11,428 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-24 17:07:11,482 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 53 ms. Found 9 JPA repository interfaces.
+2023-03-24 17:07:11,665 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-24 17:07:11,666 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-24 17:07:11,666 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-24 17:07:11,666 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-24 17:07:11,718 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-24 17:07:11,719 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1273 ms
+2023-03-24 17:07:11,821 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-24 17:07:11,834 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-03-24 17:07:11,834 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-24 17:07:11,853 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-03-24 17:07:11,855 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-24 17:07:12,308 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-24 17:07:12,310 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-24 17:07:12,679 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-24 17:07:12,692 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-24 17:07:14,092 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72d92525, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62c051e, org.springframework.security.web.context.SecurityContextPersistenceFilter@14e5dd16, org.springframework.security.web.header.HeaderWriterFilter@28f32bc7, org.springframework.web.filter.CorsFilter@447431c, org.springframework.security.web.authentication.logout.LogoutFilter@2f2cfadb, com.wdm.security.jwt.AuthTokenFilter@1281e2ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11ae855f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20b229be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b844626, org.springframework.security.web.session.SessionManagementFilter@14542912, org.springframework.security.web.access.ExceptionTranslationFilter@612c9c41, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e6221cb]
+2023-03-24 17:07:14,223 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-24 17:07:14,240 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-24 17:07:14,252 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-24 17:07:14,261 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 3.92 seconds (JVM running for 21981.745)
+2023-03-24 17:07:14,264 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-03-24 17:08:44,093 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-24 17:08:44,094 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-24 17:08:44,096 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-03-24 17:15:14,058 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-24 17:15:35,098 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-24 17:38:38,053 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-24 17:38:39,679 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8] getProductById  productId : 209
+2023-03-24 17:38:43,054 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 211
+2023-03-24 17:38:45,787 INFO com.wdm.controller.CartController [http-nio-8080-exec-9] save new product = TotalPrice=211, productId= {} 
+2023-03-24 17:38:45,787 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-9] CartServiceimpl | cart is called
+2023-03-24 17:39:04,399 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 17:39:06,223 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10] getProductById  productId : 207
+2023-03-24 17:39:10,645 INFO com.wdm.controller.CartController [http-nio-8080-exec-7] save new product = TotalPrice=207, productId= {} 
+2023-03-24 17:39:10,645 INFO com.wdm.serviceimpl.CartServiceimpl [http-nio-8080-exec-7] CartServiceimpl | cart is called
+2023-03-24 17:39:18,228 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-24 17:50:03,244 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-24 19:31:53,014 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(442)-127.0.0.1] Application shutdown requested.
+2023-03-24 19:31:53,122 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(442)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-24 19:31:53,124 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(442)-127.0.0.1] Stopping service [Tomcat]
+2023-03-24 19:31:53,132 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(442)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-24 19:31:53,163 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(442)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-24 19:31:53,170 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(442)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-24 19:31:53,177 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(442)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-24 19:31:53,201 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(442)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-24 19:31:53,218 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(442)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2023-03-24 19:31:53,227 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(442)-127.0.0.1] HikariPool-2 - Shutdown completed.

@@ -1,0 +1,95 @@
+2023-07-19 00:02:16,874 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-4] get  cart data = userId=5, orderStatus= ACTIVE 
+2023-07-19 00:02:16,884 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-4] get cart item={} : null
+2023-07-19 00:02:16,924 INFO com.securecart.controller.UserController [https-jsse-nio-8080-exec-8] getUserById  UserId : 5
+2023-07-19 00:02:16,926 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-3] get  cart data = userId=5, orderStatus= ACTIVE 
+2023-07-19 00:02:16,928 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-3] get cart item={} : null
+2023-07-19 00:02:16,932 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-1] search by product name ={} : 
+2023-07-19 00:02:16,932 INFO com.securecart.serviceimpl.ProductServiceimpl [https-jsse-nio-8080-exec-1] get all  product and filter by category and product name= 
+2023-07-19 00:02:16,982 INFO com.securecart.controller.Categorycontroller [https-jsse-nio-8080-exec-5] add to category category=2
+2023-07-19 00:02:17,017 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-1] get all product ={} : 2
+2023-07-19 00:02:20,721 INFO com.securecart.controller.OrderController [https-jsse-nio-8080-exec-6] To get all orders
+2023-07-19 00:03:43,196 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-2] get  cart data = userId=5, orderStatus= ACTIVE 
+2023-07-19 00:03:43,200 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-2] get cart item={} : null
+2023-07-19 00:03:46,335 INFO com.securecart.controller.OrderController [https-jsse-nio-8080-exec-5] To get all orders
+2023-07-19 00:04:53,809 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-8] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:04:53,814 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-8] get cart item={} : com.securecart.entity.Cart@79c2c39f
+2023-07-19 00:04:53,883 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-7] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:04:53,886 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-7] get cart item={} : com.securecart.entity.Cart@1371d5c8
+2023-07-19 00:04:54,247 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-6] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:04:54,250 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-6] get cart item={} : com.securecart.entity.Cart@101acd97
+2023-07-19 00:04:54,251 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-2] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:04:54,254 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-2] get cart item={} : com.securecart.entity.Cart@3018873a
+2023-07-19 00:04:55,392 INFO com.securecart.controller.PasswordOtpController [https-jsse-nio-8080-exec-9] user details email=karthickas.007@gmail.com
+2023-07-19 00:05:31,358 INFO com.securecart.controller.PasswordOtpController [https-jsse-nio-8080-exec-1] user details for confirm password email=karthickas.007@gmail.com 
+2023-07-19 00:06:51,552 INFO com.securecart.controller.OrderController [https-jsse-nio-8080-exec-9] Place the order given item Quantity=2023-07-19T00:06:51.548475, cartId=59
+2023-07-19 00:06:51,837 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-10] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:06:51,840 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-10] get cart item={} : null
+2023-07-19 00:06:51,898 INFO com.securecart.controller.OrderController [https-jsse-nio-8080-exec-3] To get all orders
+2023-07-19 00:06:52,027 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-5] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:06:52,029 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-5] get cart item={} : null
+2023-07-19 00:06:52,141 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-4] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:06:52,143 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-4] get cart item={} : null
+2023-07-19 00:06:52,183 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-8] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:06:52,185 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-8] get cart item={} : null
+2023-07-19 00:07:18,458 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-6] get  cart data = userId=1, orderStatus= ACTIVE 
+2023-07-19 00:07:18,461 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-6] get cart item={} : null
+2023-07-19 00:09:46,421 INFO com.securecart.controller.OrderController [https-jsse-nio-8080-exec-6] To get all orders
+2023-07-19 00:11:37,581 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-8] get  cart data = userId=5, orderStatus= ACTIVE 
+2023-07-19 00:11:37,585 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-8] get cart item={} : null
+2023-07-19 00:11:40,433 INFO com.securecart.controller.OrderController [https-jsse-nio-8080-exec-2] To get all orders
+2023-07-19 00:11:47,153 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-6] get  cart data = userId=5, orderStatus= ACTIVE 
+2023-07-19 00:11:47,155 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-6] get cart item={} : null
+2023-07-19 00:11:47,166 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-4] search by product name ={} : 
+2023-07-19 00:11:47,167 INFO com.securecart.serviceimpl.ProductServiceimpl [https-jsse-nio-8080-exec-4] get all  product and filter by category and product name= 
+2023-07-19 00:11:47,167 INFO com.securecart.controller.UserController [https-jsse-nio-8080-exec-2] getUserById  UserId : 5
+2023-07-19 00:11:47,205 INFO com.securecart.controller.Categorycontroller [https-jsse-nio-8080-exec-1] add to category category=2
+2023-07-19 00:11:47,244 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-4] get all product ={} : 2
+2023-07-19 00:12:19,334 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-5] search by product name ={} : 
+2023-07-19 00:12:19,335 INFO com.securecart.serviceimpl.ProductServiceimpl [https-jsse-nio-8080-exec-5] get all  product and filter by category and product name= 
+2023-07-19 00:12:19,414 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-5] get all product ={} : 2
+2023-07-19 00:12:24,416 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-3] search by product name ={} : 
+2023-07-19 00:12:24,416 INFO com.securecart.controller.UserController [https-jsse-nio-8080-exec-2] getUserById  UserId : 4
+2023-07-19 00:12:24,416 INFO com.securecart.serviceimpl.ProductServiceimpl [https-jsse-nio-8080-exec-3] get all  product and filter by category and product name= 
+2023-07-19 00:12:24,428 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-7] get  cart data = userId=4, orderStatus= ACTIVE 
+2023-07-19 00:12:24,430 INFO com.securecart.controller.CartController [https-jsse-nio-8080-exec-7] get cart item={} : null
+2023-07-19 00:12:24,465 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-3] get all product ={} : 2
+2023-07-19 00:12:24,527 INFO com.securecart.controller.UserController [https-jsse-nio-8080-exec-4] getUserById  UserId : 4
+2023-07-19 00:12:27,391 INFO com.securecart.controller.ProductController [https-jsse-nio-8080-exec-2] getProductById  productId : 38
+2023-07-19 00:12:27,393 INFO com.securecart.serviceimpl.ProductServiceimpl [https-jsse-nio-8080-exec-2] get product by id productId=38 
+2023-07-19 00:18:14,095 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(218)-127.0.0.1] Application shutdown requested.
+2023-07-19 00:18:14,141 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] Pausing ProtocolHandler ["https-jsse-nio-8080"]
+2023-07-19 00:18:14,143 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] Stopping service [Tomcat]
+2023-07-19 00:18:14,144 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-19 00:18:14,160 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-7 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+2023-07-19 00:18:14,161 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-7 connection closer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+2023-07-19 00:18:14,161 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-7 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+2023-07-19 00:18:14,164 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] Stopping ProtocolHandler ["https-jsse-nio-8080"]
+2023-07-19 00:18:14,167 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(218)-127.0.0.1] Destroying ProtocolHandler ["https-jsse-nio-8080"]
+2023-07-19 00:18:14,185 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(218)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-19 00:18:14,197 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(218)-127.0.0.1] HikariPool-7 - Shutdown initiated...
+2023-07-19 00:18:14,203 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(218)-127.0.0.1] HikariPool-7 - Shutdown completed.

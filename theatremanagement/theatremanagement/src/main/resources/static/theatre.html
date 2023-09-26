@@ -1,0 +1,547 @@
+<html>
+ 
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q==" crossorigin="anonymous"
+  referrerpolicy="no-referrer" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<!-- fondasowesome PANAL -->
+  <script src="https://kit.fontawesome.com/54e0ebeaef.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #083042;">
+	
+	
+	<div id="nav-placeholder">
+
+	</div>
+
+
+  <!-- <div class="container  min-vh-10 py-4  mt-5">
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <div class="input-group">
+                <input class="form-control border-end-0 border rounded-pill" type="search"    id="example-search" onkeyup="searchCinema()" placeholder="movie">
+  
+                <span class="input-group-append">        
+               </span>
+            </div>
+        </div>
+    </div>
+  </div> -->
+	<!-- <div id="mydd" style="padding-top: 10rem;">
+
+	</div> -->
+ 
+  <button type="button" class="btn btn-primary admin" style="display:none;" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" onclick="showHiden()">ADD THEATRE</button>
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center text-info" id="exampleModalLabel">ADD THEATRE</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+                       
+              <form>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <label class="form-label" for="Details"></label>
+                          <input type="text" id="theatrename" class="form-control form-control-lg" placeholder="theatrename"/>
+                      </div>
+                    </div>
+                     
+             
+              <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <label class="form-label" ></label>
+                    <input type="text" id="city" class="form-control form-control-lg" placeholder="city"/>
+                  </div>
+              </div>
+
+              <div class="col-md-6 mb-4">
+                <div class="form-outline">
+                 
+                  <input type="text" id="numberofrows" class="form-control form-control-lg" placeholder="numberofrows"/>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4">
+              <div class="form-outline">
+               
+                <input type="text" id="street" class="form-control form-control-lg" placeholder="street"/>
+              </div>
+          </div>
+
+          
+
+          <div class="col-md-6 mb-4">
+            <div class="form-outline">
+             
+              <input type="text" id="numberofseats" class="form-control form-control-lg" placeholder="numberofseats"/>
+            </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="form-outline">
+           
+            <input type="text" id="phoneNumber" class="form-control form-control-lg" placeholder="phoneNumber"/>
+          </div>
+      </div>
+
+            </div>
+            </form>
+         </div>   
+         
+         
+       
+          <div class="modal-footer">
+            <button type="button"  class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            <button type="button" id="btnpost" hidden class="btn btn-primary"data-bs-dismiss="modal">Summit</button>
+
+            <button data-bs-toggle="modal" hidden data-bs-target="#smallModel" type="button" id="update"
+            class="btn btn-warning" onclick="putTheatre()">Update</button>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+  <div class="container mt-5">	
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="mydd" >
+    
+     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+     </div>
+  </div>
+     </div>
+	
+	<!-- Navigation bar--> 
+
+
+<script>
+
+$(document).ready(function(){ 
+  $("#nav-placeholder").load("navbar.html");
+  getAllTheatre();
+});
+
+</script> 
+
+<script>
+function getAllTheatre(){	
+	
+		
+		
+            $.ajax({
+                dataTypa: "JSON",
+                url: "http://localhost:8080/Theatre",
+             
+                type:"GET",
+                
+              success: function (responseText) {
+				
+                    var is_Data ="";
+                    //var is_Data2 ="";
+
+                   // if(localStorage.getItem('role') == 'admin')
+                   // is_Data2 = is_Data2 +'<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" onclick="showHiden()">ADD THEATRE</button>';
+
+
+                    // <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" id="edit" onclick ="edit('+item.id+')">
+                 
+                $.each(responseText, function (index, item ) {
+
+                 is_Data += '<div class="col-lg-3 col-md-4"><div class="card border-success mb-3" style="max-width: 18rem;"><div class="card-body text-success"><div class="card-header"> ' +item.theatrename+'<p class="card-text">' +item.address.city+'</p><p class="card-text">' +item.address.phoneNumber+'</p>' ;
+                 // <p class="card-text">' +item.address.state+'</p>
+               if(localStorage.getItem('role') == 'admin'){
+                   is_Data = is_Data +  '<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo" id="edit" onclick ="edit('+item.id+')"><i class="fa-solid fa-pen"></i></button><button class="btn "  style="padding-right:10%" type="button" id="DELETE" onclick ="detetetheatre('+item.id+') "><i class="fa-regular fa-trash-can"></i></button><button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" onclick="findBytheatreid('+item.id+')">SHOW</button>';
+                        }
+						  
+							is_Data = is_Data + '</div></div></div></div>';					 
+                  });
+                  
+                 $("#mydd").empty();
+                  $("#mydd").append(is_Data);
+                 //$("#addshows").empty();
+                 // $("#addshows").append(is_Data2);
+									  
+                }	
+               
+              });
+		
+			}
+
+
+    function  showHiden(){
+
+                    document.getElementById('update').hidden= true;
+                    document.getElementById('btnpost').hidden= false;
+                    $('#theatrename').val("");
+                    $('#city').val("");
+                    $('#numberofrows').val("");
+                    $('#street').val("");
+                    $('#numberofseats').val("");
+                    $('#phoneNumber').val("");
+                   
+
+    }
+
+
+    var editTheaterId="";
+    function  edit(id){
+      editTheaterId = id;
+                    document.getElementById('update').hidden= false;
+                    document.getElementById('btnpost').hidden= true;
+                    
+$.ajax({
+dataType: "JSON",
+url: "http://localhost:8080/Theatre/"+ id,
+type: "GET",
+ 
+success: function (response) {
+
+                    $('#theatrename').val(response.theatrename);
+                    $('#city').val(response.address.city);
+                    $('#numberofrows').val(response.numberofrows);
+                    $('#street').val(response.address.street);
+                    $('#numberofseats').val(response.numberofseats);
+                    $('#phoneNumber').val(response.address.phoneNumber);
+
+},error: function (e) {
+console.log(e);
+}
+});
+ }
+
+
+    function  putTheatre(){
+
+      var details={
+
+
+'theatrename':  $('#theatrename').val(),
+'city': $('#city').val(),
+'numberofrows': $('#numberofrows').val(),
+'street': $('#street').val(),
+'numberofseats':$('#numberofseats').val(),                       
+'phoneNumber': $('#phoneNumber').val(),
+
+'userid':localStorage.getItem('user')
+};
+
+
+$.ajax({
+url: "http://localhost:8080/Theatre/"+ editTheaterId,
+type: "PUT",
+data: JSON.stringify(details),
+contentType: "application/json",
+success: function (data) {
+  getAllTheatre();
+  alert("success");
+  editTheaterId.empty();
+  $('#theatrename').val("");
+    $('#city').val("");
+    $('#numberofrows').val("");
+    $('#street').val("");
+    $('#numberofseats').val("");
+    $('#phoneNumber').val("");
+   
+},error: function (e) {
+ 
+            console.log(JSON.stringify(e));
+}
+
+});
+}
+  
+
+
+var thetreId = "";
+function findBytheatreid(id){
+ 
+  thetreId = id;
+      console.log(id);
+  $.ajax({
+url: "http://localhost:8080/showDetails/theatreId/"+id,
+type: "GET",
+data: JSON,
+contentType: "application/json",
+success: function (responseText) {
+console.log(responseText);
+  // localStorage.setItem('theatreId',responseText.id);
+  // localStorage.setItem('cinemaId',responseText.cinema.id);
+  
+  var is_Data5 ="";
+
+  $.each(responseText, function (index, item ) {
+   // '+item.id+'
+    is_Data5 +='<tr><td><input type="text"  id="exampleInputEmail1" hidden></input>'+item.cinema.movieName+'</td><td>'+item.showTime+'</td><td>'+item.date+'</td> <td><button type="button" class="btn btn-danger" onclick= deleteShow('+item.id+')>Delete</button></td></tr>';
+
+  });
+   $("#mano").empty();
+$("#mano").append(is_Data5);
+
+  }
+
+});
+}
+
+
+
+
+
+
+
+
+
+
+//add show
+
+   $(document).ready(function(){
+        $("#saveshow").click(function(){
+var showTime=$('#recipient-name').val();
+var date=$('#recipient').val();
+var cinemaId = $("#mydd5").val();
+ 
+
+var details={
+'showTime': showTime,
+'date': date ,
+"cinemaId": cinemaId,
+  "theatreId": thetreId
+
+
+};
+console.log(details);
+$.ajax({
+url: "http://localhost:8080/showDetails",
+type: "POST",
+data: JSON.stringify(details),
+contentType: "application/json",
+success: function (data) {
+  
+  alert("success");
+  findBytheatreid();
+console.log(data);
+},error: function (e) {
+    alert(JSON.stringify(e));  
+  console.log(e);
+}
+});
+})
+});
+
+//add theatre
+
+$(document).ready(function(){
+        $("#btnpost").click(function(){
+var theatrename=$('#theatrename').val();
+var street=$('#street').val();
+var city=$('#city').val();
+var numberofrows=$('#numberofrows').val();
+var numberofseats=$('#numberofseats').val();
+var phoneNumber=$('#phoneNumber').val();
+
+
+var details={
+'theatrename': theatrename,
+'street': street ,
+'city': city ,
+'numberofrows': numberofrows ,
+'numberofseats': numberofseats ,
+'phoneNumber': phoneNumber ,
+'userid':localStorage.getItem('user')
+
+};
+console.log(details);
+$.ajax({
+url: "http://localhost:8080/Theatre",
+type: "POST",
+data: JSON.stringify(details),
+contentType: "application/json",
+success: function (data) {
+  getAllTheatre();
+console.log(data);
+},error: function (e) {
+console.log(e);
+}
+});
+})
+});
+
+
+        // delete theatre
+function detetetheatre(theatreId){
+
+  $.ajax({
+url: "http://localhost:8080/Theatre/"+theatreId,
+type: "DELETE",
+data: JSON,
+contentType: "application/json",
+success: function (data) {
+  getAllTheatre();
+console.log(data);
+},error: function (e) {
+console.log(e);
+}
+});
+}
+
+// get all cinema
+
+function showitem(){
+
+$.ajax({
+url: "http://localhost:8080/cinema",
+type: "GET",
+data: JSON,
+contentType: "application/json",
+success: function (responseText) {
+console.log(responseText);
+		is_Data6 ="";
+		
+  $.each(responseText, function (index, item ) {
+   // value="'+item.id+'"
+    is_Data6 +=  '<option class="option" value="'+item.id+'" >' +item.movieName+ '</option>';
+
+  });
+   $("#mydd5").empty();
+$("#mydd5").append(is_Data6);
+jQuery.noConflict();
+$("#myModal").appendTo("body").modal("show");
+}
+});
+ }
+
+
+function deleteShow(showId){
+
+  $.ajax({
+url: "http://localhost:8080/showDetails/"+showId,
+type: "DELETE",
+data: JSON,
+contentType: "application/json",
+success: function (data) {
+  findBytheatreid();
+console.log(data);
+},error: function (e) {
+console.log(e);
+}
+});
+}
+
+
+
+if(localStorage.getItem("role")==="admin"){
+
+$(".admin").attr("style", "display:block");
+}
+
+
+</script>
+
+
+<!-- ------------------------------SHOWS--------------------------------------------- -->
+<!-- </div> -->
+
+<!-- The Modal -->
+
+
+
+
+<div class="modal fade" id="myModal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title">ADD SHOWS</h4>
+      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+    <!-- Modal body -->
+
+
+    <select class="form-select form-select-sm" aria-label=".form-select-sm example" id = "mydd5" ></select> 
+      
+     
+       
+     
+    <div class="mb-3">
+      <label for="recipient-name" class="col-form-label">showTime:</label>
+      <input type="time" class="form-control" id="recipient-name">
+    </div>
+
+    <div class="mb-3">
+      <label for="recipient" class="col-form-label">date:</label>
+      <input type="date" class="form-control" id="recipient">
+    </div>
+
+    
+    
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="saveshow" id="btnpost">Save</button>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<!-- ------------------------------GET ALL SHOWS--------------------------------------------- -->
+
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="padding-right: 20%;">View Shows</h5>
+        <button type="button" class="btn btn-primary"   onclick = "showitem()" >ADD SHOWS</button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+ <!-- <div class="modal-body"> -->
+                       
+  <table class="table">
+    <thead>
+      <tr>
+       
+        <th scope="col">movie Name</th>
+        <th scope="col">Show Time</th>
+        <th scope="col">Show Date</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody id="mano">
+      
+    </tbody>
+  </table>
+<!-- </div>  -->
+</div>
+</div>
+</div>
+
+
+
+ <!-- ------------------------------SHOWS--------------------------------------------- -->
+ <!-- Button trigger modal -->
+ 
+ 
+  
+  
+  
+ <!-- ------------------------------USER--------------------------------------------- -->
+ <!-- ------------------------------USER--------------------------------------------- -->
+
+ 
+</body>
+</html>

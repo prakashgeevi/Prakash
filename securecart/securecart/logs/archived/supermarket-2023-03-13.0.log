@@ -1,0 +1,214 @@
+2023-03-13 09:17:39,066 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 2948 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-13 09:17:39,070 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-13 09:17:39,072 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-13 09:17:39,180 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 09:17:39,181 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 09:17:40,784 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-13 09:17:40,917 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 118 ms. Found 9 JPA repository interfaces.
+2023-03-13 09:17:41,786 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 09:17:41,803 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 09:17:41,804 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-13 09:17:41,804 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-13 09:17:41,935 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-13 09:17:41,936 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2753 ms
+2023-03-13 09:17:42,141 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-13 09:17:42,245 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-13 09:17:42,500 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-13 09:17:42,664 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-13 09:17:42,674 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-13 09:17:43,082 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-13 09:17:43,135 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-13 09:17:44,445 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-13 09:17:44,457 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 09:17:45,477 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-13 09:17:45,514 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-13 09:17:46,295 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@732353ce, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@125f4ea8, org.springframework.security.web.context.SecurityContextPersistenceFilter@4897614c, org.springframework.security.web.header.HeaderWriterFilter@10ae6137, org.springframework.web.filter.CorsFilter@3d42215e, org.springframework.security.web.authentication.logout.LogoutFilter@215bae9, com.wdm.security.jwt.AuthTokenFilter@56d30bc7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44c044da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@591971c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ccd6c7, org.springframework.security.web.session.SessionManagementFilter@4ab7fdd4, org.springframework.security.web.access.ExceptionTranslationFilter@28e8afc8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e0e5cc]
+2023-03-13 09:17:46,727 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-13 09:17:46,772 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 09:17:46,807 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 09:17:46,822 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 8.488 seconds (JVM running for 10.074)
+2023-03-13 09:21:16,573 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-13 09:21:16,573 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-03-13 09:21:16,576 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-03-13 09:21:16,981 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-3] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:21:16Z, a difference of 78105980 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:21:16,988 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:21:17,010 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-4] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:21:17Z, a difference of 78106010 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:21:17,011 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:22:30,328 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-9] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:22:30Z, a difference of 78179328 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:22:30,329 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-9] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:22:30,337 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-10] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:22:30Z, a difference of 78179337 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:22:30,338 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-10] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:22:32,077 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-1] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:22:32Z, a difference of 78181077 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:22:32,079 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-1] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:22:32,091 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-2] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:22:32Z, a difference of 78181091 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:22:32,092 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-2] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:23:25,577 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-3] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:23:25Z, a difference of 78234577 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:23:25,578 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-3] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:23:32,158 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-4] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:23:32Z, a difference of 78241157 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:23:32,159 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:23:32,165 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-6] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:23:32Z, a difference of 78241165 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:23:32,167 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:23:58,664 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-5] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:23:58Z, a difference of 78267664 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:23:58,666 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:23:58,677 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-7] JWT token is expired: JWT expired at 2023-03-12T11:39:31Z. Current time: 2023-03-13T09:23:58Z, a difference of 78267675 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-03-13 09:23:58,679 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 09:24:56,215 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-13 09:35:43,180 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 09:35:43,296 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-13 09:36:02,342 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-13 09:36:02,448 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-13 11:16:17,550 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-13 11:16:26,059 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-13 11:16:27,631 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-13 11:16:30,223 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-13 11:27:57,459 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-13 11:28:58,514 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-5] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-13 11:28:58,519 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-5] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 11:29:02,396 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-8] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-13 11:29:02,397 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-8] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 11:29:04,452 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 11:29:14,437 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-13 11:30:50,748 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-13 11:30:52,198 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "x"]
+2023-03-13 11:46:28,694 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 11:46:32,372 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-13 11:46:38,471 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 11:46:40,227 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-13 11:46:44,519 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-13 11:46:53,206 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-13 11:46:59,627 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-13 11:47:03,100 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 11:47:09,397 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 13:05:38,747 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 13:07:39,040 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-13 13:08:14,246 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-13 13:08:30,221 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-13 13:09:31,304 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 13:09:34,221 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 13:09:34,375 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "s"]
+2023-03-13 13:09:34,475 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "ss"]
+2023-03-13 13:09:36,703 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "ssd"]
+2023-03-13 13:09:36,788 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "ss"]
+2023-03-13 13:09:36,996 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "s"]
+2023-03-13 15:24:00,798 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SupermarketMappingApplication using Java 17.0.4.1 on DESKTOP-K8IL69S with PID 9568 (C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping\target\classes started by admin in C:\Users\admin\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\prakash\supermarket-mapping)
+2023-03-13 15:24:00,799 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.5.Final
+2023-03-13 15:24:00,802 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-13 15:24:00,908 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-13 15:24:00,909 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-13 15:24:03,490 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-13 15:24:03,673 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 165 ms. Found 9 JPA repository interfaces.
+2023-03-13 15:24:05,017 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-13 15:24:05,039 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:24:05,041 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-03-13 15:24:05,041 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-03-13 15:24:05,224 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-13 15:24:05,225 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4315 ms
+2023-03-13 15:24:05,617 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-13 15:24:05,773 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-13 15:24:06,224 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-13 15:24:06,489 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-13 15:24:06,501 WARN com.zaxxer.hikari.util.DriverDataSource [restartedMain] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-03-13 15:24:07,212 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-13 15:24:07,286 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-03-13 15:24:09,148 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-13 15:24:09,167 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 15:24:10,839 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-13 15:24:10,895 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-03-13 15:24:12,012 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@68716356, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@304709cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d8dab69, org.springframework.security.web.header.HeaderWriterFilter@3307baac, org.springframework.web.filter.CorsFilter@5738b67f, org.springframework.security.web.authentication.logout.LogoutFilter@43d2fa54, com.wdm.security.jwt.AuthTokenFilter@23752081, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17f00b46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7759619e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4eeb352d, org.springframework.security.web.session.SessionManagementFilter@d3e31e5, org.springframework.security.web.access.ExceptionTranslationFilter@51865f1a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ccd6c7]
+2023-03-13 15:24:12,573 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-13 15:24:12,615 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-13 15:24:12,657 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-13 15:24:12,683 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SupermarketMappingApplication in 13.076 seconds (JVM running for 16.21)
+2023-03-13 15:27:41,389 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-13 15:27:41,390 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-13 15:27:41,393 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-03-13 15:27:41,814 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-13 15:46:11,791 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 15:46:26,404 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-13 16:10:02,651 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 16:10:07,835 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-13 16:10:20,667 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-13 16:17:41,734 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 16:17:48,150 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 16:18:00,374 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-13 16:53:22,307 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-13 16:53:48,233 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-13 16:53:52,430 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 16:53:55,251 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 16:53:56,222 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-13 16:54:03,204 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-13 16:57:31,262 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 16:57:33,287 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-13 16:58:06,242 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-13 16:58:13,260 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-13 16:58:30,216 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-13 16:58:32,213 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 16:58:37,236 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 16:58:48,227 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-13 17:02:27,327 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-13 17:03:23,185 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 17:03:33,664 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-13 17:04:01,216 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-13 17:04:07,325 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-13 17:04:11,212 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 17:04:34,204 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 17:04:41,098 INFO com.wdm.controller.ProductController [http-nio-8080-exec-1]  getAllproduct product :
+2023-03-13 17:04:47,788 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-13 17:04:55,361 INFO com.wdm.controller.ProductController [http-nio-8080-exec-3]  getAllproduct product :
+2023-03-13 17:05:32,221 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 17:05:43,212 INFO com.wdm.controller.ProductController [http-nio-8080-exec-4]  getAllproduct product :
+2023-03-13 17:05:47,245 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-13 17:07:19,249 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 17:07:37,244 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:11:19,436 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:11:26,308 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 17:11:31,090 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-4] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-13 17:11:31,093 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-4] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 17:11:37,528 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-6] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-13 17:11:37,529 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-6] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 17:11:54,243 ERROR com.wdm.security.jwt.JwtUtils [http-nio-8080-exec-7] Invalid JWT token: JWT strings must contain exactly 2 period characters. Found: 0
+2023-03-13 17:11:54,244 ERROR com.wdm.security.jwt.AuthEntryPointJwt [http-nio-8080-exec-7] Unauthorized error: Full authentication is required to access this resource
+2023-03-13 17:12:41,530 INFO com.wdm.controller.ProductController [http-nio-8080-exec-9]  getAllproduct product :
+2023-03-13 17:20:08,265 INFO com.wdm.controller.ProductController [http-nio-8080-exec-2]  getAllproduct product :
+2023-03-13 17:20:21,650 INFO com.wdm.controller.ProductController [http-nio-8080-exec-5]  getAllproduct product :
+2023-03-13 17:20:34,919 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:32:25,691 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:32:27,066 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:32:27,959 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:32:35,349 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:33:44,719 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:33:46,176 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:33:52,557 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-13 17:37:08,661 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:44:36,150 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:45:20,187 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:45:46,809 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:46:23,856 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 17:46:38,905 INFO com.wdm.controller.ProductController [http-nio-8080-exec-6]  getAllproduct product :
+2023-03-13 18:01:38,487 INFO com.wdm.controller.ProductController [http-nio-8080-exec-8]  getAllproduct product :
+2023-03-13 18:01:47,471 INFO com.wdm.controller.ProductController [http-nio-8080-exec-10]  getAllproduct product :
+2023-03-13 18:01:59,667 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 18:04:57,886 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 18:05:25,852 INFO com.wdm.controller.ProductController [http-nio-8080-exec-7]  getAllproduct product :
+2023-03-13 18:05:35,263 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.wdm.exception.IdNotFoundException: Bad credentials]
+2023-03-13 18:06:01,801 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.wdm.exception.IdNotFoundException: Email Id not found]
+2023-03-13 19:11:38,747 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m58s674ms147µs300ns).
+2023-03-13 19:14:15,505 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(170)-127.0.0.1] Application shutdown requested.
+2023-03-13 19:14:15,534 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(170)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-13 19:14:15,534 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(170)-127.0.0.1] Stopping service [Tomcat]
+2023-03-13 19:14:15,541 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(170)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-13 19:14:15,548 WARN org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(170)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-03-13 19:14:15,551 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(170)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-13 19:14:15,556 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(170)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-13 19:14:15,566 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(170)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-13 19:14:15,574 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(170)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-03-13 19:14:15,582 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(170)-127.0.0.1] HikariPool-1 - Shutdown completed.
