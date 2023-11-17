@@ -1,0 +1,21 @@
+.paytm-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .paytm-load {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+  }

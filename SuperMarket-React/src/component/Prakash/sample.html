@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const data = {"campaignName":"campaign-test1234","description":"this is my description","lidar":{"lidar":"ZX300","serialNo":"000111","installationHeight":"300m","lidarData":"via email"},"coordinates":{"longitude":1.23456,"latitude":2.34567},"createdBy":"402881a388d1fb510188d1feca170000"}
+
+            console.log(data);
+            console.log(JSON.stringify(data));
+
+        const formdata = new FormData();
+        console.log("------------------------")
+        formdata.append("campaignData", JSON.stringify({"name": "Campaign-1","description": "Campaign Description this is my description","lidarType":{"lidarImportType": "ZX300","lidarEmail":"abs123@gmail.com","lidarData": "via email"},"longitude": "1.23456","latitude": "2.34567","emailList": [{"Email":"email1@example.com","type": "alert",},{"Email": "email2@example.com","type": "report",}],"createdBy": {"userId":"1"},"alertIntervalBy": "Weekly","reportIntervalBy": "monthly","createdAt": "2023-06-13T10:00:00","lastModifiedAt": "2023-06-13T11:00:00","lastModifiedBy": {"userId": "1"},"status": "ACTIVE"}));
+
+        console.log(formdata);
+
+    </script>
+    
+</body>
+</html>
